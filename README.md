@@ -1,12 +1,4 @@
-
-  <a href="https://github.com/glhrmoura" target="_blank">
-    <img src="https://img.shields.io/badge/-Github-%230077B5?style=for-the-badge&logo=github&logoColor=white&color=202329" target="_blank">
-  </a> 
-  <a href="mailto:mouraggui@gmail.com">
-    <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white&color=red" target="_blank">
-  </a>
-  
-  ### Hi there!
+### Hi there!
   
   My name is Guilherme Moura, from Brazil. I am a professional who is not satisfied with just using a tool, but also with understanding how that tool works.
   
