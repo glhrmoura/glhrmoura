@@ -10,7 +10,12 @@
   
   My name is Guilherme Moura, from Brazil. I am a professional who is not satisfied with just using a tool, but also with understanding how that tool works.
   
-  #### Published libraries
+ #### Academic Education
+
+ - Faculdade Joaquim Nabuco - IT Technician for Web: 2014 – 2016
+ - Universidade Federal Rural de Pernambuco - Computer Science: 2016 – 2021  
+  
+  #### Published Libraries
   
   - **[Vue Scheduler](https://www.npmjs.com/package/@glhrm/vue-scheduler)**
   - **[Imports Sorter](https://marketplace.visualstudio.com/items?itemName=glhrmoura.imports-sorter)**
@@ -27,7 +32,7 @@
     ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) 
   ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
   
-  #### More info
+  #### More Info
   
   <div align="center">
     <a href="https://github.com/glhrmoura">
