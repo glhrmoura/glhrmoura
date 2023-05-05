@@ -2,7 +2,7 @@
   
   My name is Guilherme Moura, from Brazil. I am a professional who is not satisfied with just using a tool, but also with understanding how that tool works.
   
- #### Academic Education
+ #### Education
 
  - Faculdade Joaquim Nabuco - IT Technician for Web
  - Universidade Federal Rural de Pernambuco - Computer Science
