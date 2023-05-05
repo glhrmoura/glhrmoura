@@ -4,8 +4,8 @@
   
  #### Academic Education
 
- - Faculdade Joaquim Nabuco - IT Technician for Web: 2014 – 2016
- - Universidade Federal Rural de Pernambuco - Computer Science: 2016 – 2021  
+ - Faculdade Joaquim Nabuco - IT Technician for Web
+ - Universidade Federal Rural de Pernambuco - Computer Science
   
   #### Published Libraries
   
