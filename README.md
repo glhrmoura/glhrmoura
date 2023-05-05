@@ -29,5 +29,5 @@
   <div align="center">
     <a href="https://github.com/glhrmoura">
     <img height="180em" src="https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api?username=glhrmoura&theme=dark&include_all_commits=true&show_icons=true&rank_icon=github&count_private=true&icon_color=FFFFFF&)](https://github.com/glhrmoura"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=glhrmoura&layout=compact&langs_count=7&theme=dark"/>
+    <a height="180em" href="https://github-readme-stats.vercel.app/api/top-langs/?username=glhrmoura&layout=compact&langs_count=7&theme=dark"/>
   </div>
