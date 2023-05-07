@@ -7,7 +7,7 @@
  - Faculdade Joaquim Nabuco - IT Technician for Web
  - Universidade Federal Rural de Pernambuco - Computer Science
   
-  #### Published Libraries
+  #### Published Tools
   
   - **[Vue Scheduler](https://www.npmjs.com/package/@glhrm/vue-scheduler)**
   - **[Imports Sorter](https://marketplace.visualstudio.com/items?itemName=glhrmoura.imports-sorter)**
