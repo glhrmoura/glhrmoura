@@ -10,7 +10,7 @@
   #### Published Tools
   
   - **[React Conditional](https://www.npmjs.com/package/@glhrm/react-conditional)**
-  - **[Vue Scheduler](https://www.npmjs.com/package/@glhrm/vue-scheduler)**
+  - **[Vue Calendar](https://www.npmjs.com/package/@glhrm/vue-calendar)**
   - **[Imports Sorter](https://marketplace.visualstudio.com/items?itemName=glhrmoura.imports-sorter)**
   - **[Coins](https://chrome.google.com/webstore/detail/coins/meebfpmdedodccopjbkcihiecpmiljml)**
   
