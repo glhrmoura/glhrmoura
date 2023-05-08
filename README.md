@@ -9,10 +9,10 @@
   
   #### Published Tools
   
-  - **[React Conditional](https://www.npmjs.com/package/@glhrm/react-conditional)**
-  - **[Vue Calendar](https://www.npmjs.com/package/@glhrm/vue-calendar)**
-  - **[Imports Sorter](https://marketplace.visualstudio.com/items?itemName=glhrmoura.imports-sorter)**
-  - **[Coins](https://chrome.google.com/webstore/detail/coins/meebfpmdedodccopjbkcihiecpmiljml)**
+  - **[Vue Calendar](https://www.npmjs.com/package/@glhrm/vue-calendar) · [Github](https://github.com/glhrmoura/vue-calendar)**
+  - **[React Conditional](https://www.npmjs.com/package/@glhrm/react-conditional) · [Github](https://github.com/glhrmoura/react-conditional)**
+  - **[Imports Sorter](https://marketplace.visualstudio.com/items?itemName=glhrmoura.imports-sorter) · [Github](https://github.com/glhrmoura/imports-sorter)**
+  - **[Coins](https://chrome.google.com/webstore/detail/coins/meebfpmdedodccopjbkcihiecpmiljml) · [Github](https://github.com/glhrmoura/coins)**
   
 #### Tools
   
