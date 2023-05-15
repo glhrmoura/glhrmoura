@@ -2,11 +2,6 @@
   
   My name is Guilherme Moura, from Brazil. I am a professional who is not satisfied with just using a tool, but also with understanding how that tool works.
   
- #### Education
-
- - Faculdade Joaquim Nabuco - IT Technician for Web
- - Universidade Federal Rural de Pernambuco - Computer Science
-  
   #### Published Tools
   
   - **[Vue Calendar](https://www.npmjs.com/package/@glhrmoura/vue-calendar) · [Github](https://github.com/glhrmoura/vue-calendar)**
