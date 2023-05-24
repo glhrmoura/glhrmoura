@@ -1,6 +1,6 @@
 ### Hi there!
   
-  My name is Guilherme Moura, from Brazil. I am a professional who is not satisfied with just using a tool, but also with understanding how that tool works.
+  My name is Guilherme Moura, from Brazil. I have more than 7 years of experience with software development, always looking to deepen my knowledge and develop new things.
   
   #### Published Tools
   
