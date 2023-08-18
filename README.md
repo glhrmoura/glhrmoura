@@ -2,7 +2,7 @@
   
   My name is Guilherme Moura, from Brazil. I have more than 7 years of experience with software development, always looking to deepen my knowledge and develop new things.
   
-  #### Published Tools
+  #### Developed Tools
   
   - **[Vue Calendar](https://www.npmjs.com/package/@glhrmoura/vue-calendar) · [Github](https://github.com/glhrmoura/vue-calendar)**
   - **[React Conditional](https://www.npmjs.com/package/@glhrmoura/react-conditional) · [Github](https://github.com/glhrmoura/react-conditional)**
