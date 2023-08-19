@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 
 import Home from './pages/Home';
 
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from './report-web-vitals';
 
 import GlobalStyles from './theme/global-styles';
 
