@@ -1,12 +1,36 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Container = styled.main`
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   background-color: #1C2541;
   min-height: 100vh;
 `
+
+export const Header = styled.header`
+  display: flex;
+  justify-content: flex-end;
+  gap: 6px;
+  padding: 16px;
+  width: 600px;
+  max-width: calc(100% - 32px);
+  margin: 0px auto;
+`;
+
+export const LangItem = styled.div<{ $selected: boolean }>`
+  font-size: 14px;
+  cursor: pointer;
+
+  ${({ $selected }) => $selected && css`
+    color: #A1ECF7;
+  `}
+`;
+
+export const CenterContent = styled.div`
+  flex: 1;
+  display: flex;
+  justify-content: center;
+`;
 
 export const Content = styled.div`
   max-width: 600px;
@@ -18,7 +42,7 @@ export const Title = styled.h1`
 `;
 
 export const TextContent = styled.p`
-  margin-top: 32px;
+  margin-top: 16px;
 `;
 
 export const LinkContainer = styled.div`
@@ -50,5 +74,5 @@ export const ToolListSeparator = styled.span`
   position: relative;
   display: inline-block;
   margin: 0px 8px;
-  font-weight: 200;
+  font-weight: 400;
 `;

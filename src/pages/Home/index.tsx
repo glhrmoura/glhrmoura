@@ -1,9 +1,11 @@
-import Mail from '~/components/MailIcon';
-import Github from '~/components/GithubIcon';
-import CodePen from '~/components/CodePenIcon';
+import { useTranslation } from 'react-i18next';
+
+import '~/i18n';
 
 import {
   Container,
+  Header,
+  CenterContent,
   Content,
   Title,
   TextContent,
@@ -13,7 +15,12 @@ import {
   ToolList,
   ToolListItem,
   ToolListSeparator,
+  LangItem,
 } from './styles';
+
+import Mail from '~/components/MailIcon';
+import Github from '~/components/GithubIcon';
+import CodePen from '~/components/CodePenIcon';
 
 const linkList = [
   {
@@ -53,41 +60,70 @@ const toolList = [
   },
 ];
 
+const langList = [
+  {
+    title: 'EN',
+    value: 'en-US',
+  },
+  {
+    title: 'PT',
+    value: 'pt-BR',
+  },
+];
+
 const Main = () => {
+  const { t, i18n } = useTranslation();
+
+  const changeLang = (lang: string) => {
+    i18n.changeLanguage(lang);
+  };
+
   return (
     <Container>
-      <Content>
-        <Title>Hi there</Title>
-        <TextContent>
-          My name is Guilherme Moura, from Brazil. I have more than 7 years of experience with software development,
-          always looking to deepen my knowledge and develop new things.
-        </TextContent>
-        <ToolContainer>
-          <ToolTitle>Portfolio</ToolTitle>
-          <ToolList>
-            {toolList.map((tool, index) => (
-              <ToolListItem key={index}>
-                <a href={tool.toolLink} target="_blank" rel="noreferrer">
-                  {tool.title}
-                </a>
-                <ToolListSeparator>
-                  |
-                </ToolListSeparator>
-                <a href={tool.githubLink} target="_blank" rel="noreferrer">
-                  Github
-                </a>
-              </ToolListItem>
+      <Header>
+        {langList.map((lang) => (
+          <LangItem 
+            key={lang.value} 
+            onClick={() => changeLang(lang.value)}
+            $selected={lang.value === i18n.language} 
+          >
+            {lang.title}
+          </LangItem>
+        ))}
+      </Header>
+      <CenterContent>
+        <Content>
+          <Title>{t('title')}</Title>
+          <TextContent>
+            {t('content')}
+          </TextContent>
+          <ToolContainer>
+            <ToolTitle>{t('portifolio')}</ToolTitle>
+            <ToolList>
+              {toolList.map((tool, index) => (
+                <ToolListItem key={index}>
+                  <a href={tool.toolLink} target="_blank" rel="noreferrer">
+                    {tool.title}
+                  </a>
+                  <ToolListSeparator>
+                    |
+                  </ToolListSeparator>
+                  <a href={tool.githubLink} target="_blank" rel="noreferrer">
+                    Github
+                  </a>
+                </ToolListItem>
+              ))}
+            </ToolList>
+          </ToolContainer>
+          <LinkContainer>
+            {linkList.map((contact, index) => (
+              <a key={index} href={contact.link} target="_blank" rel="noreferrer">
+                {contact.icon}
+              </a>
             ))}
-          </ToolList>
-        </ToolContainer>
-        <LinkContainer>
-          {linkList.map((contact, index) => (
-            <a key={index} href={contact.link} target="_blank" rel="noreferrer">
-              {contact.icon}
-            </a>
-          ))}
-        </LinkContainer>
-      </Content>
+          </LinkContainer>
+        </Content>
+      </CenterContent>
     </Container>
   );
 }
