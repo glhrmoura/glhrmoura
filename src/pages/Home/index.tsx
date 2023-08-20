@@ -1,6 +1,6 @@
-import Mail from '../../components/MailIcon';
-import Github from '../../components/GithubIcon';
-import CodePen from '../../components/CodePenIcon';
+import Mail from '~/components/MailIcon';
+import Github from '~/components/GithubIcon';
+import CodePen from '~/components/CodePenIcon';
 
 import {
   Container,

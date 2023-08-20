@@ -1,11 +1,11 @@
 import { createGlobalStyle } from 'styled-components';
 
-import OktaNeueLight from '../assets/fonts/OktaNeue-Light.ttf';
-import OktaNeueNormal from '../assets/fonts/OktaNeue-Normal.ttf';
-import OktaNeueMedium from '../assets/fonts/OktaNeue-Medium.ttf';
-import OktaNeueRegular from '../assets/fonts/OktaNeue-Regular.ttf';
-import OktaNeueSemiBold from '../assets/fonts/OktaNeue-SemiBold.ttf';
-import OktaNeueBold from '../assets/fonts/OktaNeue-Bold.ttf';
+import OktaNeueBold from '~/assets/fonts/OktaNeue-Bold.ttf';
+import OktaNeueLight from '~/assets/fonts/OktaNeue-Light.ttf';
+import OktaNeueNormal from '~/assets/fonts/OktaNeue-Normal.ttf';
+import OktaNeueMedium from '~/assets/fonts/OktaNeue-Medium.ttf';
+import OktaNeueRegular from '~/assets/fonts/OktaNeue-Regular.ttf';
+import OktaNeueSemiBold from '~/assets/fonts/OktaNeue-SemiBold.ttf';
 
 export default createGlobalStyle`
   @font-face {
