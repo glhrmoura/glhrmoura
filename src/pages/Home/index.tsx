@@ -29,7 +29,7 @@ const linkList = [
   },
   {
     icon: <CodePen />,
-    link: 'https://codepen.io/glhrmoura',
+    link: 'https://codepen.io/glhrmoura/pens/public',
   },
   {
     icon: <Mail />,
