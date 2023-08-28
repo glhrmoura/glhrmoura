@@ -14,7 +14,7 @@ import {
   ToolTitle,
   ToolList,
   ToolListItem,
-  ToolListSeparator,
+  ToolListGap,
   LangItem,
 } from './styles';
 
@@ -105,9 +105,9 @@ const Main = () => {
                   <a href={tool.toolLink} target="_blank" rel="noreferrer">
                     {tool.title}
                   </a>
-                  <ToolListSeparator>
-                    |
-                  </ToolListSeparator>
+                  <ToolListGap>
+                    ·
+                  </ToolListGap>
                   <a href={tool.githubLink} target="_blank" rel="noreferrer">
                     Github
                   </a>

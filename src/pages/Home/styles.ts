@@ -70,9 +70,9 @@ export const ToolListItem = styled.li`
   padding: 2px 0px 2px 8px;
 `;
 
-export const ToolListSeparator = styled.span`
+export const ToolListGap = styled.span`
   position: relative;
   display: inline-block;
-  margin: 0px 8px;
-  font-weight: 400;
+  margin: 0px 6px;
+  font-weight: 700;
 `;
