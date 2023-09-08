@@ -38,6 +38,11 @@ const linkList = [
 ];
 
 const toolList = [
+    {
+    title: 'Blan',
+    toolLink: 'https://play.google.com/store/apps/details?id=com.blan',
+    githubLink: 'https://github.com/glhrmoura/blan',
+  },
   {
     title: 'Vue Calendar',
     toolLink: 'https://www.npmjs.com/package/@glhrmoura/vue-calendar',
