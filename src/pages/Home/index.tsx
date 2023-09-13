@@ -41,7 +41,6 @@ const toolList = [
     {
     title: 'Blan',
     toolLink: 'https://play.google.com/store/apps/details?id=com.blan',
-    githubLink: 'https://github.com/glhrmoura/blan',
   },
   {
     title: 'Vue Calendar',
@@ -110,12 +109,16 @@ const Main = () => {
                   <a href={tool.toolLink} target="_blank" rel="noreferrer">
                     {tool.title}
                   </a>
-                  <ToolListGap>
-                    ·
-                  </ToolListGap>
-                  <a href={tool.githubLink} target="_blank" rel="noreferrer">
-                    Github
-                  </a>
+                  {Boolean(tool.githubLink) && (
+                   <>
+                      <ToolListGap>
+                        ·
+                      </ToolListGap>
+                      <a href={tool.githubLink} target="_blank" rel="noreferrer">
+                        Github
+                      </a>
+                   </>
+                  )}
                 </ToolListItem>
               ))}
             </ToolList>
