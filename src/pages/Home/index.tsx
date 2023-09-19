@@ -19,12 +19,12 @@ import {
 } from './styles';
 
 import Mail from '~/components/MailIcon';
-import Github from '~/components/GithubIcon';
+import GitHub from '~/components/GitHubIco';
 import CodePen from '~/components/CodePenIcon';
 
 const linkList = [
   {
-    icon: <Github />,
+    icon: <GitHub />,
     link: 'https://github.com/glhrmoura',
   },
   {
@@ -45,22 +45,32 @@ const toolList = [
   {
     title: 'Vue Calendar',
     toolLink: 'https://www.npmjs.com/package/@glhrmoura/vue-calendar',
-    githubLink: 'https://github.com/glhrmoura/vue-calendar',
+    gitHubLink: 'https://github.com/glhrmoura/vue-calendar',
   },
   {
     title: 'Imports Sorter',
     toolLink: 'https://marketplace.visualstudio.com/items?itemName=glhrmoura.imports-sorter',
-    githubLink: 'https://github.com/glhrmoura/imports-sorter',
+    gitHubLink: 'https://github.com/glhrmoura/imports-sorter',
   },
   {
     title: 'Coins',
     toolLink: 'https://chrome.google.com/webstore/detail/coins/meebfpmdedodccopjbkcihiecpmiljml',
-    githubLink: 'https://github.com/glhrmoura/coins',
+    gitHubLink: 'https://github.com/glhrmoura/coins',
   },
   {
     title: 'React Conditional',
     toolLink: 'https://www.npmjs.com/package/@glhrmoura/react-conditional',
-    githubLink: 'https://github.com/glhrmoura/react-conditional',
+    gitHubLink: 'https://github.com/glhrmoura/react-conditional',
+  },
+  {
+    title: 'Things: To-Do List',
+    toolLink: 'https://astonishing-meringue-7e1211.netlify.app/',
+    gitHubLink: 'https://github.com/glhrmoura/things',
+  },
+  {
+    title: 'Piano',
+    toolLink: 'https://exquisite-pie-01cc07.netlify.app/',
+    gitHubLink: 'https://github.com/glhrmoura/piano',
   },
 ];
 
@@ -109,12 +119,12 @@ const Main = () => {
                   <a href={tool.toolLink} target="_blank" rel="noreferrer">
                     {tool.title}
                   </a>
-                  {Boolean(tool.githubLink) && (
+                  {Boolean(tool.gitHubLink) && (
                    <>
                       <ToolListGap>
                         ·
                       </ToolListGap>
-                      <a href={tool.githubLink} target="_blank" rel="noreferrer">
+                      <a href={tool.gitHubLink} target="_blank" rel="noreferrer">
                         Github
                       </a>
                    </>
