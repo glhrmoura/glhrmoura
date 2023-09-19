@@ -19,7 +19,7 @@ import {
 } from './styles';
 
 import Mail from '~/components/MailIcon';
-import GitHub from '~/components/GitHubIco';
+import GitHub from '~/components/GitHubIcon';
 import CodePen from '~/components/CodePenIcon';
 
 const linkList = [
