@@ -2,7 +2,7 @@
 
 My name is Guilherme Moura, from Brazil. I have more than 7 years of experience with software development, always looking to deepen my knowledge and develop new things.
 
-#### Portfolio
+#### Personal Projects
 
 - **[Blan](https://play.google.com/store/apps/details?id=com.blan)**
 - **[Vue Calendar](https://www.npmjs.com/package/@glhrmoura/vue-calendar) · [Github](https://github.com/glhrmoura/vue-calendar)**
