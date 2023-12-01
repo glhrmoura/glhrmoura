@@ -56,7 +56,7 @@ export const ToolContainer = styled.div`
 `;
 
 export const ToolTitle = styled.h2`
-  font-size: 22px;
+  font-size: 20px;
 `;
 
 export const ToolList = styled.ul`
