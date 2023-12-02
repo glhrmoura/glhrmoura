@@ -4,12 +4,16 @@ import { initReactI18next } from 'react-i18next';
 import { EN_US, PT_BR } from '~/i18n/translation';
 import { Languages } from '~/i18n/types/languages';
 
-const queryLang = new URLSearchParams(document.location.search).get('lang') || '';
-const isValidQueryLang = (Object.values(Languages) as string[]).includes(queryLang);
-const isValidNavigatorLang = (Object.values(Languages) as string[]).includes(window.navigator.language);
+const checkLang = (lang: string): boolean => {
+  return RegExp(lang, 'i').test(String(Object.values(Languages)));
+}
+
+const lang = new URLSearchParams(document.location.search).get('lang') || '';
+const isValidLang = checkLang(lang);
+const isValidNavigatorLang = checkLang(window.navigator.language);
 
 const lng = (
-  (isValidQueryLang && queryLang) || 
+  (isValidLang && lang) || 
   (isValidNavigatorLang && window.navigator.language) || 
   Languages.EN_US
 );

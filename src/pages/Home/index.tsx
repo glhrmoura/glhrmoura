@@ -99,7 +99,7 @@ const Main = () => {
           <LangItem 
             key={lang.value} 
             onClick={() => changeLang(lang.value)}
-            $selected={lang.value === i18n.language} 
+            $selected={lang.value.toLocaleLowerCase() === i18n.language.toLocaleLowerCase()} 
           >
             {lang.title}
           </LangItem>
