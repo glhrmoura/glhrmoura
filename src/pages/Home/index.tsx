@@ -63,6 +63,11 @@ const toolList = [
     gitHubLink: 'https://github.com/glhrmoura/react-conditional',
   },
   {
+    title: 'React Conditional',
+    toolLink: 'https://www.npmjs.com/package/@glhrmoura/env',
+    gitHubLink: 'https://github.com/glhrmoura/env',
+  },
+  {
     title: 'Things: To-Do List',
     toolLink: 'https://astonishing-meringue-7e1211.netlify.app/',
     gitHubLink: 'https://github.com/glhrmoura/things',
