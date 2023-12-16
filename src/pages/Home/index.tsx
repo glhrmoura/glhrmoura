@@ -63,9 +63,9 @@ const toolList = [
     gitHubLink: 'https://github.com/glhrmoura/react-conditional',
   },
   {
-    title: 'React Conditional',
-    toolLink: 'https://www.npmjs.com/package/@glhrmoura/env',
-    gitHubLink: 'https://github.com/glhrmoura/env',
+    title: 'Environment',
+    toolLink: 'https://www.npmjs.com/package/@glhrmoura/environment',
+    gitHubLink: 'https://github.com/glhrmoura/environment',
   },
   {
     title: 'Things: To-Do List',
