@@ -63,6 +63,11 @@ const toolList = [
     gitHubLink: 'https://github.com/glhrmoura/react-conditional',
   },
   {
+    title: 'Search Hub',
+    toolLink: 'https://preeminent-kataifi-ed0e4c.netlify.app/',
+    gitHubLink: 'https://github.com/glhrmoura/search-hub',
+  },
+  {
     title: 'Environment',
     toolLink: 'https://www.npmjs.com/package/@glhrmoura/environment',
     gitHubLink: 'https://github.com/glhrmoura/environment',
