@@ -41,7 +41,7 @@ export const Title = styled.h1`
   font-size: 32px;
 `;
 
-export const TextContent = styled.p`
+export const Description = styled.p`
   margin-top: 16px;
 `;
 

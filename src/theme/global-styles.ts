@@ -48,6 +48,7 @@ export default createGlobalStyle`
     color: #D0D0D1;
     font-family: 'Okta Neue', sans-serif;
     letter-spacing: 0.5px;
+    user-select: none;
   }
 
   h1, h2, h3, h4, h5, h6, p {

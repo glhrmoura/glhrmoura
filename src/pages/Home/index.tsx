@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 
 import '~/i18n';
+import { Languages } from '~/i18n/types/languages';
 
 import {
   Container,
@@ -8,7 +9,7 @@ import {
   CenterContent,
   Content,
   Title,
-  TextContent,
+  Description,
   LinkContainer,
   ToolContainer,
   ToolTitle,
@@ -87,11 +88,11 @@ const toolList = [
 const langList = [
   {
     title: 'EN',
-    value: 'en-US',
+    value: Languages.EN_US,
   },
   {
     title: 'PT',
-    value: 'pt-BR',
+    value: Languages.PT_BR,
   },
 ];
 
@@ -102,6 +103,10 @@ const Main = () => {
     i18n.changeLanguage(lang);
   };
 
+  const isEqualLang = (langA: string, langB: string) => {
+    return langA?.toLocaleLowerCase() === langB?.toLocaleLowerCase()
+  };
+
   return (
     <Container>
       <Header>
@@ -109,7 +114,7 @@ const Main = () => {
           <LangItem 
             key={lang.value} 
             onClick={() => changeLang(lang.value)}
-            $selected={lang.value.toLocaleLowerCase() === i18n.language.toLocaleLowerCase()} 
+            $selected={isEqualLang(lang.value, i18n.language)} 
           >
             {lang.title}
           </LangItem>
@@ -118,9 +123,7 @@ const Main = () => {
       <CenterContent>
         <Content>
           <Title>{t('title')}</Title>
-          <TextContent>
-            {t('content')}
-          </TextContent>
+          <Description>{t('content')}</Description>
           <ToolContainer>
             <ToolTitle>{t('portifolio')}</ToolTitle>
             <ToolList>
