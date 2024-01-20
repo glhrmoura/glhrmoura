@@ -3,7 +3,7 @@ interface GithubProps {
   color?: string;
 }
 
-const Github = ({ width = 28, color = '#FFFFFF' }: GithubProps) => {
+export const GithubIcon = ({ width = 28, color = '#D0D0D1' }: GithubProps) => {
   return (
     <div
       style={{
@@ -30,5 +30,3 @@ const Github = ({ width = 28, color = '#FFFFFF' }: GithubProps) => {
     </div>
   );
 };
-
-export default Github;

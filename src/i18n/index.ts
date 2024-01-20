@@ -2,7 +2,8 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
 import { EN_US, PT_BR } from '~/i18n/translation';
-import { Languages } from '~/i18n/types/languages';
+
+import { Languages } from '~/types/language';
 
 const checkLang = (lang: string): boolean => {
   return RegExp(lang, 'i').test(String(Object.values(Languages)));
@@ -18,7 +19,7 @@ const lng = (
   Languages.EN_US
 );
 
-i18n.use(initReactI18next).init({
+export default i18n.use(initReactI18next).init({
   lng,
   fallbackLng: Languages.EN_US,
   resources: {

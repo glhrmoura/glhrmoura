@@ -3,7 +3,7 @@ interface CodePenProps {
   color?: string;
 }
 
-const CodePen = ({ width = 28, color = '#FFFFFF' }: CodePenProps) => {
+export const CodePenIcon = ({ width = 28, color = '#D0D0D1' }: CodePenProps) => {
   return (
     <div
       style={{
@@ -27,5 +27,3 @@ const CodePen = ({ width = 28, color = '#FFFFFF' }: CodePenProps) => {
     </div>
   );
 };
-
-export default CodePen;

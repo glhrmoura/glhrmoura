@@ -5,7 +5,8 @@ export const Container = styled.main`
   flex-direction: column;
   background-color: #1C2541;
   min-height: 100vh;
-`
+  padding-bottom: 36px;
+`;
 
 export const Header = styled.header`
   display: flex;
@@ -47,32 +48,22 @@ export const Description = styled.p`
 
 export const LinkContainer = styled.div`
   display: flex;
+  justify-content: flex-end;
   gap: 16px;
+  margin-top: 16px;
+`;
+
+export const ProjectContainer = styled.div`
   margin-top: 32px;
 `;
 
-export const ToolContainer = styled.div`
-  margin-top: 32px;
-`;
-
-export const ToolTitle = styled.h2`
+export const ProjectTitle = styled.h2`
   font-size: 20px;
+  margin-bottom: 16px;
 `;
 
-export const ToolList = styled.ul`
-  padding-left: 16px;
-  margin: 0px;
-  margin-top: 8px;
-`;
-
-export const ToolListItem = styled.li`
-  font-weight: 300;
-  padding: 2px 0px 2px 8px;
-`;
-
-export const ToolListGap = styled.span`
-  position: relative;
-  display: inline-block;
-  margin: 0px 6px;
-  font-weight: 700;
+export const ProjectList = styled.div`
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
 `;

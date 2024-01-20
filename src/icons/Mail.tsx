@@ -3,7 +3,7 @@ interface MailProps {
   color?: string;
 }
 
-const Mail = ({ width = 28, color = '#FFFFFF' }: MailProps) => {
+export const MailIcon = ({ width = 28, color = '#D0D0D1' }: MailProps) => {
   return (
     <div
       style={{
@@ -31,5 +31,3 @@ const Mail = ({ width = 28, color = '#FFFFFF' }: MailProps) => {
     </div>
   );
 };
-
-export default Mail;
