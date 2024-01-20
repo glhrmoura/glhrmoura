@@ -23,6 +23,10 @@ export const Title = styled.h2`
   font-size: 14px;
   text-align: center;
   margin-bottom: 8px;
+
+  @media (max-width: 398px) {
+    text-align: left;
+  }
 `
 
 export const Description = styled.p`
