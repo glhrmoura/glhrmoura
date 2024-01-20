@@ -39,49 +39,67 @@ const linkList = [
 ];
 
 const toolList = [
-    {
+  {
     title: 'Blan',
-    toolLink: 'https://play.google.com/store/apps/details?id=com.blan',
+    link: {
+      page: 'https://play.google.com/store/apps/details?id=com.blan',
+    }
   },
   {
     title: 'Vue Calendar',
-    toolLink: 'https://www.npmjs.com/package/@glhrmoura/vue-calendar',
-    gitHubLink: 'https://github.com/glhrmoura/vue-calendar',
+    link: {
+      page: 'https://www.npmjs.com/package/@glhrmoura/vue-calendar',
+      github: 'https://github.com/glhrmoura/vue-calendar'
+    }
   },
   {
     title: 'Imports Sorter',
-    toolLink: 'https://marketplace.visualstudio.com/items?itemName=glhrmoura.imports-sorter',
-    gitHubLink: 'https://github.com/glhrmoura/imports-sorter',
+    link: {
+      page: 'https://marketplace.visualstudio.com/items?itemName=glhrmoura.imports-sorter',
+      github: 'https://github.com/glhrmoura/imports-sorter'
+    }
   },
   {
     title: 'Coins',
-    toolLink: 'https://chrome.google.com/webstore/detail/coins/meebfpmdedodccopjbkcihiecpmiljml',
-    gitHubLink: 'https://github.com/glhrmoura/coins',
+    link: {
+      page: 'https://chrome.google.com/webstore/detail/coins/meebfpmdedodccopjbkcihiecpmiljml',
+      github: 'https://github.com/glhrmoura/coins'
+    }
   },
   {
     title: 'React Conditional',
-    toolLink: 'https://www.npmjs.com/package/@glhrmoura/react-conditional',
-    gitHubLink: 'https://github.com/glhrmoura/react-conditional',
+    link: {
+      page: 'https://www.npmjs.com/package/@glhrmoura/react-conditional',
+      github: 'https://github.com/glhrmoura/react-conditional'
+    }
   },
   {
     title: 'Search Hub',
-    toolLink: 'https://preeminent-kataifi-ed0e4c.netlify.app/',
-    gitHubLink: 'https://github.com/glhrmoura/search-hub',
+    link: {
+      page: 'https://preeminent-kataifi-ed0e4c.netlify.app',
+      github: 'https://github.com/glhrmoura/search-hub'
+    }
   },
   {
     title: 'Environment',
-    toolLink: 'https://www.npmjs.com/package/@glhrmoura/environment',
-    gitHubLink: 'https://github.com/glhrmoura/environment',
+    link: {
+      page: 'https://www.npmjs.com/package/@glhrmoura/environment',
+      github: 'https://github.com/glhrmoura/environment'
+    }
   },
   {
     title: 'Things: To-Do List',
-    toolLink: 'https://astonishing-meringue-7e1211.netlify.app/',
-    gitHubLink: 'https://github.com/glhrmoura/things',
+    link: {
+      page: 'https://astonishing-meringue-7e1211.netlify.app',
+      github: 'https://github.com/glhrmoura/things'
+    }
   },
   {
     title: 'Piano',
-    toolLink: 'https://exquisite-pie-01cc07.netlify.app/',
-    gitHubLink: 'https://github.com/glhrmoura/piano',
+    link: {
+      page: 'https://exquisite-pie-01cc07.netlify.app',
+      github: 'https://github.com/glhrmoura/piano'
+    }
   },
 ];
 
@@ -111,10 +129,10 @@ const Main = () => {
     <Container>
       <Header>
         {langList.map((lang) => (
-          <LangItem 
-            key={lang.value} 
+          <LangItem
+            key={lang.value}
             onClick={() => changeLang(lang.value)}
-            $selected={isEqualLang(lang.value, i18n.language)} 
+            $selected={isEqualLang(lang.value, i18n.language)}
           >
             {lang.title}
           </LangItem>
@@ -129,18 +147,18 @@ const Main = () => {
             <ToolList>
               {toolList.map((tool, index) => (
                 <ToolListItem key={index}>
-                  <a href={tool.toolLink} target="_blank" rel="noreferrer">
+                  <a href={tool.link.page} target="_blank" rel="noreferrer">
                     {tool.title}
                   </a>
-                  {Boolean(tool.gitHubLink) && (
-                   <>
+                  {Boolean(tool.link.github) && (
+                    <>
                       <ToolListGap>
                         ·
                       </ToolListGap>
-                      <a href={tool.gitHubLink} target="_blank" rel="noreferrer">
+                      <a href={tool.link.github} target="_blank" rel="noreferrer">
                         Github
                       </a>
-                   </>
+                    </>
                   )}
                 </ToolListItem>
               ))}
