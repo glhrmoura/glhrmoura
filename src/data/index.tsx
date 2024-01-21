@@ -34,6 +34,7 @@ export const langList = [
 export const projectList: Project[] = [
   {
     title: 'Blan',
+    imageUrl: 'https://play-lh.googleusercontent.com/i-ktw1g6PSQLPcJQMHdxl1AW278hlXqSX875phx2aLR0lOBp7dJYH1JCrak4rkRKng=w480-h960-rw',
     description: 'projects.blan.description',
     link: {
       page: 'https://play.google.com/store/apps/details?id=com.blan',
@@ -41,6 +42,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Vue Calendar',
+    imageUrl: 'https://raw.githubusercontent.com/glhrmoura/vue-calendar/main/src/lib/static/images/logo.png',
     description: 'projects.vueCalendar.description',
     link: {
       page: 'https://www.npmjs.com/package/@glhrmoura/vue-calendar',
@@ -49,6 +51,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Imports Sorter',
+    imageUrl: 'https://glhrmoura.gallerycdn.vsassets.io/extensions/glhrmoura/imports-sorter/0.1.6/1682338739388/Microsoft.VisualStudio.Services.Icons.Default',
     description: 'projects.importsSorter.description',
     link: {
       page: 'https://marketplace.visualstudio.com/items?itemName=glhrmoura.imports-sorter',
@@ -57,6 +60,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Coins',
+    imageUrl: 'https://lh3.googleusercontent.com/IxFijYd3TIeDPViF8UX8MS4ACXZWNfVwFmt8krnSu8Fs5cbxL42P7oN4zGRCDQ5HRghehQ49a3n8Jr7Z75DvP9AVzA=s120',
     description: 'projects.coins.description',
     link: {
       page: 'https://chrome.google.com/webstore/detail/coins/meebfpmdedodccopjbkcihiecpmiljml',
@@ -65,6 +69,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'React Conditional',
+    imageUrl: 'https://raw.githubusercontent.com/glhrmoura/react-conditional/main/src/lib/static/images/logo.png',
     description: 'projects.reactConditional.description',
     link: {
       page: 'https://www.npmjs.com/package/@glhrmoura/react-conditional',
@@ -73,6 +78,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Search Hub',
+    imageUrl: 'https://camo.githubusercontent.com/e1e4c701bc4f596b45ecb63320501827ea3d453d06a0911209b6eaaae7876c9f/68747470733a2f2f63646e2d69636f6e732d706e672e666c617469636f6e2e636f6d2f3531322f333239312f333239313636372e706e67',
     description: 'projects.searchHub.description',
     link: {
       page: 'https://preeminent-kataifi-ed0e4c.netlify.app',
@@ -81,6 +87,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Environment',
+    imageUrl: 'https://cdn-icons-png.flaticon.com/512/4337/4337703.png',
     description: 'projects.environment.description',
     link: {
       page: 'https://www.npmjs.com/package/@glhrmoura/environment',
@@ -89,6 +96,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Things: To-Do List',
+    imageUrl: 'https://raw.githubusercontent.com/glhrmoura/things/main/src/assets/images/logo.png',
     description: 'projects.things.description',
     link: {
       page: 'https://astonishing-meringue-7e1211.netlify.app',
@@ -97,6 +105,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Piano',
+    imageUrl: 'https://raw.githubusercontent.com/glhrmoura/piano/master/src/images/logo.png',
     description: 'projects.piano.description',
     link: {
       page: 'https://exquisite-pie-01cc07.netlify.app',

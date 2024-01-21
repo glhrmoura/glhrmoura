@@ -1,10 +1,9 @@
 import { MouseEventHandler } from 'react';
 
-import { BoxIcon } from '~/icons/Box';
+import { useTranslation } from 'react-i18next';
+
 import { GlobeIcon } from '~/icons/Globe';
 import { GithubIcon } from '~/icons/Github';
-
-import { useTranslation } from 'react-i18next';
 
 import {
   Container,
@@ -28,14 +27,18 @@ export const ProjectCard = ({ item }: ProjectCardProps) => {
     window.open(item.link.page, '_blank');
   };
 
-  const stopPropagation: MouseEventHandler<HTMLAnchorElement>  = (event) => {
+  const stopPropagation: MouseEventHandler<HTMLAnchorElement> = (event) => {
     event.stopPropagation()
   }
 
   return (
     <Container onClick={navigate}>
       <IconContainer>
-        <BoxIcon width={40} />
+        <img
+          width={50}
+          height={50}
+          src={item.imageUrl}
+        />
       </IconContainer>
       <Title>{item.title}</Title>
       <Description>

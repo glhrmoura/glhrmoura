@@ -5,6 +5,7 @@ export interface Link {
 
 export interface Project {
   title: string;
-  description: string;
   link: Link;
+  description: string;
+  imageUrl: string;
 }
