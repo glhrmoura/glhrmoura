@@ -4,7 +4,8 @@ export const Container = styled.main`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding-bottom: 36px;
+  padding-top: 94px;
+  padding-bottom: 62px;
 `;
 
 export const CenterContent = styled.div`

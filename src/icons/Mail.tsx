@@ -1,4 +1,4 @@
-import { useTheme } from 'styled-components';
+import { useTheme as useStyledTheme } from 'styled-components';
 
 interface MailProps {
   width?: number;
@@ -6,7 +6,7 @@ interface MailProps {
 }
 
 export const MailIcon = ({ width = 28, color }: MailProps) => {
-  const theme = useTheme();
+  const theme = useStyledTheme();
 
   return (
     <div

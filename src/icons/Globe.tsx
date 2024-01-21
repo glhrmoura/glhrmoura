@@ -1,4 +1,4 @@
-import { useTheme } from 'styled-components';
+import { useTheme as useStyledTheme } from 'styled-components';
 
 interface GlobeProps {
   width?: number;
@@ -6,7 +6,7 @@ interface GlobeProps {
 }
 
 export const GlobeIcon = ({ width = 28, color }: GlobeProps) => {
-  const theme = useTheme();
+  const theme = useStyledTheme();
 
   return (
     <div

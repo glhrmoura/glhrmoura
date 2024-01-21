@@ -1,4 +1,4 @@
-import { useTheme } from 'styled-components';
+import { useTheme as useStyledTheme } from 'styled-components';
 
 interface GithubProps {
   width?: number;
@@ -6,7 +6,7 @@ interface GithubProps {
 }
 
 export const GithubIcon = ({ width = 28, color }: GithubProps) => {
-  const theme = useTheme();
+  const theme = useStyledTheme();
 
   return (
     <div
