@@ -1,9 +1,13 @@
+import { useTheme } from 'styled-components';
+
 interface CodePenProps {
   width?: number;
   color?: string;
 }
 
-export const CodePenIcon = ({ width = 28, color = '#D0D0D1' }: CodePenProps) => {
+export const CodePenIcon = ({ width = 28, color }: CodePenProps) => {
+  const theme = useTheme();
+
   return (
     <div
       style={{
@@ -16,7 +20,7 @@ export const CodePenIcon = ({ width = 28, color = '#D0D0D1' }: CodePenProps) => 
     >
       <svg
         role="img"
-        fill={color}
+        fill={color || theme.colors.text}
         width="100%"
         height="100%"
         viewBox="0 0 24 24"

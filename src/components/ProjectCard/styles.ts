@@ -4,12 +4,12 @@ export const Container = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
-  border: 1px solid #D0D0D1;
+  border: 1px solid ${({ theme }) => theme.colors.border};
   padding: 12px;
   cursor: pointer;
 
   &:hover {
-    border-color: #A1ECF7;
+    border-color: ${({ theme }) => theme.colors.highlight};
   }
 `;
 
@@ -47,7 +47,7 @@ export const LinkContainer = styled.div`
 `;
 
 export const IconHover = styled.div`
-  &:hover path {
-    color: #A1ECF7;
+  &:hover svg path {
+    color: ${({ theme }) => theme.colors.highlight};
   }
 `;

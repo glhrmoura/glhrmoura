@@ -7,15 +7,15 @@ import { Languages } from '~/types/language';
 
 export const linkList = [
   {
-    icon: <GithubIcon />,
+    icon: <GithubIcon color="currentColor" />,
     link: 'https://github.com/glhrmoura',
   },
   {
-    icon: <CodePenIcon />,
+    icon: <CodePenIcon color="currentColor" />,
     link: 'https://codepen.io/glhrmoura/pens/public',
   },
   {
-    icon: <MailIcon />,
+    icon: <MailIcon color="currentColor" />,
     link: 'mailto:mouraggui@gmail.com',
   },
 ];
