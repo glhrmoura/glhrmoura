@@ -2,8 +2,6 @@ import { ThemeProvider as StyledProvider } from 'styled-components';
 
 import { useTheme } from '~/contexts/theme';
 
-import '~/i18n';
-
 import Home from '~/pages/Home';
 
 import GlobalStyles from '~/theme/global';
