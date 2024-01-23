@@ -8,7 +8,15 @@ import LogoLight from '~/assets/images/logo-light.png';
 
 import { useTheme } from '~/contexts/theme';
 
-import { Container, SelectContainer, Content, Option, Select, Logo, Group } from './styles';
+import {
+  Logo,
+  Group,
+  Option,
+  Select,
+  Content,
+  Container,
+  SelectContainer,
+} from './styles';
 
 import { Theme } from '~/types/theme';
 
@@ -24,11 +32,15 @@ const Header = () => {
     i18n.changeLanguage(event.target.value);
   };
 
+  const scrollTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+  };
+
   return (
     <Container>
       <Content>
         <Group>
-          <Logo src={isDark ? LogoLight : LogoDark} />
+          <Logo src={isDark ? LogoLight : LogoDark} onClick={scrollTop} />
         </Group>
         <Group>
           <SelectContainer>
