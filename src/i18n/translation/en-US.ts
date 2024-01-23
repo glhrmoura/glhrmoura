@@ -1,6 +1,6 @@
 export default {
   title: 'Hi there',
-  content: `With more than ${new Date().getFullYear() - 2016} years of experience in software development, I always seek to deepen my knowledge and develop new things.`,
+  content: `My name is Guilherme Moura, from Brazil. With more than ${new Date().getFullYear() - 2016} years of experience in software development, I always seek to deepen my knowledge and develop new things.`,
   projectTitle: 'Personal Projects',
   projects: {
     blan: {

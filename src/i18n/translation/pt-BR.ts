@@ -1,6 +1,6 @@
 export default {
   title: 'Olá',
-  content: `Com mais de ${new Date().getFullYear() - 2016} anos de experiência em desenvolvimento de software, sempre busco aprofundar meus conhecimentos e desenvolver coisas novas.`,
+  content: `Me chamo Guilherme Moura, natural de Recife/PE. Com mais de ${new Date().getFullYear() - 2016} anos de experiência em desenvolvimento de software, sempre busco aprofundar meus conhecimentos e desenvolver coisas novas.`,
   projectTitle: 'Projetos Pessoais',
   projects: {
     blan: {
