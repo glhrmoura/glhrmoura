@@ -64,6 +64,12 @@ export const Logo = styled.img`
   height: 32px;
   object-fit: contain;
   cursor: pointer;
+  user-select: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 `;
 
 export const Group = styled.div`
