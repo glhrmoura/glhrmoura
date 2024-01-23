@@ -21,6 +21,9 @@ export default {
     searchHub: {
       description: 'Discover users, explore profiles and projects in this intuitive search application.'
     },
+    nubankWeb: {
+      description: 'Visual recreation of the Nubank website, built using React. It offers users a representation of the interface of the official Nubank website, allowing them to experience some visual interface details.'
+    },
     environment: {
       description: 'An efficient Node library for managing and setting environment variables.'
     },

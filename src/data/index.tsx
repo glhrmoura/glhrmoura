@@ -86,6 +86,15 @@ export const projectList: Project[] = [
     }
   },
   {
+    title: 'Nubank - Web',
+    imageUrl: 'https://miro.medium.com/v2/resize:fit:1200/1*1Kj6eAbjrHcWl1gKZD3Ojg.png',
+    description: 'projects.nubankWeb.description',
+    link: {
+      page: 'https://wonderful-cat-055079.netlify.app',
+      github: 'https://github.com/glhrmoura/nubank-web'
+    }
+  },
+  {
     title: 'Environment',
     imageUrl: 'https://cdn-icons-png.flaticon.com/512/4337/4337703.png',
     description: 'projects.environment.description',
