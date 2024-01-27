@@ -9,7 +9,7 @@ export default createGlobalStyle`
     font-family: 'Okta Neue', sans-serif;
     letter-spacing: 0.5px;
     user-select: none;
-    transition: color 300ms, background-color 300ms;
+    transition: fill 300ms, border-color 300ms, color 300ms, background-color 300ms;
     box-sizing: border-box;
   }
 

@@ -8,6 +8,9 @@ const colors = {
   gray: {
     light: '#D0D0D1',
   },
+  purple: {
+    light: '#AD6DFF'
+  }
 };
 
 export const dark = {
@@ -15,7 +18,8 @@ export const dark = {
     text: colors.gray.light,
     border: colors.gray.light,
     background: colors.blue.dark,
-    highlight: colors.blue.light,
+    foreground: colors.white,
+    highlight: colors.purple.light,
   },
 };
 
@@ -24,7 +28,8 @@ export const light = {
     text: colors.black,
     border: colors.black,
     background: colors.white,
-    highlight: colors.blue.light,
+    foreground: colors.blue.dark,
+    highlight: colors.purple.light,
   }
 };
 

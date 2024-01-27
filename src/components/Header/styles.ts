@@ -49,7 +49,7 @@ export const SelectContainer = styled.div`
     border: 4px solid transparent;
     border-top-color: ${({ theme }) => theme.colors.border};
   }
-`
+`;
 
 export const Select = styled.select`
   appearance: none;
@@ -58,19 +58,6 @@ export const Select = styled.select`
 `;
 
 export const Option = styled.option``;
-
-export const Logo = styled.img`
-  width: 32px;
-  height: 32px;
-  object-fit: contain;
-  cursor: pointer;
-  user-select: none;
-  -webkit-user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-`;
 
 export const Group = styled.div`
   display: flex;
