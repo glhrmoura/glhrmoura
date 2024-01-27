@@ -16,6 +16,7 @@ export const LogoIcon = ({ width = 28, ...rest }: LogoProps) => {
         width: `${width}px`,
         position: 'relative',
         alignItems: 'center',
+        cursor: 'pointer',
       }}
     >
       <svg
