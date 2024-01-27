@@ -3,13 +3,9 @@ import { ChangeEventHandler } from 'react';
 import { useTranslation } from 'react-i18next';
 import { DarkModeSwitch } from 'react-toggle-dark-mode';
 
-import LogoDark from '~/assets/images/logo-dark.png';
-import LogoLight from '~/assets/images/logo-light.png';
-
 import { useTheme } from '~/contexts/theme';
 
 import {
-  Logo,
   Group,
   Option,
   Select,
@@ -19,6 +15,8 @@ import {
 } from './styles';
 
 import { Theme } from '~/types/theme';
+
+import { LogoIcon } from '~/icons/Logo';
 
 const Header = () => {
   const { i18n } = useTranslation();
@@ -33,14 +31,14 @@ const Header = () => {
   };
 
   const scrollTop = () => {
-    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   };
 
   return (
     <Container>
       <Content>
         <Group>
-          <Logo src={isDark ? LogoLight : LogoDark} onClick={scrollTop} />
+          <LogoIcon width={24} onClick={scrollTop} />
         </Group>
         <Group>
           <SelectContainer>
