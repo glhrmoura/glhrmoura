@@ -10,6 +10,9 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['react-refresh'],
   rules: {
+    semi: 'error',
+    quotes: ['error', 'single'],
+    'eol-last': ['error', 'always'],
     '@typescript-eslint/no-non-null-assertion': 'off',
   },
 }
