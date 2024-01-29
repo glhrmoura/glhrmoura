@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,9 +8,22 @@
     <meta name="theme-color" content="#1C2541" />
     <meta property="og:image" content="/logo.png" />
     <meta property="og:title" content="Guilherme Moura | Software Engineer" />
-    <meta name="description" content="With more than 7 years of experience in software development, I always seek to deepen my knowledge and develop new things" />
+    <meta
+      name="description"
+      content="With more than 7 years of experience in software development, I always seek to deepen my knowledge and develop new things"
+    />
     <meta name="twitter:card" content="summary_large_image" />
   </head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-89SXTETNDN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-89SXTETNDN');
+  </script>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
