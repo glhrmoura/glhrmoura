@@ -1,36 +1,18 @@
   
 @font-face {
-  font-family: 'Okta Neue';
+  font-family: 'Biko';
   font-weight: 200;
-  src: url(../assets/fonts/OktaNeue-Light.ttf)  format('truetype');
+  src: url(../assets/fonts/Biko-Light.otf) format('opentype');
 }
 
 @font-face {
-  font-family: 'Okta Neue';
-  font-weight: 300;
-  src: url(../assets/fonts/OktaNeue-Normal.ttf)  format('truetype');
-}
-
-@font-face {
-  font-family: 'Okta Neue';
+  font-family: 'Biko';
   font-weight: 400;
-  src: url(../assets/fonts/OktaNeue-Regular.ttf)  format('truetype');
+  src: url(../assets/fonts/Biko-Regular.otf) format('opentype');
 }
 
 @font-face {
-  font-family: 'Okta Neue';
-  font-weight: 500;
-  src: url(../assets/fonts/OktaNeue-Medium.ttf)  format('truetype');
-}
-
-@font-face {
-  font-family: 'Okta Neue';
-  font-weight: 600;
-  src: url(../assets/fonts/OktaNeue-SemiBold.ttf)  format('truetype');
-}
-
-@font-face {
-  font-family: 'Okta Neue';
+  font-family: 'Biko';
   font-weight: 700;
-  src: url(../assets/fonts/OktaNeue-Bold.ttf)  format('truetype');
+  src: url(../assets/fonts/Biko-Bold.otf) format('opentype');
 }
