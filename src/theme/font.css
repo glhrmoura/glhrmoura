@@ -2,17 +2,17 @@
 @font-face {
   font-family: 'Biko';
   font-weight: 200;
-  src: url(../assets/fonts/Biko-Light.otf) format('opentype');
+  src: url(../assets/fonts/Montserrat-Light.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Biko';
   font-weight: 400;
-  src: url(../assets/fonts/Biko-Regular.otf) format('opentype');
+  src: url(../assets/fonts/Montserrat-Regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Biko';
   font-weight: 700;
-  src: url(../assets/fonts/Biko-Bold.otf) format('opentype');
+  src: url(../assets/fonts/Montserrat-Bold.ttf) format('truetype');
 }
