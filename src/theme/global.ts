@@ -6,7 +6,7 @@ export default createGlobalStyle`
   * {
     color: ${({ theme }) => theme.colors.text};
     background-color: ${({ theme }) => theme.colors.background};
-    font-family: 'Biko', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.5px;
     user-select: none;
     transition: fill 300ms, border-color 300ms, color 300ms, background-color 300ms;

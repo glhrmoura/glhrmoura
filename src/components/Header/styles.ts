@@ -55,6 +55,7 @@ export const Select = styled.select`
   appearance: none;
   padding: 9px 32px 9px 9px;
   border: 1px solid ${({ theme }) => theme.colors.border};
+  font-size: 12px;
 `;
 
 export const Option = styled.option``;

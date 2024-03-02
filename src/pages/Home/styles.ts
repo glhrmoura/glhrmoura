@@ -26,6 +26,7 @@ export const Title = styled.h1`
 export const Description = styled.p`
   margin-top: 16px;
   line-height: 24px;
+  font-size: 14px;
 `;
 
 export const LinkContainer = styled.div`

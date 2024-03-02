@@ -32,8 +32,8 @@ export const Title = styled.h2`
 export const Description = styled.p`
   display: -webkit-box;
   max-width: 350px;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 10px;
+  line-height: 16px;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
