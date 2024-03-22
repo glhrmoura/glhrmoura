@@ -1,6 +1,6 @@
 ### Hi there!
 
-My name is Guilherme Moura, from Brazil. I have more than 7 years of experience with software development, always looking to deepen my knowledge and develop new things.
+My name is Guilherme Moura, from Brazil. I have more than 8 years of experience with software development, always looking to deepen my knowledge and develop new things.
 
 #### Personal Projects
 
