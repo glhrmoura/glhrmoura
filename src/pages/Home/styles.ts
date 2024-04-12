@@ -47,7 +47,7 @@ export const ProjectTitle = styled.h2`
 
 export const ProjectList = styled.div`
   display: grid;
-  gap: 12px;
+  gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
 `;
 

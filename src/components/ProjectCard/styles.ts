@@ -4,7 +4,7 @@ export const Container = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
-  border: 1px solid ${({ theme }) => theme.colors.border};
+  border: 2px solid ${({ theme }) => theme.colors.border};
   padding: 12px;
   cursor: pointer;
 

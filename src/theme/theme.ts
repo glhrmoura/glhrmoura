@@ -3,14 +3,14 @@ const colors = {
   black: '#000000',
   blue: {
     light: '#A1ECF7',
-    dark: '#1C2541',
+    dark: '#0B141A',
   },
   gray: {
     light: '#D0D0D1',
   },
-  purple: {
-    light: '#AD6DFF'
-  }
+  green: {
+    light: '#23C063'
+  },
 };
 
 export const dark = {
@@ -19,7 +19,7 @@ export const dark = {
     border: colors.gray.light,
     background: colors.blue.dark,
     foreground: colors.white,
-    highlight: colors.purple.light,
+    highlight: colors.green.light,
   },
 };
 
@@ -29,7 +29,7 @@ export const light = {
     border: colors.black,
     background: colors.white,
     foreground: colors.blue.dark,
-    highlight: colors.purple.light,
+    highlight: colors.green.light,
   }
 };
 
