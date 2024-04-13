@@ -9,7 +9,7 @@ export default createGlobalStyle`
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.5px;
     user-select: none;
-    transition: fill 300ms, border-color 300ms, color 300ms, background-color 300ms;
+    transition: fill .2s, border-color .2s, color .2s, background-color .2s;
     box-sizing: border-box;
   }
 
