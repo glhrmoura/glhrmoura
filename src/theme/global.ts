@@ -6,7 +6,7 @@ export default createGlobalStyle`
   * {
     color: ${({ theme }) => theme.colors.text};
     background-color: ${({ theme }) => theme.colors.background};
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lexend', sans-serif;
     letter-spacing: 0.5px;
     user-select: none;
     transition: fill .2s, border-color .2s, color .2s, background-color .2s;

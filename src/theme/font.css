@@ -1,18 +1,18 @@
   
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Lexend';
   font-weight: 200;
-  src: url(../assets/fonts/Montserrat-Light.ttf) format('truetype');
+  src: url(../assets/fonts/Lexend-Light.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Lexend';
   font-weight: 400;
-  src: url(../assets/fonts/Montserrat-Regular.ttf) format('truetype');
+  src: url(../assets/fonts/Lexend-Regular.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Lexend';
   font-weight: 700;
-  src: url(../assets/fonts/Montserrat-Bold.ttf) format('truetype');
+  src: url(../assets/fonts/Lexend-Bold.ttf) format('truetype');
 }
