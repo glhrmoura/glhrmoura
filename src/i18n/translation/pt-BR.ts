@@ -33,5 +33,9 @@ export default {
     piano: {
       description: 'Aplicativo de piano totalmente funcional feito com HTML, CSS e JavaScript, oferecendo todas as opções de teclas encontradas em um instrumento real. Com teclas interativas e sons de piano autênticos, o aplicativo permite aos usuários experimentar a sensação de tocar um piano real.'
     },
+  },
+  languages: {
+    enUS: 'Inglês',
+    ptBR: 'Português'
   }
 };
