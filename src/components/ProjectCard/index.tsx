@@ -28,8 +28,8 @@ export const ProjectCard = ({ item }: ProjectCardProps) => {
   };
 
   const stopPropagation: MouseEventHandler<HTMLAnchorElement> = (event) => {
-    event.stopPropagation()
-  }
+    event.stopPropagation();
+  };
 
   return (
     <Container onClick={navigate}>
