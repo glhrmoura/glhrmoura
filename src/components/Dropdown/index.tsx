@@ -1,6 +1,6 @@
-
-
 import { useState } from 'react';
+
+import { OutsideClickHandler } from '../OutsideClickHandler';
 import {
   Container,
   HeaderContainer,
@@ -22,28 +22,36 @@ interface DropdownProps {
 const Dropdown = ({ items, value, onChange }: DropdownProps) => {
   const [opened, setOpened] = useState<boolean>(false);
 
-  const current = items.find((item) => item.value === value)?.label || null;
+  const close = () => setOpened(false);
 
-  const onClickItem = (value: string) => {
-    setOpened(false);
+  const toggle = () => setOpened((state) => !state);
+
+  const onItemClick = (value: string) => {
+    close();
     onChange(value);
   };
 
+  const currentItem = items.find((item) => item.value === value)?.label
+    || items[0]?.label
+    || null;
+
   return (
-    <Container>
-      <HeaderContainer onClick={() => setOpened((state) => !state)}>
-        {current}
-      </HeaderContainer>
-      {opened && (
-        <ItemContainer>
-          {items.map((item) => (
-            <Item key={item.value} onClick={() => onClickItem(item.value)}>
-              {item.label}
-            </Item>
-          ))}
-        </ItemContainer>
-      )}
-    </Container>
+    <OutsideClickHandler onClick={close}>
+      <Container data-dropdown-container="true">
+        <HeaderContainer onClick={toggle}>
+          {currentItem}
+        </HeaderContainer>
+        {opened && (
+          <ItemContainer>
+            {items.map((item) => (
+              <Item key={item.value} onClick={() => onItemClick(item.value)}>
+                {item.label}
+              </Item>
+            ))}
+          </ItemContainer>
+        )}
+      </Container>
+    </OutsideClickHandler>
   );
 };
 

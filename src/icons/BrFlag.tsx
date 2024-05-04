@@ -1,7 +1,13 @@
 const BrFlag = () => {
   return (
-    <svg height="20px" width="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 512 512">
+    <svg
+      height="20px"
+      width="20px"
+      version="1.1"
+      style={{ backgroundColor: 'transparent' }}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
       <circle fill="#009b3a" cx="256" cy="256" r="256" />
       <polygon fill="#fedf00" points="256,100.174 467.478,256 256,411.826 44.522,256 " />
       <circle fill="#F0F0F0" cx="256" cy="256" r="89.043" />

@@ -62,6 +62,7 @@ export const ItemLabel = styled.div`
   display: flex;
   align-items: center;
   gap: 8px;
+  background-color: transparent;
 `;
 
 export const Group = styled.div`

@@ -1,6 +1,15 @@
 const USFlag = () => {
   return (
-    <svg width="20px" height="20px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" preserveAspectRatio="xMidYMid meet">
+    <svg
+      style={{ backgroundColor: 'transparent' }}
+      width="20px"
+      height="20px"
+      viewBox="0 0 64 64"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+      role="img"
+      preserveAspectRatio="xMidYMid meet"
+    >
       <path d="M48 6.6C43.3 3.7 37.9 2 32 2v4.6h16z" fill="#d80128">
       </path>
       <path d="M32 11.2h21.6C51.9 9.5 50 7.9 48 6.6H32v4.6z" fill="#d80128">
