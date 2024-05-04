@@ -1,12 +1,15 @@
 import { useState } from 'react';
 
-import { OutsideClickHandler } from '../OutsideClickHandler';
+import { Arrow } from '~/icons/Arrow';
+
 import {
   Container,
-  HeaderContainer,
+  Header,
   ItemContainer,
   Item
 } from './styles';
+
+import { OutsideClickHandler } from '~/components/OutsideClickHandler';
 
 interface ItemProps {
   value: string
@@ -38,9 +41,9 @@ const Dropdown = ({ items, value, onChange }: DropdownProps) => {
   return (
     <OutsideClickHandler onClick={close}>
       <Container data-dropdown-container="true">
-        <HeaderContainer onClick={toggle}>
-          {currentItem}
-        </HeaderContainer>
+        <Header onClick={toggle}>
+          {currentItem} <Arrow dir={opened ? 'up' : 'down'} />
+        </Header>
         {opened && (
           <ItemContainer>
             {items.map((item) => (

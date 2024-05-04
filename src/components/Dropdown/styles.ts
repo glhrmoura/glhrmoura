@@ -4,13 +4,14 @@ export const Container = styled.header`
   position: relative;
 `;
 
-export const HeaderContainer = styled.div`
-  appearance: none;
-  padding: 10px 32px 10px 10px;
+export const Header = styled.div`
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
   font-size: 12px;
   width: 150px;
-  border: 1px solid ${({ theme }) => theme.colors.border};
   cursor: pointer;
+  border: 1px solid ${({ theme }) => theme.colors.border};
 `;
 
 export const ItemContainer = styled.ul`

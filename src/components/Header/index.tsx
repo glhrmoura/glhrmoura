@@ -7,7 +7,6 @@ import { LogoIcon } from '~/icons/Logo';
 import { BrFlag } from '~/icons/BrFlag';
 import { USFlag } from '~/icons/USFlag';
 
-import { Dropdown } from '../Dropdown';
 import {
   Group,
   Content,
@@ -17,6 +16,7 @@ import {
 
 import { Theme } from '~/types/theme';
 
+import { Dropdown } from '~/components/Dropdown';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
