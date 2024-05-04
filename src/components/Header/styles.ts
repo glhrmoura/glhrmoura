@@ -58,7 +58,11 @@ export const Select = styled.select`
   font-size: 12px;
 `;
 
-export const Option = styled.option``;
+export const ItemLabel = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+`;
 
 export const Group = styled.div`
   display: flex;
