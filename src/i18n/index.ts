@@ -1,33 +1,28 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-import { EN_US, PT_BR } from '~/i18n/translation';
+import enUS from '~/i18n/translations/en-us';
+import ptBR from '~/i18n/translations/pt-br';
+import esES from '~/i18n/translations/es-es';
+
+import { TranslationService } from '~/services/translations';
 
 import { Languages } from '~/types/language';
 
-const checkLang = (lang: string): boolean => {
-  return RegExp(lang, 'i').test(String(Object.values(Languages)));
-}
-
-const lang = new URLSearchParams(document.location.search).get('lang') || '';
-const isValidLang = checkLang(lang);
-const isValidNavigatorLang = checkLang(window.navigator.language);
-
-const lng = (
-  (isValidLang && lang) || 
-  (isValidNavigatorLang && window.navigator.language) || 
-  Languages.EN_US
-);
-
-export default i18n.use(initReactI18next).init({
-  lng,
-  fallbackLng: Languages.EN_US,
+i18n.use(initReactI18next).init({
+  lowerCaseLng: true,
+  lng: TranslationService.getDefaultLang(),
   resources: {
     [Languages.EN_US]: {
-      translation: EN_US,
+      translation: enUS,
     },
     [Languages.PT_BR]: {
-      translation: PT_BR,
+      translation: ptBR,
+    },
+    [Languages.ES_ES]: {
+      translation: esES,
     },
   },
 });
+
+export { i18n };

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { Arrow } from '~/icons/Arrow';
+import { Arrow } from '~/icons/general/Arrow';
 
 import {
   Container,

@@ -2,8 +2,8 @@ import { MouseEventHandler } from 'react';
 
 import { useTranslation } from 'react-i18next';
 
-import { GlobeIcon } from '~/icons/Globe';
-import { GithubIcon } from '~/icons/Github';
+import { GlobeIcon } from '~/icons/social/Globe';
+import { GithubIcon } from '~/icons/social/Github';
 
 import {
   Container,

@@ -36,6 +36,7 @@ export default {
   },
   languages: {
     enUS: 'English',
-    ptBR: 'Portuguese'
+    ptBR: 'Portuguese',
+    esES: 'Spanish',
   }
 };

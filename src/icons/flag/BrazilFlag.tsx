@@ -1,4 +1,4 @@
-const BrFlag = () => {
+const BrazilFlag = () => {
   return (
     <svg
       height="20px"
@@ -22,4 +22,4 @@ const BrFlag = () => {
   );
 };
 
-export { BrFlag };
+export { BrazilFlag };

@@ -10,7 +10,7 @@ import { dark, light } from '~/theme/theme';
 import Header from '~/components/Header';
 
 const App = () => {
-  const { isDark } = useTheme()
+  const { isDark } = useTheme();
 
   return (
     <StyledProvider theme={isDark ? dark : light}>

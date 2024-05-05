@@ -1,4 +1,4 @@
-const USFlag = () => {
+const UnitedStatesFlag = () => {
   return (
     <svg
       style={{ backgroundColor: 'transparent' }}
@@ -72,4 +72,4 @@ const USFlag = () => {
   );
 };
 
-export { USFlag };
+export { UnitedStatesFlag };

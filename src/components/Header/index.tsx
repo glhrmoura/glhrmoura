@@ -3,9 +3,10 @@ import { DarkModeSwitch } from 'react-toggle-dark-mode';
 
 import { useTheme } from '~/contexts/theme';
 
-import { LogoIcon } from '~/icons/Logo';
-import { BrFlag } from '~/icons/BrFlag';
-import { USFlag } from '~/icons/USFlag';
+import { LogoIcon } from '~/icons/general/Logo';
+import { SpainFlag } from '~/icons/flag/SpainFlag';
+import { BrazilFlag } from '~/icons/flag/BrazilFlag';
+import { UnitedStatesFlag } from '~/icons/flag/UnitedStatesFlag';
 
 import {
   Group,
@@ -15,6 +16,7 @@ import {
 } from './styles';
 
 import { Theme } from '~/types/theme';
+import { Languages } from '~/types/language';
 
 import { Dropdown } from '~/components/Dropdown';
 
@@ -36,18 +38,26 @@ const Header = () => {
 
   const items = [
     {
-      value: 'en-us',
+      value: Languages.EN_US,
       label: (
         <ItemLabel>
-          <USFlag /> {t('languages.enUS')}
+          <UnitedStatesFlag /> {t('languages.enUS')}
         </ItemLabel>
       )
     },
     {
-      value: 'pt-br',
+      value: Languages.PT_BR,
       label: (
         <ItemLabel>
-          <BrFlag /> {t('languages.ptBR')}
+          <BrazilFlag /> {t('languages.ptBR')}
+        </ItemLabel>
+      )
+    },
+    {
+      value: Languages.ES_ES,
+      label: (
+        <ItemLabel>
+          <SpainFlag /> {t('languages.esES')}
         </ItemLabel>
       )
     },
@@ -66,7 +76,7 @@ const Header = () => {
           <Dropdown
             items={items}
             onChange={changeLang}
-            value={i18n.language.toLocaleLowerCase()}
+            value={i18n.language}
           />
           <DarkModeSwitch
             size={20}

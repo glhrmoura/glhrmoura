@@ -1,6 +1,6 @@
-import { MailIcon } from '~/icons/Mail';
-import { GithubIcon } from '~/icons/Github';
-import { CodePenIcon } from '~/icons/CodePen';
+import { MailIcon } from '~/icons/social/Mail';
+import { GithubIcon } from '~/icons/social/Github';
+import { CodePenIcon } from '~/icons/social/CodePen';
 
 import { Project } from '~/types/project';
 import { Languages } from '~/types/language';
