@@ -38,5 +38,6 @@ export default {
     enUS: 'Inglés',
     ptBR: 'Portugués',
     esES: 'Español',
+    itIT: 'Italiano'
   }
 };

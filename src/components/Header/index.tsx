@@ -19,6 +19,7 @@ import { Theme } from '~/types/theme';
 import { Languages } from '~/types/language';
 
 import { Dropdown } from '~/components/Dropdown';
+import { ItalyFlag } from '~/icons/flag/ItalyFlag';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
@@ -38,14 +39,6 @@ const Header = () => {
 
   const items = [
     {
-      value: Languages.EN_US,
-      label: (
-        <ItemLabel>
-          <UnitedStatesFlag /> {t('languages.enUS')}
-        </ItemLabel>
-      )
-    },
-    {
       value: Languages.PT_BR,
       label: (
         <ItemLabel>
@@ -54,10 +47,26 @@ const Header = () => {
       )
     },
     {
+      value: Languages.EN_US,
+      label: (
+        <ItemLabel>
+          <UnitedStatesFlag /> {t('languages.enUS')}
+        </ItemLabel>
+      )
+    },
+    {
       value: Languages.ES_ES,
       label: (
         <ItemLabel>
           <SpainFlag /> {t('languages.esES')}
+        </ItemLabel>
+      )
+    },
+    {
+      value: Languages.IT_IT,
+      label: (
+        <ItemLabel>
+          <ItalyFlag /> {t('languages.itIT')}
         </ItemLabel>
       )
     },
