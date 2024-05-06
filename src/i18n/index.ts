@@ -5,6 +5,7 @@ import enUS from '~/i18n/translations/en-us';
 import ptBR from '~/i18n/translations/pt-br';
 import esES from '~/i18n/translations/es-es';
 import itIT from '~/i18n/translations/it-it';
+import deDE from '~/i18n/translations/de-de';
 
 import { TranslationService } from '~/services/translations';
 
@@ -25,6 +26,9 @@ i18n.use(initReactI18next).init({
     },
     [Languages.IT_IT]: {
       translation: itIT,
+    },
+    [Languages.DE_DE]: {
+      translation: deDE,
     },
   },
 });

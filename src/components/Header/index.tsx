@@ -20,6 +20,7 @@ import { Languages } from '~/types/language';
 
 import { Dropdown } from '~/components/Dropdown';
 import { ItalyFlag } from '~/icons/flag/ItalyFlag';
+import { GermanyFlag } from '~/icons/flag/GermanyFlag';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
@@ -59,6 +60,14 @@ const Header = () => {
       label: (
         <ItemLabel>
           <SpainFlag /> {t('languages.esES')}
+        </ItemLabel>
+      )
+    },
+    {
+      value: Languages.DE_DE,
+      label: (
+        <ItemLabel>
+          <GermanyFlag /> {t('languages.deDE')}
         </ItemLabel>
       )
     },
