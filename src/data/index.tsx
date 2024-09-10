@@ -5,6 +5,17 @@ import { CodePenIcon } from '~/icons/social/CodePen';
 import { Project } from '~/types/project';
 import { Languages } from '~/types/language';
 
+export const langList = [
+  {
+    title: 'EN',
+    value: Languages.EN_US,
+  },
+  {
+    title: 'PT',
+    value: Languages.PT_BR,
+  },
+];
+
 export const linkList = [
   {
     icon: <GithubIcon color="currentColor" />,
@@ -17,17 +28,6 @@ export const linkList = [
   {
     icon: <MailIcon color="currentColor" />,
     link: 'mailto:mouraggui@gmail.com',
-  },
-];
-
-export const langList = [
-  {
-    title: 'EN',
-    value: Languages.EN_US,
-  },
-  {
-    title: 'PT',
-    value: Languages.PT_BR,
   },
 ];
 
@@ -60,7 +60,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Coins',
-    imageUrl: 'https://lh3.googleusercontent.com/IxFijYd3TIeDPViF8UX8MS4ACXZWNfVwFmt8krnSu8Fs5cbxL42P7oN4zGRCDQ5HRghehQ49a3n8Jr7Z75DvP9AVzA=s120',
+    imageUrl: 'https://raw.githubusercontent.com/glhrmoura/coins/main/docs/logo.png',
     description: 'projects.coins.description',
     link: {
       page: 'https://chrome.google.com/webstore/detail/coins/meebfpmdedodccopjbkcihiecpmiljml',
@@ -78,7 +78,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Search Hub',
-    imageUrl: 'https://camo.githubusercontent.com/e1e4c701bc4f596b45ecb63320501827ea3d453d06a0911209b6eaaae7876c9f/68747470733a2f2f63646e2d69636f6e732d706e672e666c617469636f6e2e636f6d2f3531322f333239312f333239313636372e706e67',
+    imageUrl: 'https://cdn-icons-png.flaticon.com/512/3291/3291667.png',
     description: 'projects.searchHub.description',
     link: {
       page: 'https://preeminent-kataifi-ed0e4c.netlify.app',
