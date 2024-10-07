@@ -42,7 +42,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Blan',
-    imageUrl: 'https://play-lh.googleusercontent.com/i-ktw1g6PSQLPcJQMHdxl1AW278hlXqSX875phx2aLR0lOBp7dJYH1JCrak4rkRKng=w480-h960-rw',
+    imageUrl: 'https://i.imgur.com/klIyU7Q.png',
     description: 'projects.blan.description',
     link: {
       page: 'https://play.google.com/store/apps/details?id=com.blan',
@@ -51,7 +51,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Vue Calendar',
-    imageUrl: 'https://raw.githubusercontent.com/glhrmoura/vue-calendar/main/src/lib/static/images/logo.png',
+    imageUrl: 'https://i.imgur.com/IG8rws1.png',
     description: 'projects.vueCalendar.description',
     link: {
       page: 'https://www.npmjs.com/package/@glhrmoura/vue-calendar',
@@ -60,7 +60,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Imports Sorter',
-    imageUrl: 'https://glhrmoura.gallerycdn.vsassets.io/extensions/glhrmoura/imports-sorter/0.1.6/1682338739388/Microsoft.VisualStudio.Services.Icons.Default',
+    imageUrl: 'https://i.imgur.com/R2l3UNC.png',
     description: 'projects.importsSorter.description',
     link: {
       page: 'https://marketplace.visualstudio.com/items?itemName=glhrmoura.imports-sorter',
@@ -69,7 +69,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Coins',
-    imageUrl: 'https://raw.githubusercontent.com/glhrmoura/coins/main/docs/logo.png',
+    imageUrl: 'https://i.imgur.com/GJB4zvu.png',
     description: 'projects.coins.description',
     link: {
       page: 'https://chrome.google.com/webstore/detail/coins/meebfpmdedodccopjbkcihiecpmiljml',
@@ -78,7 +78,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'React Conditional',
-    imageUrl: 'https://raw.githubusercontent.com/glhrmoura/react-conditional/main/src/lib/static/images/logo.png',
+    imageUrl: 'https://i.imgur.com/t2AeIFw.png',
     description: 'projects.reactConditional.description',
     link: {
       page: 'https://www.npmjs.com/package/@glhrmoura/react-conditional',
@@ -87,7 +87,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Search Hub',
-    imageUrl: 'https://cdn-icons-png.flaticon.com/512/3291/3291667.png',
+    imageUrl: 'https://i.imgur.com/3JlRk4o.png',
     description: 'projects.searchHub.description',
     link: {
       page: 'https://preeminent-kataifi-ed0e4c.netlify.app',
@@ -96,7 +96,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Nubank - Web',
-    imageUrl: 'https://miro.medium.com/v2/resize:fit:1200/1*1Kj6eAbjrHcWl1gKZD3Ojg.png',
+    imageUrl: 'https://i.imgur.com/Xf6OrL2.png',
     description: 'projects.nubankWeb.description',
     link: {
       page: 'https://wonderful-cat-055079.netlify.app',
@@ -105,7 +105,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Environment',
-    imageUrl: 'https://cdn-icons-png.flaticon.com/512/4337/4337703.png',
+    imageUrl: 'https://i.imgur.com/WgLrcLy.png',
     description: 'projects.environment.description',
     link: {
       page: 'https://www.npmjs.com/package/@glhrmoura/environment',
@@ -114,7 +114,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Things: To-Do List',
-    imageUrl: 'https://raw.githubusercontent.com/glhrmoura/things/main/src/assets/images/logo.png',
+    imageUrl: 'https://i.imgur.com/DuZQ24q.png',
     description: 'projects.things.description',
     link: {
       page: 'https://astonishing-meringue-7e1211.netlify.app',
@@ -123,7 +123,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Piano',
-    imageUrl: 'https://raw.githubusercontent.com/glhrmoura/piano/master/src/images/logo.png',
+    imageUrl: 'https://i.imgur.com/5KCCFYe.png',
     description: 'projects.piano.description',
     link: {
       page: 'https://exquisite-pie-01cc07.netlify.app',
