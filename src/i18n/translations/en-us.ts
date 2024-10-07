@@ -6,6 +6,9 @@ export default {
     blan: {
       description: 'Simplify your shopping with Blan, the smart shopping list app that will revolutionize your grocery shopping experience! Never forget an item or feel lost in the hallways again. With Blan, your shopping becomes organized, efficient and even fun.'
     },
+    list: {
+      description: 'Create, share, and manage your lists, shopping lists, goals, and more. Stay organized effortlessly. Try it now and streamline your daily tasks!'
+    },
     vueCalendar: {
       description: 'Library designed to facilitate the creation of interactive calendars in applications using Vue >= 3.'
     },

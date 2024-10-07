@@ -6,6 +6,9 @@ export default {
     blan: {
       description: 'Vereinfache deinen Einkauf mit Blan, der intelligenten Einkaufslisten-App, die dein Einkaufserlebnis im Lebensmittelgeschäft revolutionieren wird! Vergiss nie wieder einen Artikel oder fühle dich in den Gängen verloren. Mit Blan wird dein Einkauf organisiert, effizient und sogar unterhaltsam.'
     },
+    list: {
+      description: 'Kreiere, teile und verwalte deine Listen, Einkaufslisten, Ziele und mehr. Bleibe mühelos organisiert. Probiere es jetzt aus und optimiere deine täglichen Aufgaben!'
+    },
     vueCalendar: {
       description: 'Bibliothek zur Vereinfachung der Erstellung interaktiver Kalender in Anwendungen, die Vue >= 3 verwenden.'
     },

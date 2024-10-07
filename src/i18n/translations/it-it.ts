@@ -6,6 +6,9 @@ export default {
     blan: {
       description: 'Semplifica i tuoi acquisti con Blan, l\'applicazione intelligente per la lista della spesa che rivoluzionerà la tua esperienza di shopping! Non dimenticare mai un articolo o sentirti perso nei corridoi di nuovo! Con Blan, i tuoi acquisti saranno organizzati, efficienti e persino divertenti.'
     },
+    list: {
+      description: 'Crea, condividi e gestisci le tue liste, liste della spesa, obiettivi e altro. Rimani organizzato senza sforzo. Provalo ora e semplifica le tue attività quotidiane!'
+    },
     vueCalendar: {
       description: 'Libreria progettata per facilitare la creazione di calendari interattivi nelle applicazioni utilizzando Vue >= 3.'
     },

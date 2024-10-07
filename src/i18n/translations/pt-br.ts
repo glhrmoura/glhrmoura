@@ -6,6 +6,9 @@ export default {
     blan: {
       description: 'Simplifique suas compras com Blan, o aplicativo inteligente de lista de compras que revolucionará sua experiência de compras! Nunca se esqueça de um item ou se sinta perdido nos corredores novamente. Com a Blan suas compras ficam organizadas, eficientes e até divertidas.'
     },
+    list: {
+      description: 'Crie, compartilhe e gerencie suas listas, listas de compras, metas e mais. Mantenha-se organizado sem esforço. Experimente agora e otimize suas tarefas diárias!'
+    },
     vueCalendar: {
       description: 'Biblioteca projetada para facilitar a criação de calendários interativos em aplicações utilizando Vue >= 3.'
     },

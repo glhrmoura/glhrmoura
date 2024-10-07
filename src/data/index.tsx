@@ -33,6 +33,14 @@ export const linkList = [
 
 export const projectList: Project[] = [
   {
+    title: 'List',
+    imageUrl: 'https://i.imgur.com/2YpJzfa.png',
+    description: 'projects.list.description',
+    link: {
+      page: 'https://list-web-ej96.onrender.com/',
+    }
+  },
+  {
     title: 'Blan',
     imageUrl: 'https://play-lh.googleusercontent.com/i-ktw1g6PSQLPcJQMHdxl1AW278hlXqSX875phx2aLR0lOBp7dJYH1JCrak4rkRKng=w480-h960-rw',
     description: 'projects.blan.description',
