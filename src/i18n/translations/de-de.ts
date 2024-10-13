@@ -3,6 +3,9 @@ export default {
   content: `Mein Name ist Guilherme Moura, aus Brasilien. Mit mehr als ${new Date().getFullYear() - 2016} Jahren Erfahrung in der Softwareentwicklung bemühe ich mich stets, mein Wissen zu vertiefen und Neues zu entwickeln.`,
   projectTitle: 'Persönliche Projekte',
   projects: {
+    pace: {
+      description: 'Eine elegante und intuitive Browser-Erweiterung hilft Ihnen, Ihre Zeit effizient zu verwalten. Mit einem Countdown-Timer und einer Stoppuhr bietet sie eine einfache, ablenkungsfreie Benutzeroberfläche, die auf Ihre Zeitmanagement-Bedürfnisse zugeschnitten ist.'
+    },
     blan: {
       description: 'Vereinfache deinen Einkauf mit Blan, der intelligenten Einkaufslisten-App, die dein Einkaufserlebnis im Lebensmittelgeschäft revolutionieren wird! Vergiss nie wieder einen Artikel oder fühle dich in den Gängen verloren. Mit Blan wird dein Einkauf organisiert, effizient und sogar unterhaltsam.'
     },
@@ -37,11 +40,4 @@ export default {
       description: 'Voll funktionsfähige Klavieranwendung, erstellt mit HTML, CSS und JavaScript, die alle wichtigen Optionen bietet, die in einem echten Instrument zu finden sind. Mit interaktiven Tasten und authentischen Klaviersounds ermöglicht die Anwendung den Benutzern, das Gefühl zu erleben, ein echtes Klavier zu spielen.'
     },
   },
-  languages: {
-    enUS: 'Englisch',
-    ptBR: 'Portugiesisch',
-    esES: 'Spanisch',
-    itIT: 'Italienisch',
-    deDE: 'Deutsch'
-  }
 };

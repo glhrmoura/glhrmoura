@@ -33,6 +33,14 @@ export const linkList = [
 
 export const projectList: Project[] = [
   {
+    title: 'Pace',
+    imageUrl: 'https://i.imgur.com/GRHVFPD.png',
+    description: 'projects.pace.description',
+    link: {
+      page: 'https://chromewebstore.google.com/detail/pace/mnccaclnbfbldadhkfcemlmkceimlhge?authuser=0&hl=pt-BR',
+    }
+  },
+  {
     title: 'List',
     imageUrl: 'https://i.imgur.com/0ID32Iu.png',
     description: 'projects.list.description',
@@ -72,7 +80,7 @@ export const projectList: Project[] = [
     imageUrl: 'https://i.imgur.com/GJB4zvu.png',
     description: 'projects.coins.description',
     link: {
-      page: 'https://chrome.google.com/webstore/detail/coins/meebfpmdedodccopjbkcihiecpmiljml',
+      page: 'https://chromewebstore.google.com/detail/coins/meebfpmdedodccopjbkcihiecpmiljml?authuser=0&hl=pt-BR',
       github: 'https://github.com/glhrmoura/coins'
     }
   },

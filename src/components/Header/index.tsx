@@ -23,7 +23,7 @@ import { ItalyFlag } from '~/icons/flag/ItalyFlag';
 import { GermanyFlag } from '~/icons/flag/GermanyFlag';
 
 const Header = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const { isDark, setTheme } = useTheme();
 
   const toggleTheme = () => {
@@ -43,7 +43,7 @@ const Header = () => {
       value: Languages.PT_BR,
       label: (
         <ItemLabel>
-          <BrazilFlag /> {t('languages.ptBR')}
+          <BrazilFlag /> Português
         </ItemLabel>
       )
     },
@@ -51,7 +51,7 @@ const Header = () => {
       value: Languages.EN_US,
       label: (
         <ItemLabel>
-          <UnitedStatesFlag /> {t('languages.enUS')}
+          <UnitedStatesFlag /> English
         </ItemLabel>
       )
     },
@@ -59,7 +59,7 @@ const Header = () => {
       value: Languages.ES_ES,
       label: (
         <ItemLabel>
-          <SpainFlag /> {t('languages.esES')}
+          <SpainFlag /> Español
         </ItemLabel>
       )
     },
@@ -67,7 +67,7 @@ const Header = () => {
       value: Languages.DE_DE,
       label: (
         <ItemLabel>
-          <GermanyFlag /> {t('languages.deDE')}
+          <GermanyFlag /> Deutsch
         </ItemLabel>
       )
     },
@@ -75,7 +75,7 @@ const Header = () => {
       value: Languages.IT_IT,
       label: (
         <ItemLabel>
-          <ItalyFlag /> {t('languages.itIT')}
+          <ItalyFlag /> Italiano
         </ItemLabel>
       )
     },

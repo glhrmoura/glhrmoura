@@ -3,6 +3,9 @@ export default {
   content: `Mi chiamo Guilherme Moura, sono del Brasile. Con oltre ${new Date().getFullYear() - 2016} anni di esperienza nello sviluppo software, cerco sempre di approfondire le mie conoscenze e sviluppare nuove cose.`,
   projectTitle: 'Progetti Personali',
   projects: {
+    pace: {
+      description: 'Un\'estensione del browser elegante e intuitiva ti aiuta a gestire il tuo tempo in modo efficiente. Caratterizzata da un timer di countdown e un cronometro, offre un\'interfaccia semplice e priva di distrazioni, adattata alle tue esigenze di gestione del tempo.'
+    },
     blan: {
       description: 'Semplifica i tuoi acquisti con Blan, l\'applicazione intelligente per la lista della spesa che rivoluzionerà la tua esperienza di shopping! Non dimenticare mai un articolo o sentirti perso nei corridoi di nuovo! Con Blan, i tuoi acquisti saranno organizzati, efficienti e persino divertenti.'
     },
@@ -37,11 +40,4 @@ export default {
       description: 'Applicazione pianoforte completamente funzionante realizzata con HTML, CSS e JavaScript, che offre tutte le opzioni di tasti trovate in un vero strumento. Con tasti interattivi e autentici suoni di pianoforte, l\'applicazione consente agli utenti di sperimentare la sensazione di suonare un vero pianoforte.'
     },
   },
-  languages: {
-    enUS: 'Inglese',
-    ptBR: 'Portoghese',
-    esES: 'Spagnolo',
-    itIT: 'Italiano',
-    deDE: 'Tedesco'
-  }
 };
