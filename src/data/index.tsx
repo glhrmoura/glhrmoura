@@ -54,7 +54,6 @@ export const projectList: Project[] = [
     description: 'projects.blan.description',
     link: {
       page: 'https://play.google.com/store/apps/details?id=com.blan',
-      github: 'https://github.com/glhrmoura/blan',
     }
   },
   {
