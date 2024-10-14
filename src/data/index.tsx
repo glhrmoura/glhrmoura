@@ -76,7 +76,7 @@ export const projectList: Project[] = [
     }
   },
   {
-    title: 'Coins',
+    title: 'Coin',
     imageUrl: 'https://i.imgur.com/GJB4zvu.png',
     description: 'projects.coins.description',
     link: {
