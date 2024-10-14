@@ -120,7 +120,7 @@ export const projectList: Project[] = [
       github: 'https://github.com/glhrmoura/environment'
     }
   },
-  {
+  /* {
     title: 'Things: To-Do List',
     imageUrl: 'https://i.imgur.com/DuZQ24q.png',
     description: 'projects.things.description',
@@ -128,7 +128,7 @@ export const projectList: Project[] = [
       page: 'https://astonishing-meringue-7e1211.netlify.app',
       github: 'https://github.com/glhrmoura/things'
     }
-  },
+  }, */
   {
     title: 'Piano',
     imageUrl: 'https://i.imgur.com/5KCCFYe.png',
