@@ -4,7 +4,7 @@ My name is Guilherme Moura, from Brazil. I have more than 8 years of experience 
 
 #### Personal Projects
 
-- **[List](https://list-web-ej96.onrender.com)**
+- **[List](https://list-glhrmoura.netlify.app/)**
 - **[Pace](https://chromewebstore.google.com/detail/pace/mnccaclnbfbldadhkfcemlmkceimlhge?authuser=0&hl=pt-BR)**
 - **[Blan](https://play.google.com/store/apps/details?id=com.blan)**
 - **[Vue Calendar](https://www.npmjs.com/package/@glhrmoura/vue-calendar) · [Github](https://github.com/glhrmoura/vue-calendar)**

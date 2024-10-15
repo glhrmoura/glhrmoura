@@ -45,7 +45,7 @@ export const projectList: Project[] = [
     imageUrl: 'https://i.imgur.com/0ID32Iu.png',
     description: 'projects.list.description',
     link: {
-      page: 'https://list-web-ej96.onrender.com',
+      page: 'https://list-glhrmoura.netlify.app/',
     }
   },
   {
