@@ -42,7 +42,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'List',
-    imageUrl: 'https://i.imgur.com/0ID32Iu.png',
+    imageUrl: 'https://i.imgur.com/cVsGLfV.png',
     description: 'projects.list.description',
     link: {
       page: 'https://list-glhrmoura.netlify.app/',
