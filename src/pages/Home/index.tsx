@@ -28,7 +28,7 @@ const Home = () => {
           <Description>{t('content')}</Description>
           <LinkContainer>
             {linkList.map((contact, index) => (
-              <a key={index} href={contact.link} target="_blank" rel="noreferrer">
+              <a key={index} title={contact.title} href={contact.link} target="_blank" rel="noreferrer">
                 <IconHover>
                   {contact.icon}
                 </IconHover>

@@ -31,6 +31,7 @@ export const Description = styled.p`
 
 export const LinkContainer = styled.div`
   display: flex;
+  align-items: center;
   justify-content: flex-end;
   gap: 16px;
   margin-top: 16px;
