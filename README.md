@@ -5,7 +5,8 @@ My name is Guilherme Moura, from Brazil. I have more than 8 years of experience 
 #### Personal Projects
 
 - **[List](https://list-glhrmoura.netlify.app/)**
-- **[Pace](https://chromewebstore.google.com/detail/pace/mnccaclnbfbldadhkfcemlmkceimlhge?authuser=0&hl=pt-BR)**
+- **[Pace](https://chromewebstore.google.com/detail/pace/mnccaclnbfbldadhkfcemlmkceimlhge)**
+- **[Len](https://chromewebstore.google.com/detail/len-measure-textual-conte/ojodnhhmfnjddbeipjcjhjbdbkkedcgf) · [Github](https://github.com/glhrmoura/len)**
 - **[Blan](https://play.google.com/store/apps/details?id=com.blan)**
 - **[Vue Calendar](https://www.npmjs.com/package/@glhrmoura/vue-calendar) · [Github](https://github.com/glhrmoura/vue-calendar)**
 - **[React Conditional](https://www.npmjs.com/package/@glhrmoura/react-conditional) · [Github](https://github.com/glhrmoura/react-conditional)**
