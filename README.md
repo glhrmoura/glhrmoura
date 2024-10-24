@@ -19,10 +19,11 @@ My name is Guilherme Moura, from Brazil. I have more than 8 years of experience 
 
 ##### Apps
 
-- **[List](https://list-glhrmoura.netlify.app/)**
+- **[List](https://list-glhrmoura.netlify.app)**
 - **[Blan](https://play.google.com/store/apps/details?id=com.blan)**
-- **[Search Hub](https://preeminent-kataifi-ed0e4c.netlify.app/) · [Github](https://github.com/glhrmoura/search-hub)**
-- **[Piano](https://exquisite-pie-01cc07.netlify.app/) · [Github](https://github.com/glhrmoura/piano)**
+- **[Search Hub](https://preeminent-kataifi-ed0e4c.netlify.app) · [Github](https://github.com/glhrmoura/search-hub)**
+- **[Task](https://task-glhrmoura.netlify.app) · [Github](https://github.com/glhrmoura/task)**
+- **[Piano](https://exquisite-pie-01cc07.netlify.app) · [Github](https://github.com/glhrmoura/piano)**
 
 #### Tools
 
