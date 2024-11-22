@@ -1,12 +1,11 @@
 ### Hi there!
 
-My name is Guilherme Moura, from Brazil. I have more than 8 years of experience with software development, always looking to deepen my knowledge and develop new things.
+My name is Guilherme Moura, from Brazil. Always driven by the passion to expand my knowledge and build innovative solutions.
 
 #### Personal Projects
 
 - **[List](https://list-glhrmoura.netlify.app/)**
 - **[Pace](https://chromewebstore.google.com/detail/pace/mnccaclnbfbldadhkfcemlmkceimlhge?authuser=0&hl=pt-BR)**
-- **[Blan](https://play.google.com/store/apps/details?id=com.blan)**
 - **[Vue Calendar](https://www.npmjs.com/package/@glhrmoura/vue-calendar) · [Github](https://github.com/glhrmoura/vue-calendar)**
 - **[React Conditional](https://www.npmjs.com/package/@glhrmoura/react-conditional) · [Github](https://github.com/glhrmoura/react-conditional)**
 - **[Imports Sorter](https://marketplace.visualstudio.com/items?itemName=glhrmoura.imports-sorter) · [Github](https://github.com/glhrmoura/imports-sorter)**
