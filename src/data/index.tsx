@@ -57,14 +57,14 @@ export const projectList: Project[] = [
       page: 'https://list-glhrmoura.netlify.app/',
     }
   },
-  {
+  /* {
     title: 'Blan',
     imageUrl: 'https://i.imgur.com/klIyU7Q.png',
     description: 'projects.blan.description',
     link: {
       page: 'https://play.google.com/store/apps/details?id=com.blan',
     }
-  },
+  }, */
   {
     title: 'Vue Calendar',
     imageUrl: 'https://i.imgur.com/IG8rws1.png',
