@@ -4,14 +4,21 @@ My name is Guilherme Moura, from Brazil. Always driven by the passion to expand 
 
 #### Personal Projects
 
-- **[List](https://list-glhrmoura.netlify.app)**
+##### Extension
+- **[Coin](https://chrome.google.com/webstore/detail/coins/meebfpmdedodccopjbkcihiecpmiljml) · [Github](https://github.com/glhrmoura/coin)**
 - **[Pace](https://chromewebstore.google.com/detail/pace/mnccaclnbfbldadhkfcemlmkceimlhge?authuser=0&hl=pt-BR)**
+- **[Imports Sorter](https://marketplace.visualstudio.com/items?itemName=glhrmoura.imports-sorter) · [Github](https://github.com/glhrmoura/imports-sorter)**
+- **[Len](https://chromewebstore.google.com/detail/len-measure-textual-conte/ojodnhhmfnjddbeipjcjhjbdbkkedcgf) · [Github](https://github.com/glhrmoura/len)**
+
+##### Library
 - **[Vue Calendar](https://www.npmjs.com/package/@glhrmoura/vue-calendar) · [Github](https://github.com/glhrmoura/vue-calendar)**
 - **[React Conditional](https://www.npmjs.com/package/@glhrmoura/react-conditional) · [Github](https://github.com/glhrmoura/react-conditional)**
-- **[Imports Sorter](https://marketplace.visualstudio.com/items?itemName=glhrmoura.imports-sorter) · [Github](https://github.com/glhrmoura/imports-sorter)**
-- **[Coin](https://chrome.google.com/webstore/detail/coins/meebfpmdedodccopjbkcihiecpmiljml) · [Github](https://github.com/glhrmoura/coin)**
-- **[Search Hub](https://preeminent-kataifi-ed0e4c.netlify.app) · [Github](https://github.com/glhrmoura/search-hub)**
 - **[Environment](https://www.npmjs.com/package/@glhrmoura/environment) · [Github](https://github.com/glhrmoura/environment)**
+
+##### App
+- **[List](https://list-glhrmoura.netlify.app)**
+- **[Nubank - Web](https://nubank-web-glhrmoura.netlify.app) · [Github](https://github.com/glhrmoura/nubank-web)**
+- **[Search Hub](https://preeminent-kataifi-ed0e4c.netlify.app) · [Github](https://github.com/glhrmoura/search-hub)**
 - **[Piano](https://exquisite-pie-01cc07.netlify.app) · [Github](https://github.com/glhrmoura/piano)**
 
 #### Tools
