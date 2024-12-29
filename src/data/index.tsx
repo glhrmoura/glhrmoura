@@ -115,7 +115,7 @@ export const projectList: Project[] = [
     imageUrl: 'https://i.imgur.com/Xf6OrL2.png',
     description: 'projects.nubankWeb.description',
     link: {
-      page: 'https://nubank-web-glhrmoura.netlify.app',
+      page: 'https://nubank-web-glhrmoura.netlify.app/',
       github: 'https://github.com/glhrmoura/nubank-web'
     }
   },
