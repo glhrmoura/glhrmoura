@@ -50,6 +50,15 @@ export const projectList: Project[] = [
     }
   },
   {
+    title: 'Tech Blog',
+    imageUrl: 'https://i.imgur.com/62A8yG3.png',
+    description: 'projects.techBlog.description',
+    link: {
+      page: 'https://glhrmoura-tech-blog.netlify.app',
+      github: 'https://github.com/glhrmoura/tech-blog'
+    }
+  },
+  {
     title: 'List',
     imageUrl: 'https://i.imgur.com/cVsGLfV.png',
     description: 'projects.list.description',
