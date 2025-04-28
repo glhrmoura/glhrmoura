@@ -15,9 +15,12 @@ My name is Guilherme Moura, from Brazil. Always driven by the passion to expand 
 - **[React Conditional](https://www.npmjs.com/package/@glhrmoura/react-conditional) · [Github](https://github.com/glhrmoura/react-conditional)**
 - **[Environment](https://www.npmjs.com/package/@glhrmoura/environment) · [Github](https://github.com/glhrmoura/environment)**
 
-##### App
-- **[List](https://list-glhrmoura.netlify.app)**
+##### Mobile
 - **[Blan](https://play.google.com/store/apps/details?id=com.blan)**
+
+##### Web
+- **[Tech Blog](https://glhrmoura-tech-blog.netlify.app) · [Github](https://github.com/glhrmoura/tech-blog)**
+- **[List](https://list-glhrmoura.netlify.app)**
 - **[TabTok](https://glhrmoura-tabtok.netlify.app) · [Github](https://github.com/glhrmoura/tabtok)**
 - **[Nubank Web](https://nubank-web-glhrmoura.netlify.app) · [Github](https://github.com/glhrmoura/nubank-web)**
 - **[Search Hub](https://preeminent-kataifi-ed0e4c.netlify.app) · [Github](https://github.com/glhrmoura/search-hub)**
