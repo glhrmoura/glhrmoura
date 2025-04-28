@@ -30,6 +30,9 @@ export default {
     nubankWeb: {
       description: 'Visual recreation of the Nubank website, built using React. It offers users a representation of the interface of the official Nubank website, allowing them to experience some visual interface details.'
     },
+    techBlog: {
+      description: 'A modern blog platform built with React and TypeScript for sharing knowledge and insights about technology.'
+    },
     environment: {
       description: 'An efficient Node library for managing and setting environment variables.'
     },

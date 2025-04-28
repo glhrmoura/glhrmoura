@@ -30,6 +30,9 @@ export default {
     nubankWeb: {
       description: 'Visuelle Nachbildung der Nubank-Website, erstellt mit React. Sie bietet den Benutzern eine Darstellung der Benutzeroberfläche der offiziellen Nubank-Website und ermöglicht es ihnen, einige visuelle Oberflächendetails zu erleben.'
     },
+    techBlog: {
+      description: 'Eine moderne Blog-Plattform, entwickelt mit React und TypeScript, um Wissen und Einblicke über Technologie zu teilen.'
+    },
     environment: {
       description: 'Effiziente Node-Bibliothek zur Verwaltung und Festlegung von Umgebungsvariablen.'
     },
