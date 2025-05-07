@@ -3,6 +3,9 @@ export default {
   content: `My name is Guilherme Moura, from Brazil. With more than ${new Date().getFullYear() - 2016} years of experience in software development, I always seek to deepen my knowledge and develop new things.`,
   projectTitle: 'Personal Projects',
   projects: {
+    podpocket: {
+      description: 'A modern web application for podcast enthusiasts. Discover, listen, and manage your favorite podcasts in one place. With a clean interface and powerful features, PodPocket makes podcast listening more enjoyable and organized.'
+    },
     pace: {
       description: 'A sleek and intuitive browser extension helps you manage your time efficiently. Featuring a countdown timer and stopwatch, it offers a simple, distraction-free interface tailored to your time management needs.'
     },

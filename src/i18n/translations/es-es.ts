@@ -3,6 +3,9 @@ export default {
   content: `Mi nombre es Guilherme Moura, de Brasil. Con más de ${new Date().getFullYear() - 2016} años de experiencia en desarrollo de software, siempre busco profundizar mis conocimientos y desarrollar cosas nuevas.`,
   projectTitle: 'Proyectos Personales',
   projects: {
+    podpocket: {
+      description: 'Una aplicación web moderna para entusiastas de podcasts. Descubre, escucha y gestiona tus podcasts favoritos en un solo lugar. Con una interfaz limpia y funciones potentes, PodPocket hace que la escucha de podcasts sea más agradable y organizada.'
+    },
     pace: {
       description: 'Una extensión de navegador elegante e intuitiva te ayuda a gestionar tu tiempo de manera eficiente. Con un temporizador de cuenta regresiva y un cronómetro, ofrece una interfaz simple y libre de distracciones, adaptada a tus necesidades de gestión del tiempo.'
     },
