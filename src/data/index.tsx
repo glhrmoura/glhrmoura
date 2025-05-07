@@ -42,20 +42,28 @@ export const linkList = [
 
 export const projectList: Project[] = [
   {
-    title: 'Pace',
-    imageUrl: 'https://i.imgur.com/GRHVFPD.png',
-    description: 'projects.pace.description',
-    link: {
-      page: 'https://chromewebstore.google.com/detail/pace/mnccaclnbfbldadhkfcemlmkceimlhge?authuser=0&hl=pt-BR',
-    }
-  },
-  {
     title: 'Tech Blog',
     imageUrl: 'https://i.imgur.com/62A8yG3.png',
     description: 'projects.techBlog.description',
     link: {
       page: 'https://tech-blog-nine-opal.vercel.app/',
       github: 'https://github.com/glhrmoura/tech-blog'
+    }
+  },
+  {
+    title: 'PodPocket',
+    imageUrl: 'https://i.imgur.com/EObn6VG.png',
+    description: 'projects.podpocket.description',
+    link: {
+      page: 'https://podpocket.vercel.app',
+    }
+  },
+  {
+    title: 'Pace',
+    imageUrl: 'https://i.imgur.com/GRHVFPD.png',
+    description: 'projects.pace.description',
+    link: {
+      page: 'https://chromewebstore.google.com/detail/pace-take-control-of-your/mnccaclnbfbldadhkfcemlmkceimlhge',
     }
   },
   {
