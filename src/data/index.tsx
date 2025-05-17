@@ -47,7 +47,6 @@ export const projectList: Project[] = [
     description: 'projects.techBlog.description',
     link: {
       page: 'https://tech-blog-nine-opal.vercel.app/',
-      github: 'https://github.com/glhrmoura/tech-blog'
     }
   },
   {
