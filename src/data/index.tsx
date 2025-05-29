@@ -47,6 +47,15 @@ export const projectList: Project[] = [
     description: 'projects.techBlog.description',
     link: {
       page: 'https://tech-blog-nine-opal.vercel.app/',
+      github: 'https://github.com/glhrmoura/tech-blog'
+    }
+  },
+  {
+    title: 'NoBeer',
+    imageUrl: 'https://i.imgur.com/MjpHQbu.png',
+    description: 'projects.noBeer.description',
+    link: {
+      page: 'https://glhrmoura-no-beer.netlify.app',
     }
   },
   {

@@ -45,5 +45,12 @@ export default {
     piano: {
       description: 'Aplicación de piano totalmente funcional hecha con HTML, CSS y JavaScript, que ofrece todas las opciones de teclas encontradas en un instrumento real. Con teclas interactivas y sonidos de piano auténticos, la aplicación permite a los usuarios experimentar la sensación de tocar un piano real.'
     },
+    noBeer: {
+      imageUrl: 'https://i.imgur.com/MjpHQbu.png',
+      description: 'Una aplicación minimalista y motivadora para ayudarte a seguir tu viaje sin alcohol. NoBeer cuenta los días desde tu última bebida y te mantiene enfocado en construir hábitos más saludables — un día a la vez.',
+      link: {
+        page: 'https://glhrmoura-no-beer.netlify.app',
+      }
+    },
   },
 };

@@ -36,6 +36,13 @@ export default {
     techBlog: {
       description: 'A modern blog platform built with React and TypeScript for sharing knowledge and insights about technology.'
     },
+    noBeer: {
+      imageUrl: 'https://i.imgur.com/MjpHQbu.png',
+      description: 'A minimal and motivating app to help you track your alcohol-free journey. NoBeer counts the days since your last drink and keeps you focused on building healthier habits — one day at a time.',
+      link: {
+        page: 'https://glhrmoura-no-beer.netlify.app',
+      }
+    },
     environment: {
       description: 'An efficient Node library for managing and setting environment variables.'
     },
