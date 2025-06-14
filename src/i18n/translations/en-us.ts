@@ -12,9 +12,6 @@ export default {
     blan: {
       description: 'Simplify your shopping with Blan, the smart shopping list app that will revolutionize your grocery shopping experience! Never forget an item or feel lost in the hallways again. With Blan, your shopping becomes organized, efficient and even fun.'
     },
-    list: {
-      description: 'Create, share, and manage your lists, shopping lists, goals, and more. Stay organized effortlessly. Try it now and streamline your daily tasks!'
-    },
     vueCalendar: {
       description: 'Library designed to facilitate the creation of interactive calendars in applications using Vue >= 3.'
     },
@@ -45,9 +42,6 @@ export default {
     },
     environment: {
       description: 'An efficient Node library for managing and setting environment variables.'
-    },
-    things: {
-      description: 'Simple task manager developed using VueJS on the frontend, and Firebase on the backend.'
     },
     piano: {
       description: 'Fully functional piano application made with HTML, CSS and JavaScript, offering all the key options that are found in a real instrument. With interactive keys and authentic piano sounds, the application allows users to experience the feeling of playing a real piano.'

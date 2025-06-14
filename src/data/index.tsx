@@ -74,14 +74,6 @@ export const projectList: Project[] = [
     }
   },
   {
-    title: 'List',
-    imageUrl: 'https://i.imgur.com/cVsGLfV.png',
-    description: 'projects.list.description',
-    link: {
-      page: 'https://list-glhrmoura.netlify.app/',
-    }
-  },
-  {
     title: 'Blan',
     imageUrl: 'https://i.imgur.com/klIyU7Q.png',
     description: 'projects.blan.description',
@@ -152,15 +144,6 @@ export const projectList: Project[] = [
       github: 'https://github.com/glhrmoura/environment'
     }
   },
-  /* {
-    title: 'Things: To-Do List',
-    imageUrl: 'https://i.imgur.com/DuZQ24q.png',
-    description: 'projects.things.description',
-    link: {
-      page: 'https://astonishing-meringue-7e1211.netlify.app',
-      github: 'https://github.com/glhrmoura/things'
-    }
-  }, */
   {
     title: 'Piano',
     imageUrl: 'https://i.imgur.com/5KCCFYe.png',

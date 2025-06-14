@@ -22,7 +22,6 @@ My name is Guilherme Moura, from Brazil. Always driven by the passion to expand 
 - **[Tech Blog](https://tech-blog-nine-opal.vercel.app)**<!--· [Github](https://github.com/glhrmoura/tech-blog)** -->
 - **[PodPocket](https://podpocket.vercel.app)**<!--· [Github](https://github.com/glhrmoura/podpocket)**-->
 - **[NoBeer](https://glhrmoura-no-beer.netlify.app)**
-- **[List](https://list-glhrmoura.netlify.app)**
 - **[TabTok](https://glhrmoura-tabtok.netlify.app) · [Github](https://github.com/glhrmoura/tabtok)**
 - **[Nubank Web](https://nubank-web-glhrmoura.netlify.app) · [Github](https://github.com/glhrmoura/nubank-web)**
 - **[Search Hub](https://preeminent-kataifi-ed0e4c.netlify.app) · [Github](https://github.com/glhrmoura/search-hub)**

@@ -12,9 +12,6 @@ export default {
     blan: {
       description: 'Simplifique suas compras com Blan, o aplicativo inteligente de lista de compras que revolucionará sua experiência de compras! Nunca se esqueça de um item ou se sinta perdido nos corredores novamente. Com a Blan suas compras ficam organizadas, eficientes e até divertidas.'
     },
-    list: {
-      description: 'Crie, compartilhe e gerencie suas listas, listas de compras, metas e mais. Mantenha-se organizado sem esforço. Experimente agora e otimize suas tarefas diárias!'
-    },
     vueCalendar: {
       description: 'Biblioteca projetada para facilitar a criação de calendários interativos em aplicações utilizando Vue >= 3.'
     },
@@ -45,9 +42,6 @@ export default {
     },
     environment: {
       description: 'Uma biblioteca Node eficiente para gerenciar e definir variáveis de ambiente.'
-    },
-    things: {
-      description: 'Gerenciador de tarefas simples desenvolvido usando VueJS no frontend e Firebase no backend.'
     },
     piano: {
       description: 'Aplicativo de piano totalmente funcional feito com HTML, CSS e JavaScript, oferecendo todas as opções de teclas encontradas em um instrumento real. Com teclas interativas e sons de piano autênticos, o aplicativo permite aos usuários experimentar a sensação de tocar um piano real.'
