@@ -2,7 +2,9 @@
 
 My name is Guilherme Moura, from Brazil. Always driven by the passion to expand my knowledge and build innovative solutions.
 
-#### Personal Projects
+#### My Projects
+
+All projects were created and are maintained by me. Each one represents a unique challenge and learning opportunity, showcasing different technologies and solutions.
 
 ##### Extension
 - **[Coin](https://chrome.google.com/webstore/detail/coins/meebfpmdedodccopjbkcihiecpmiljml) · [Github](https://github.com/glhrmoura/coin)**
