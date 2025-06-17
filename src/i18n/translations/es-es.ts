@@ -1,7 +1,8 @@
 export default {
   title: 'Hola',
   content: `Mi nombre es Guilherme Moura, de Brasil. Con más de ${new Date().getFullYear() - 2016} años de experiencia en desarrollo de software, siempre busco profundizar mis conocimientos y desarrollar cosas nuevas.`,
-  projectTitle: 'Proyectos Personales',
+  projectTitle: 'Mis Proyectos',
+  projectSubtitle: 'Todos los proyectos fueron creados y son mantenidos por mí. Cada uno representa un desafío único y una oportunidad de aprendizaje, mostrando diferentes tecnologías y soluciones.',
   projects: {
     podpocket: {
       description: 'Una aplicación web moderna para entusiastas de podcasts. Descubre, escucha y gestiona tus podcasts favoritos en un solo lugar. Con una interfaz limpia y funciones potentes, PodPocket hace que la escucha de podcasts sea más agradable y organizada.'

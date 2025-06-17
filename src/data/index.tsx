@@ -4,7 +4,7 @@ import { CodePenIcon } from '~/icons/social/CodePen';
 
 import { Project } from '~/types/project';
 import { Languages } from '~/types/language';
-import { Medium } from '~/icons/social/Medium';
+//import { Medium } from '~/icons/social/Medium';
 
 export const langList = [
   {
@@ -23,11 +23,11 @@ export const linkList = [
     icon: <GithubIcon color="currentColor" />,
     link: 'https://github.com/glhrmoura',
   },
-  {
+  /* {
     title: 'Medium',
     icon: <Medium width={34} color="currentColor" />,
     link: 'https://medium.com/@glhrmoura',
-  },
+  }, */
   {
     title: 'CodePen',
     icon: <CodePenIcon color="currentColor" />,

@@ -46,6 +46,14 @@ export const ProjectTitle = styled.h2`
   margin-bottom: 16px;
 `;
 
+export const ProjectSubtitle = styled.p`
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  color: ${({ theme }) => theme.colors.text};
+  opacity: 0.8;
+`;
+
 export const ProjectList = styled.div`
   display: grid;
   gap: 16px;
