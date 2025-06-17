@@ -5,7 +5,9 @@ import { useTheme } from '~/contexts/theme';
 
 import { LogoIcon } from '~/icons/general/Logo';
 import { SpainFlag } from '~/icons/flag/SpainFlag';
+import { ItalyFlag } from '~/icons/flag/ItalyFlag';
 import { BrazilFlag } from '~/icons/flag/BrazilFlag';
+import { GermanyFlag } from '~/icons/flag/GermanyFlag';
 import { UnitedStatesFlag } from '~/icons/flag/UnitedStatesFlag';
 
 import {
@@ -15,12 +17,12 @@ import {
   ItemLabel,
 } from './styles';
 
+import { TranslationService } from '~/services/translations';
+
 import { Theme } from '~/types/theme';
 import { Languages } from '~/types/language';
 
 import { Dropdown } from '~/components/Dropdown';
-import { ItalyFlag } from '~/icons/flag/ItalyFlag';
-import { GermanyFlag } from '~/icons/flag/GermanyFlag';
 
 const Header = () => {
   const { i18n } = useTranslation();
@@ -32,6 +34,7 @@ const Header = () => {
 
   const changeLang = (value: string) => {
     i18n.changeLanguage(value);
+    TranslationService.setLanguage(value);
   };
 
   const scrollTop = () => {
