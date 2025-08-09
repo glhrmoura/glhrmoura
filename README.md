@@ -27,7 +27,7 @@ All projects were created and are maintained by me. Each one represents a unique
 - **[TabTok](https://glhrmoura-tabtok.netlify.app) · [Github](https://github.com/glhrmoura/tabtok)**
 - **[Nubank Web](https://nubank-web-glhrmoura.netlify.app) · [Github](https://github.com/glhrmoura/nubank-web)**
 - **[Search Hub](https://preeminent-kataifi-ed0e4c.netlify.app) · [Github](https://github.com/glhrmoura/search-hub)**
-- **[Piano](https://exquisite-pie-01cc07.netlify.app) · [Github](https://github.com/glhrmoura/piano)**
+- **[Piano](https://glhrmoura-piano.netlify.app) · [Github](https://github.com/glhrmoura/piano)**
 
 #### Tools
 
