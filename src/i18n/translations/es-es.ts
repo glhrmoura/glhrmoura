@@ -47,5 +47,17 @@ export default {
         page: 'https://glhrmoura-no-beer.netlify.app',
       }
     },
+    capital: {
+      description: 'Aplicación PWA para gestionar tus inversiones de forma simple y eficiente. Rastrea tus registros de inversión diarios, visualiza gráficos y análisis de tus retornos y calcula rendimientos mensuales automáticamente. Todos los datos se sincronizan en la nube con Firebase.'
+    },
+    cash: {
+      description: 'Aplicación PWA para gestionar tus gastos de forma simple y eficiente. Rastrea tus gastos mensuales, organiza por categorías con colores e iconos personalizados y marca gastos como pagados. Todos los datos se sincronizan en la nube con Firebase.'
+    },
+    wppDm: {
+      description: 'Una herramienta simple y conveniente que te permite iniciar conversaciones de WhatsApp sin guardar números de teléfono. Solo ingresa el número y comienza a chatear instantáneamente - perfecto para comunicaciones comerciales rápidas o contactos únicos.'
+    },
+    len: {
+      description: 'Extensión de navegador que detecta automáticamente cuando un usuario selecciona texto en una página web y muestra el recuento de caracteres en tiempo real. Herramienta diseñada para escritores, editores y cualquier persona que necesite monitorear la longitud del texto rápidamente.'
+    },
   },
 };
