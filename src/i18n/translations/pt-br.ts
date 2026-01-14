@@ -47,5 +47,17 @@ export default {
     piano: {
       description: 'Aplicativo de piano totalmente funcional feito com HTML, CSS e JavaScript, oferecendo todas as opções de teclas encontradas em um instrumento real. Com teclas interativas e sons de piano autênticos, o aplicativo permite aos usuários experimentar a sensação de tocar um piano real.'
     },
+    capital: {
+      description: 'Aplicativo PWA para gerenciar seus investimentos de forma simples e eficiente. Acompanhe seus registros de investimento diários, visualize gráficos e análises dos seus retornos e calcule rendimentos mensais automaticamente. Todos os dados são sincronizados na nuvem com Firebase.'
+    },
+    cash: {
+      description: 'Aplicativo PWA para gerenciar suas despesas de forma simples e eficiente. Acompanhe suas despesas mensais, organize por categorias com cores e ícones personalizados e marque despesas como pagas. Todos os dados são sincronizados na nuvem com Firebase.'
+    },
+    wppDm: {
+      description: 'Uma ferramenta simples e conveniente que permite iniciar conversas no WhatsApp sem salvar números de telefone. Basta inserir o número e começar a conversar instantaneamente - perfeito para comunicações comerciais rápidas ou contatos únicos.'
+    },
+    len: {
+      description: 'Extensão de navegador que detecta automaticamente quando um usuário seleciona texto em uma página da web e exibe a contagem de caracteres em tempo real. Ferramenta projetada para escritores, editores e qualquer pessoa que precise monitorar o comprimento do texto rapidamente.'
+    },
   },
 };
