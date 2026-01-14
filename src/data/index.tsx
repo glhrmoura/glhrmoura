@@ -42,38 +42,6 @@ export const linkList = [
 
 export const projectList: Project[] = [
   {
-    title: 'Tech Blog',
-    imageUrl: 'https://i.imgur.com/62A8yG3.png',
-    description: 'projects.techBlog.description',
-    link: {
-      page: 'https://tech-blog-nine-opal.vercel.app/'
-    }
-  },
-  {
-    title: 'NoBeer',
-    imageUrl: 'https://i.imgur.com/MjpHQbu.png',
-    description: 'projects.noBeer.description',
-    link: {
-      page: 'https://glhrmoura-no-beer.netlify.app',
-    }
-  },
-  {
-    title: 'PodPocket',
-    imageUrl: 'https://i.imgur.com/EObn6VG.png',
-    description: 'projects.podpocket.description',
-    link: {
-      page: 'https://podpocket.vercel.app',
-    }
-  },
-  {
-    title: 'Pace',
-    imageUrl: 'https://i.imgur.com/GRHVFPD.png',
-    description: 'projects.pace.description',
-    link: {
-      page: 'https://chromewebstore.google.com/detail/pace-take-control-of-your/mnccaclnbfbldadhkfcemlmkceimlhge',
-    }
-  },
-  {
     title: 'Blan',
     imageUrl: 'https://i.imgur.com/klIyU7Q.png',
     description: 'projects.blan.description',
@@ -82,12 +50,39 @@ export const projectList: Project[] = [
     }
   },
   {
-    title: 'Vue Calendar',
-    imageUrl: 'https://i.imgur.com/IG8rws1.png',
-    description: 'projects.vueCalendar.description',
+    title: 'Capital',
+    imageUrl: 'https://i.imgur.com/lcO2xq4.png',
+    description: 'projects.capital.description',
     link: {
-      page: 'https://www.npmjs.com/package/@glhrmoura/vue-calendar',
-      github: 'https://github.com/glhrmoura/vue-calendar'
+      page: 'https://github.com/glhrmoura/capital',
+      github: 'https://github.com/glhrmoura/capital'
+    }
+  },
+  {
+    title: 'Cash',
+    imageUrl: 'https://i.imgur.com/GK9y85b.png',
+    description: 'projects.cash.description',
+    link: {
+      page: 'https://github.com/glhrmoura/cash',
+      github: 'https://github.com/glhrmoura/cash'
+    }
+  },
+  {
+    title: 'Coin',
+    imageUrl: 'https://i.imgur.com/GJB4zvu.png',
+    description: 'projects.coins.description',
+    link: {
+      page: 'https://chromewebstore.google.com/detail/coins/meebfpmdedodccopjbkcihiecpmiljml?authuser=0&hl=pt-BR',
+      github: 'https://github.com/glhrmoura/coins'
+    }
+  },
+  {
+    title: 'Environment',
+    imageUrl: 'https://i.imgur.com/WgLrcLy.png',
+    description: 'projects.environment.description',
+    link: {
+      page: 'https://www.npmjs.com/package/@glhrmoura/environment',
+      github: 'https://github.com/glhrmoura/environment'
     }
   },
   {
@@ -100,12 +95,54 @@ export const projectList: Project[] = [
     }
   },
   {
-    title: 'Coin',
-    imageUrl: 'https://i.imgur.com/GJB4zvu.png',
-    description: 'projects.coins.description',
+    title: 'Len',
+    imageUrl: 'https://i.imgur.com/cfg4sZA.png',
+    description: 'projects.len.description',
     link: {
-      page: 'https://chromewebstore.google.com/detail/coins/meebfpmdedodccopjbkcihiecpmiljml?authuser=0&hl=pt-BR',
-      github: 'https://github.com/glhrmoura/coins'
+      page: 'https://chromewebstore.google.com/detail/len-measure-textual-conte/ojodnhhmfnjddbeipjcjhjbdbkkedcgf',
+      github: 'https://github.com/glhrmoura/len'
+    }
+  },
+  {
+    title: 'NoBeer',
+    imageUrl: 'https://i.imgur.com/MjpHQbu.png',
+    description: 'projects.noBeer.description',
+    link: {
+      page: 'https://glhrmoura-no-beer.netlify.app',
+    }
+  },
+  {
+    title: 'Nubank - Web',
+    imageUrl: 'https://i.imgur.com/Xf6OrL2.png',
+    description: 'projects.nubankWeb.description',
+    link: {
+      page: 'https://nubank-web-glhrmoura.netlify.app/',
+      github: 'https://github.com/glhrmoura/nubank-web'
+    }
+  },
+  {
+    title: 'Pace',
+    imageUrl: 'https://i.imgur.com/GRHVFPD.png',
+    description: 'projects.pace.description',
+    link: {
+      page: 'https://chromewebstore.google.com/detail/pace-take-control-of-your/mnccaclnbfbldadhkfcemlmkceimlhge',
+    }
+  },
+  {
+    title: 'Piano',
+    imageUrl: 'https://i.imgur.com/5KCCFYe.png',
+    description: 'projects.piano.description',
+    link: {
+      page: 'https://exquisite-pie-01cc07.netlify.app',
+      github: 'https://github.com/glhrmoura/piano'
+    }
+  },
+  {
+    title: 'PodPocket',
+    imageUrl: 'https://i.imgur.com/EObn6VG.png',
+    description: 'projects.podpocket.description',
+    link: {
+      page: 'https://podpocket.vercel.app',
     }
   },
   {
@@ -127,30 +164,29 @@ export const projectList: Project[] = [
     }
   },
   {
-    title: 'Nubank - Web',
-    imageUrl: 'https://i.imgur.com/Xf6OrL2.png',
-    description: 'projects.nubankWeb.description',
+    title: 'Tech Blog',
+    imageUrl: 'https://i.imgur.com/62A8yG3.png',
+    description: 'projects.techBlog.description',
     link: {
-      page: 'https://nubank-web-glhrmoura.netlify.app/',
-      github: 'https://github.com/glhrmoura/nubank-web'
+      page: 'https://tech-blog-nine-opal.vercel.app/'
     }
   },
   {
-    title: 'Environment',
-    imageUrl: 'https://i.imgur.com/WgLrcLy.png',
-    description: 'projects.environment.description',
+    title: 'Vue Calendar',
+    imageUrl: 'https://i.imgur.com/IG8rws1.png',
+    description: 'projects.vueCalendar.description',
     link: {
-      page: 'https://www.npmjs.com/package/@glhrmoura/environment',
-      github: 'https://github.com/glhrmoura/environment'
+      page: 'https://www.npmjs.com/package/@glhrmoura/vue-calendar',
+      github: 'https://github.com/glhrmoura/vue-calendar'
     }
   },
   {
-    title: 'Piano',
-    imageUrl: 'https://i.imgur.com/5KCCFYe.png',
-    description: 'projects.piano.description',
+    title: 'Wpp DM',
+    imageUrl: 'https://i.imgur.com/BvfDXeK.png',
+    description: 'projects.wppDm.description',
     link: {
-      page: 'https://exquisite-pie-01cc07.netlify.app',
-      github: 'https://github.com/glhrmoura/piano'
+      page: 'https://glhrmoura-wpp-dm.netlify.app/',
+      github: 'https://github.com/glhrmoura/wpp-dm'
     }
   },
 ];
