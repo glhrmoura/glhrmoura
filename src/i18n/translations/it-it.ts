@@ -47,5 +47,17 @@ export default {
     piano: {
       description: 'Applicazione pianoforte completamente funzionante realizzata con HTML, CSS e JavaScript, che offre tutte le opzioni di tasti trovate in un vero strumento. Con tasti interattivi e autentici suoni di pianoforte, l\'applicazione consente agli utenti di sperimentare la sensazione di suonare un vero pianoforte.'
     },
+    capital: {
+      description: 'Applicazione PWA per gestire i tuoi investimenti in modo semplice ed efficiente. Traccia i tuoi registri di investimento giornalieri, visualizza grafici e analisi dei tuoi rendimenti e calcola automaticamente i rendimenti mensili. Tutti i dati sono sincronizzati nel cloud con Firebase.'
+    },
+    cash: {
+      description: 'Applicazione PWA per gestire le tue spese in modo semplice ed efficiente. Traccia le tue spese mensili, organizza per categorie con colori e icone personalizzate e segna le spese come pagate. Tutti i dati sono sincronizzati nel cloud con Firebase.'
+    },
+    wppDm: {
+      description: 'Uno strumento semplice e conveniente che ti consente di avviare conversazioni WhatsApp senza salvare numeri di telefono. Basta inserire il numero e iniziare a chattare istantaneamente - perfetto per comunicazioni commerciali rapide o contatti una tantum.'
+    },
+    len: {
+      description: 'Un\'estensione del browser che rileva automaticamente quando un utente seleziona testo su una pagina web e visualizza il conteggio dei caratteri in tempo reale. Strumento progettato per scrittori, editori e chiunque abbia bisogno di monitorare rapidamente la lunghezza del testo.'
+    },
   },
 };
