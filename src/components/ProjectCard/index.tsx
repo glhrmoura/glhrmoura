@@ -12,6 +12,7 @@ import {
   IconContainer,
   LinkContainer,
   IconHover,
+  ProjectImage,
 } from './styles';
 
 import { Project } from '~/types/project';
@@ -34,7 +35,7 @@ export const ProjectCard = ({ item }: ProjectCardProps) => {
   return (
     <Container onClick={navigate}>
       <IconContainer>
-        <img
+        <ProjectImage
           width={50}
           height={50}
           src={item.imageUrl}
