@@ -59,5 +59,8 @@ export default {
     len: {
       description: 'A browser extension that automatically detects when a user selects text on a webpage and displays the character count in real time. This tool is designed for writers, editors, and anyone who needs to monitor text length quickly.'
     },
+    tabtok: {
+      description: 'An agile and intuitive platform that facilitates quick consumption of news and analysis. Using the Tab News API, it brings real-time updates and short posts, with an ideal format for those seeking quick and relevant information. Its simple and distraction-free interface allows for a smooth experience, ensuring you are always updated efficiently and practically.'
+    },
   },
 };
