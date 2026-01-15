@@ -59,5 +59,8 @@ export default {
     len: {
       description: 'Eine Browser-Erweiterung, die automatisch erkennt, wenn ein Benutzer Text auf einer Webseite auswählt und die Zeichenanzahl in Echtzeit anzeigt. Dieses Tool ist für Schriftsteller, Redakteure und alle gedacht, die die Textlänge schnell überwachen müssen.'
     },
+    tabtok: {
+      description: 'Eine agile und intuitive Plattform, die den schnellen Konsum von Nachrichten und Analysen erleichtert. Mit der Tab News API bringt sie Echtzeit-Updates und kurze Posts mit einem idealen Format für diejenigen, die schnelle und relevante Informationen suchen. Ihre einfache und ablenkungsfreie Benutzeroberfläche ermöglicht ein reibungsloses Erlebnis und stellt sicher, dass Sie immer effizient und praktisch auf dem neuesten Stand sind.'
+    },
   },
 };
