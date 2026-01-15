@@ -164,6 +164,15 @@ export const projectList: Project[] = [
     }
   },
   {
+    title: 'TabTok',
+    imageUrl: 'https://i.imgur.com/SXOzS1d.png',
+    description: 'projects.tabtok.description',
+    link: {
+      page: 'https://glhrmoura-tabtok.netlify.app',
+      github: 'https://github.com/glhrmoura/tabtok'
+    }
+  },
+  {
     title: 'Tech Blog',
     imageUrl: 'https://i.imgur.com/62A8yG3.png',
     description: 'projects.techBlog.description',
