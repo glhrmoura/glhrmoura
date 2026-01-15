@@ -159,7 +159,7 @@ export const projectList: Project[] = [
     imageUrl: 'https://i.imgur.com/3JlRk4o.png',
     description: 'projects.searchHub.description',
     link: {
-      page: 'https://preeminent-kataifi-ed0e4c.netlify.app',
+      page: 'https://glhrmoura-search-hub.netlify.app/',
       github: 'https://github.com/glhrmoura/search-hub'
     }
   },
