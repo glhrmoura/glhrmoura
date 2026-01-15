@@ -19,6 +19,10 @@ export const IconContainer = styled.div`
   margin-bottom: 12px;
 `;
 
+export const ProjectImage = styled.img`
+  object-fit: contain;
+`;
+
 export const Title = styled.h2`
   font-size: 14px;
   text-align: center;
