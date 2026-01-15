@@ -54,7 +54,7 @@ export const projectList: Project[] = [
     imageUrl: 'https://i.imgur.com/lcO2xq4.png',
     description: 'projects.capital.description',
     link: {
-      page: 'https://github.com/glhrmoura/capital',
+      page: 'https://glhrmoura-capital.netlify.app/',
       github: 'https://github.com/glhrmoura/capital'
     }
   },
@@ -63,7 +63,7 @@ export const projectList: Project[] = [
     imageUrl: 'https://i.imgur.com/GK9y85b.png',
     description: 'projects.cash.description',
     link: {
-      page: 'https://github.com/glhrmoura/cash',
+      page: 'https://glhrmoura-cash.netlify.app/',
       github: 'https://github.com/glhrmoura/cash'
     }
   },
