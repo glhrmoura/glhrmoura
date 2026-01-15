@@ -59,5 +59,8 @@ export default {
     len: {
       description: 'Extensão de navegador que detecta automaticamente quando um usuário seleciona texto em uma página da web e exibe a contagem de caracteres em tempo real. Ferramenta projetada para escritores, editores e qualquer pessoa que precise monitorar o comprimento do texto rapidamente.'
     },
+    tabtok: {
+      description: 'Uma plataforma ágil e intuitiva que facilita o consumo rápido de notícias e análises. Utilizando a API do Tab News, ela traz atualizações em tempo real e posts curtos, com um formato ideal para quem busca informações rápidas e relevantes. Sua interface simples e sem distrações permite uma experiência fluida, garantindo que você esteja sempre atualizado de forma eficiente e prática.'
+    },
   },
 };
