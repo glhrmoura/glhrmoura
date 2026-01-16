@@ -190,7 +190,7 @@ export const projectList: Project[] = [
     }
   },
   {
-    title: 'Wpp DM',
+    title: 'WhatsApp Direct Message',
     imageUrl: 'https://i.imgur.com/BvfDXeK.png',
     description: 'projects.wppDm.description',
     link: {
