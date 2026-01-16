@@ -27,7 +27,7 @@ All projects were created and are maintained by me. Each one represents a unique
 - **[Cash](https://glhrmoura-cash.netlify.app/) · [Github](https://github.com/glhrmoura/cash)**
 - **[NoBeer](https://glhrmoura-no-beer.netlify.app)**
 - **[Nubank - Web](https://nubank-web-glhrmoura.netlify.app/) · [Github](https://github.com/glhrmoura/nubank-web)**
-- **[Piano](https://exquisite-pie-01cc07.netlify.app) · [Github](https://github.com/glhrmoura/piano)**
+- **[Piano](https://glhrmoura-piano.netlify.app/) · [Github](https://github.com/glhrmoura/piano)**
 - **[PodPocket](https://podpocket.vercel.app)**
 - **[Search Hub](https://glhrmoura-search-hub.netlify.app/) · [Github](https://github.com/glhrmoura/search-hub)**
 - **[TabTok](https://glhrmoura-tabtok.netlify.app) · [Github](https://github.com/glhrmoura/tabtok)**
