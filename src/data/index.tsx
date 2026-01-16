@@ -133,7 +133,7 @@ export const projectList: Project[] = [
     imageUrl: 'https://i.imgur.com/5KCCFYe.png',
     description: 'projects.piano.description',
     link: {
-      page: 'https://exquisite-pie-01cc07.netlify.app',
+      page: 'https://glhrmoura-piano.netlify.app/',
       github: 'https://github.com/glhrmoura/piano'
     }
   },
