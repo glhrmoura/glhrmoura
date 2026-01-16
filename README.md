@@ -7,8 +7,8 @@ My name is Guilherme Moura, from Brazil. Always driven by the passion to expand 
 All projects were created and are maintained by me. Each one represents a unique challenge and learning opportunity, showcasing different technologies and solutions.
 
 ##### Extension
-- **[Coin](https://chrome.google.com/webstore/detail/coins/meebfpmdedodccopjbkcihiecpmiljml) · [Github](https://github.com/glhrmoura/coin)**
-- **[Pace](https://chromewebstore.google.com/detail/pace/mnccaclnbfbldadhkfcemlmkceimlhge?authuser=0&hl=pt-BR)**
+- **[Coin](https://chromewebstore.google.com/detail/coins/meebfpmdedodccopjbkcihiecpmiljml?authuser=0&hl=pt-BR) · [Github](https://github.com/glhrmoura/coins)**
+- **[Pace](https://chromewebstore.google.com/detail/pace-take-control-of-your/mnccaclnbfbldadhkfcemlmkceimlhge)**
 - **[Imports Sorter](https://marketplace.visualstudio.com/items?itemName=glhrmoura.imports-sorter) · [Github](https://github.com/glhrmoura/imports-sorter)**
 - **[Len](https://chromewebstore.google.com/detail/len-measure-textual-conte/ojodnhhmfnjddbeipjcjhjbdbkkedcgf) · [Github](https://github.com/glhrmoura/len)**
 
@@ -21,13 +21,16 @@ All projects were created and are maintained by me. Each one represents a unique
 - **[Blan](https://play.google.com/store/apps/details?id=com.blan)**
 
 ##### Web
-- **[Tech Blog](https://tech-blog-nine-opal.vercel.app)**<!--· [Github](https://github.com/glhrmoura/tech-blog)** -->
-- **[PodPocket](https://podpocket.vercel.app)**<!--· [Github](https://github.com/glhrmoura/podpocket)**-->
+- **[Capital](https://glhrmoura-capital.netlify.app/) · [Github](https://github.com/glhrmoura/capital)**
+- **[Cash](https://glhrmoura-cash.netlify.app/) · [Github](https://github.com/glhrmoura/cash)**
 - **[NoBeer](https://glhrmoura-no-beer.netlify.app)**
+- **[Nubank - Web](https://nubank-web-glhrmoura.netlify.app/) · [Github](https://github.com/glhrmoura/nubank-web)**
+- **[Piano](https://exquisite-pie-01cc07.netlify.app) · [Github](https://github.com/glhrmoura/piano)**
+- **[PodPocket](https://podpocket.vercel.app)**
+- **[Search Hub](https://glhrmoura-search-hub.netlify.app/) · [Github](https://github.com/glhrmoura/search-hub)**
 - **[TabTok](https://glhrmoura-tabtok.netlify.app) · [Github](https://github.com/glhrmoura/tabtok)**
-- **[Nubank Web](https://nubank-web-glhrmoura.netlify.app) · [Github](https://github.com/glhrmoura/nubank-web)**
-- **[Search Hub](https://preeminent-kataifi-ed0e4c.netlify.app) · [Github](https://github.com/glhrmoura/search-hub)**
-- **[Piano](https://glhrmoura-piano.netlify.app) · [Github](https://github.com/glhrmoura/piano)**
+- **[Tech Blog](https://tech-blog-nine-opal.vercel.app/)**
+- **[WhatsApp Direct Message](https://glhrmoura-wpp-dm.netlify.app/) · [Github](https://github.com/glhrmoura/wpp-dm)**
 
 #### Tools
 
