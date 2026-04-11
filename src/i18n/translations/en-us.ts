@@ -1,5 +1,9 @@
 export default {
   title: 'Hi there',
+  nav: {
+    about: 'About',
+    projects: 'Projects',
+  },
   content: `My name is Guilherme Moura, from Brazil. With more than ${new Date().getFullYear() - 2016} years of experience in software development, I always seek to deepen my knowledge and develop new things.`,
   projectTitle: 'My Projects',
   projectSubtitle: 'All projects were created and are maintained by me. Each one represents a unique challenge and learning opportunity, showcasing different technologies and solutions.',
@@ -9,9 +13,6 @@ export default {
     },
     pace: {
       description: 'A sleek and intuitive browser extension helps you manage your time efficiently. Featuring a countdown timer and stopwatch, it offers a simple, distraction-free interface tailored to your time management needs.'
-    },
-    blan: {
-      description: 'Simplify your shopping with Blan, the smart shopping list app that will revolutionize your grocery shopping experience! Never forget an item or feel lost in the hallways again. With Blan, your shopping becomes organized, efficient and even fun.'
     },
     vueCalendar: {
       description: 'Library designed to facilitate the creation of interactive calendars in applications using Vue >= 3.'

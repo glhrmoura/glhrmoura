@@ -1,5 +1,9 @@
 export default {
   title: 'Hallo',
+  nav: {
+    about: 'Über mich',
+    projects: 'Projekte',
+  },
   content: `Mein Name ist Guilherme Moura, aus Brasilien. Mit mehr als ${new Date().getFullYear() - 2016} Jahren Erfahrung in der Softwareentwicklung bemühe ich mich stets, mein Wissen zu vertiefen und Neues zu entwickeln.`,
   projectTitle: 'Meine Projekte',
   projectSubtitle: 'Alle Projekte wurden von mir erstellt und werden von mir gepflegt. Jedes Projekt stellt eine einzigartige Herausforderung und Lernmöglichkeit dar und zeigt verschiedene Technologien und Lösungen.',
@@ -9,9 +13,6 @@ export default {
     },
     pace: {
       description: 'Eine elegante und intuitive Browser-Erweiterung hilft Ihnen, Ihre Zeit effizient zu verwalten. Mit einem Countdown-Timer und einer Stoppuhr bietet sie eine einfache, ablenkungsfreie Benutzeroberfläche, die auf Ihre Zeitmanagement-Bedürfnisse zugeschnitten ist.'
-    },
-    blan: {
-      description: 'Vereinfache deinen Einkauf mit Blan, der intelligenten Einkaufslisten-App, die dein Einkaufserlebnis im Lebensmittelgeschäft revolutionieren wird! Vergiss nie wieder einen Artikel oder fühle dich in den Gängen verloren. Mit Blan wird dein Einkauf organisiert, effizient und sogar unterhaltsam.'
     },
     vueCalendar: {
       description: 'Bibliothek zur Vereinfachung der Erstellung interaktiver Kalender in Anwendungen, die Vue >= 3 verwenden.'

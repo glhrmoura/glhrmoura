@@ -42,14 +42,6 @@ export const linkList = [
 
 export const projectList: Project[] = [
   {
-    title: 'Blan',
-    imageUrl: 'https://i.imgur.com/klIyU7Q.png',
-    description: 'projects.blan.description',
-    link: {
-      page: 'https://play.google.com/store/apps/details?id=com.blan',
-    }
-  },
-  {
     title: 'Capital',
     imageUrl: 'https://i.imgur.com/lcO2xq4.png',
     description: 'projects.capital.description',

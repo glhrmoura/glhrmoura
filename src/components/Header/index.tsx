@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { DarkModeSwitch } from 'react-toggle-dark-mode';
+import { NavLink } from 'react-router-dom';
 
 import { useTheme } from '~/contexts/theme';
 
@@ -15,6 +16,8 @@ import {
   Content,
   Container,
   ItemLabel,
+  Nav,
+  NavItem,
 } from './styles';
 
 import { TranslationService } from '~/services/translations';
@@ -25,7 +28,7 @@ import { Languages } from '~/types/language';
 import { Dropdown } from '~/components/Dropdown';
 
 const Header = () => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const { isDark, setTheme } = useTheme();
 
   const toggleTheme = () => {
@@ -35,10 +38,6 @@ const Header = () => {
   const changeLang = (value: string) => {
     i18n.changeLanguage(value);
     TranslationService.setLanguage(value);
-  };
-
-  const scrollTop = () => {
-    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   };
 
   const items = [
@@ -88,10 +87,17 @@ const Header = () => {
     <Container>
       <Content>
         <Group>
-          <LogoIcon
-            width={24}
-            onClick={scrollTop}
-          />
+          <NavLink to="/">
+            <LogoIcon width={24} />
+          </NavLink>
+          <Nav>
+            <NavItem to="/" end>
+              {t('nav.about')}
+            </NavItem>
+            <NavItem to="/projects">
+              {t('nav.projects')}
+            </NavItem>
+          </Nav>
         </Group>
         <Group>
           <Dropdown

@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
 export const Container = styled.header`
   position: fixed;
@@ -69,4 +70,39 @@ export const Group = styled.div`
   display: flex;
   align-items: center;
   gap: 20px;
+`;
+
+export const Nav = styled.nav`
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const NavItem = styled(NavLink)`
+  position: relative;
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.text};
+  opacity: 0.5;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: opacity 0.2s, background-color 0.2s;
+
+  &:hover {
+    opacity: 0.9;
+    background-color: ${({ theme }) => theme.colors.border}18;
+    text-decoration: none;
+  }
+
+  &.active {
+    opacity: 1;
+    font-weight: 600;
+    color: ${({ theme }) => theme.colors.highlight};
+    background-color: ${({ theme }) => theme.colors.highlight}14;
+  }
 `;
