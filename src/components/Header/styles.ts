@@ -5,13 +5,16 @@ export const Container = styled.header`
   position: fixed;
   width: 100%;
   z-index: 100;
-  background-color: ${({ theme }) => theme.colors.background};
-  border-bottom: 1px solid ${({ theme }) => theme.colors.border};
+  background-color: ${({ theme }) => theme.colors.background}CC;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid ${({ theme }) => theme.colors.border}22;
 `;
 
 export const Content = styled.div`
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 16px;
   width: 600px;
   max-width: 100%;
@@ -72,10 +75,19 @@ export const Group = styled.div`
   gap: 20px;
 `;
 
+export const LogoWrapper = styled(NavLink)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid ${({ theme }) => theme.colors.border}50;
+  text-decoration: none;
+`;
+
 export const Nav = styled.nav`
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 2px;
 
   @media (max-width: 768px) {
     display: none;
@@ -83,26 +95,40 @@ export const Nav = styled.nav`
 `;
 
 export const NavItem = styled(NavLink)`
-  position: relative;
-  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
   font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
   text-decoration: none;
-  color: ${({ theme }) => theme.colors.text};
-  opacity: 0.5;
-  padding: 6px 10px;
-  border-radius: 6px;
-  transition: opacity 0.2s, background-color 0.2s;
+  color: ${({ theme }) => theme.colors.text}70;
+  padding: 5px 10px;
+  transition: color 0.15s;
+
+  svg {
+    fill: none;
+    stroke: ${({ theme }) => theme.colors.text}70;
+    transition: stroke 0.15s;
+  }
 
   &:hover {
-    opacity: 0.9;
-    background-color: ${({ theme }) => theme.colors.border}18;
+    color: ${({ theme }) => theme.colors.text}BB;
     text-decoration: none;
+
+    svg {
+      stroke: ${({ theme }) => theme.colors.text}BB;
+    }
   }
 
   &.active {
-    opacity: 1;
-    font-weight: 600;
     color: ${({ theme }) => theme.colors.highlight};
-    background-color: ${({ theme }) => theme.colors.highlight}14;
+    font-weight: 600;
+
+    svg {
+      stroke: ${({ theme }) => theme.colors.highlight};
+    }
   }
 `;
+

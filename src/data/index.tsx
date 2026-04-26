@@ -1,10 +1,7 @@
-import { MailIcon } from '~/icons/social/Mail';
-import { GithubIcon } from '~/icons/social/Github';
-import { CodePenIcon } from '~/icons/social/CodePen';
+import { GitFork, Code2, Mail } from 'lucide-react';
 
 import { Project } from '~/types/project';
 import { Languages } from '~/types/language';
-//import { Medium } from '~/icons/social/Medium';
 
 export const langList = [
   {
@@ -20,22 +17,17 @@ export const langList = [
 export const linkList = [
   {
     title: 'Github',
-    icon: <GithubIcon color="currentColor" />,
+    icon: <GitFork size={24} strokeWidth={1.5} />,
     link: 'https://github.com/glhrmoura',
   },
-  /* {
-    title: 'Medium',
-    icon: <Medium width={34} color="currentColor" />,
-    link: 'https://medium.com/@glhrmoura',
-  }, */
   {
     title: 'CodePen',
-    icon: <CodePenIcon color="currentColor" />,
+    icon: <Code2 size={24} strokeWidth={1.5} />,
     link: 'https://codepen.io/glhrmoura/pens/public',
   },
   {
     title: 'Mail',
-    icon: <MailIcon color="currentColor" />,
+    icon: <Mail size={24} strokeWidth={1.5} />,
     link: 'mailto:mouraggui@gmail.com',
   },
 ];

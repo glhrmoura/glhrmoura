@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { DarkModeSwitch } from 'react-toggle-dark-mode';
 import { NavLink } from 'react-router-dom';
+import { User, Grid2X2 } from 'lucide-react';
 
 import { useTheme } from '~/contexts/theme';
 
@@ -16,6 +17,7 @@ import {
   Content,
   Container,
   ItemLabel,
+  LogoWrapper,
   Nav,
   NavItem,
 } from './styles';
@@ -87,19 +89,21 @@ const Header = () => {
     <Container>
       <Content>
         <Group>
-          <NavLink to="/">
+          <LogoWrapper to="/">
             <LogoIcon width={24} />
-          </NavLink>
+          </LogoWrapper>
           <Nav>
             <NavItem to="/" end>
+              <User size={12} strokeWidth={1.8} />
               {t('nav.about')}
             </NavItem>
             <NavItem to="/projects">
+              <Grid2X2 size={12} strokeWidth={1.8} />
               {t('nav.projects')}
             </NavItem>
           </Nav>
         </Group>
-        <Group>
+<Group>
           <Dropdown
             items={items}
             onChange={changeLang}

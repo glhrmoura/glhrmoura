@@ -52,7 +52,11 @@ export const LinkContainer = styled.div`
 `;
 
 export const IconHover = styled.div`
-  &:hover svg path {
-    color: ${({ theme }) => theme.colors.highlight};
+  svg {
+    transition: stroke 0.15s;
+  }
+
+  &:hover svg {
+    stroke: ${({ theme }) => theme.colors.highlight};
   }
 `;

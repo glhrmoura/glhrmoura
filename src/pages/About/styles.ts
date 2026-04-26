@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.main`
   display: flex;
@@ -60,7 +61,95 @@ export const LinkContainer = styled.div`
 `;
 
 export const IconHover = styled.div`
-  &:hover svg path {
-    color: ${({ theme }) => theme.colors.highlight};
+  svg {
+    transition: stroke 0.15s;
+  }
+
+  &:hover svg {
+    stroke: ${({ theme }) => theme.colors.highlight};
+  }
+`;
+
+export const ButtonRow = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 32px;
+`;
+
+const BaseButton = styled.a`
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 24px;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+
+  svg {
+    fill: none;
+    stroke: currentColor;
+  }
+`;
+
+const outlineButton = `
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 24px;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+`;
+
+export const ProjectsLink = styled(Link)`
+  ${outlineButton}
+  color: ${({ theme }) => theme.colors.text};
+  background-color: transparent;
+  border: 1px solid ${({ theme }) => theme.colors.border};
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+
+  svg {
+    fill: none;
+    stroke: ${({ theme }) => theme.colors.text};
+    transition: stroke 0.15s;
+  }
+
+  &:hover {
+    border-color: ${({ theme }) => theme.colors.highlight};
+    background-color: ${({ theme }) => theme.colors.highlight};
+    color: ${({ theme }) => theme.colors.background};
+
+    svg {
+      stroke: ${({ theme }) => theme.colors.background};
+    }
+  }
+`;
+
+export const GithubLink = styled.a`
+  ${outlineButton}
+  color: ${({ theme }) => theme.colors.text};
+  background-color: transparent;
+  border: 1px solid ${({ theme }) => theme.colors.border};
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+
+  svg {
+    fill: none;
+    stroke: ${({ theme }) => theme.colors.text};
+    transition: stroke 0.15s;
+  }
+
+  &:hover {
+    border-color: ${({ theme }) => theme.colors.highlight};
+    background-color: ${({ theme }) => theme.colors.highlight};
+    color: ${({ theme }) => theme.colors.background};
+
+    svg {
+      stroke: ${({ theme }) => theme.colors.background};
+    }
   }
 `;

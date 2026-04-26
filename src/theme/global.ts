@@ -13,6 +13,15 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
+  svg {
+    color: inherit;
+    background-color: transparent;
+  }
+
+  svg * {
+    background-color: transparent;
+  }
+
   h1, h2, h3, h4, h5, h6, p {
     margin: 0px;
   }

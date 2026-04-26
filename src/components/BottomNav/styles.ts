@@ -17,6 +17,20 @@ export const Container = styled.nav`
   }
 `;
 
+export const NavIcon = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 20px;
+  background-color: transparent;
+  transition: background-color 0.2s, border-radius 0.2s;
+
+  svg {
+    background-color: transparent;
+    transition: stroke 0.2s;
+  }
+`;
+
 export const NavItem = styled(NavLink)`
   flex: 1;
   display: flex;
@@ -25,28 +39,20 @@ export const NavItem = styled(NavLink)`
   gap: 4px;
   text-decoration: none;
   color: ${({ theme }) => theme.colors.text};
-  opacity: 0.45;
+  opacity: 1;
   transition: opacity 0.2s;
 
   &.active {
-    opacity: 1;
     color: ${({ theme }) => theme.colors.highlight};
+
+    ${NavIcon} {
+      background-color: ${({ theme }) => theme.colors.highlight}1A;
+      border-radius: 10px;
+    }
 
     svg {
       stroke: ${({ theme }) => theme.colors.highlight};
     }
-  }
-`;
-
-export const NavIcon = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: transparent;
-
-  svg {
-    background-color: transparent;
-    transition: stroke 0.2s;
   }
 `;
 

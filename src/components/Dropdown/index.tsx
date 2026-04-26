@@ -1,6 +1,5 @@
 import { useState } from 'react';
-
-import { Arrow } from '~/icons/general/Arrow';
+import { ChevronUp, ChevronDown } from 'lucide-react';
 
 import {
   Container,
@@ -42,7 +41,8 @@ const Dropdown = ({ items, value, onChange }: DropdownProps) => {
     <OutsideClickHandler onClick={close}>
       <Container data-dropdown-container="true">
         <Header onClick={toggle}>
-          {currentItem} <Arrow dir={opened ? 'up' : 'down'} />
+          {currentItem}
+          {opened ? <ChevronUp size={14} strokeWidth={1.5} /> : <ChevronDown size={14} strokeWidth={1.5} />}
         </Header>
         {opened && (
           <ItemContainer>

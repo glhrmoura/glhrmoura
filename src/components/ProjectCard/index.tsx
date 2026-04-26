@@ -1,9 +1,6 @@
 import { MouseEventHandler } from 'react';
-
 import { useTranslation } from 'react-i18next';
-
-import { GlobeIcon } from '~/icons/social/Globe';
-import { GithubIcon } from '~/icons/social/Github';
+import { Globe, GitFork } from 'lucide-react';
 
 import {
   Container,
@@ -48,13 +45,13 @@ export const ProjectCard = ({ item }: ProjectCardProps) => {
       <LinkContainer>
         <a target="_blank" href={item.link.page} onClick={stopPropagation}>
           <IconHover>
-            <GlobeIcon width={18} color="currentColor" />
+            <Globe size={18} strokeWidth={1.5} />
           </IconHover>
         </a>
         {Boolean(item.link.github) && (
           <a target="_blank" href={item.link.github} onClick={stopPropagation}>
             <IconHover>
-              <GithubIcon width={18} color="currentColor" />
+              <GitFork size={18} strokeWidth={1.5} />
             </IconHover>
           </a>
         )}
