@@ -20,7 +20,7 @@ import { Languages } from '~/types/language';
 import { Dropdown } from '~/components/Dropdown';
 
 const navItemClass = ({ isActive }: { isActive: boolean }) =>
-  `inline-flex items-center gap-1.5 text-[11px] uppercase tracking-[0.6px] no-underline px-[10px] py-[5px] transition-[color,opacity] duration-150 ` +
+  'inline-flex items-center gap-1.5 text-[11px] uppercase tracking-[0.6px] no-underline px-[10px] py-[5px] transition-[color,opacity] duration-150 ' +
   (isActive
     ? 'text-[#23c063] font-semibold opacity-100 [&_svg]:stroke-[#23c063]'
     : 'text-[var(--color-text)] opacity-40 hover:opacity-70 [&_svg]:stroke-[var(--color-text)]');

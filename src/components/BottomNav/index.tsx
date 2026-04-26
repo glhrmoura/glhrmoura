@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { User, Grid2X2 } from 'lucide-react';
 
 const navItemClass = ({ isActive }: { isActive: boolean }) =>
-  `flex-1 flex flex-col items-center gap-1 no-underline transition-colors duration-200 ` +
+  'flex-1 flex flex-col items-center gap-1 no-underline transition-colors duration-200 ' +
   (isActive ? 'text-[#23c063]' : 'text-[var(--color-text)]');
 
 const BottomNav = () => {

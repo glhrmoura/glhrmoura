@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { NavLink } from 'react-router-dom';
 
 const navItemClass = ({ isActive }: { isActive: boolean }) =>
-  `text-[11px] font-normal uppercase tracking-[0.6px] no-underline whitespace-nowrap px-[18px] py-[6px] transition-[opacity,background-color,color] duration-150 ` +
+  'text-[11px] font-normal uppercase tracking-[0.6px] no-underline whitespace-nowrap px-[18px] py-[6px] transition-[opacity,background-color,color] duration-150 ' +
   (isActive
     ? 'opacity-100 font-semibold text-[#23c063] bg-[#23c063]/10'
     : 'opacity-45 text-[var(--color-text)] hover:opacity-100 hover:bg-[var(--color-border)]/10');
