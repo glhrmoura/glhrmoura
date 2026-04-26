@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Lexend';
+  font-weight: 200;
+  src: url('./assets/fonts/Lexend-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lexend';
+  font-weight: 400;
+  src: url('./assets/fonts/Lexend-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lexend';
+  font-weight: 700;
+  src: url('./assets/fonts/Lexend-Bold.ttf') format('truetype');
+}
+
+:root {
+  --color-bg: #ffffff;
+  --color-text: #000000;
+  --color-border: #000000;
+  --color-fg: #0b141a;
+  --color-primary: #23c063;
+}
+
+.dark {
+  --color-bg: #0b141a;
+  --color-text: #d0d0d1;
+  --color-border: #d0d0d1;
+  --color-fg: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lexend', sans-serif;
+  letter-spacing: 0.5px;
+  user-select: none;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+svg,
+svg * {
+  background-color: transparent;
+  transition: none;
+}
+
+svg {
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+html {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  text-underline-offset: 4px;
+}
+
+a:hover {
+  text-decoration-thickness: 1px;
+}

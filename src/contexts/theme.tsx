@@ -2,6 +2,8 @@ import { useState, createContext, useContext, useEffect } from 'react';
 
 import { Theme } from '~/types/theme';
 
+
+
 interface ThemeContextProps {
   theme: string;
   isDark: boolean;
@@ -29,6 +31,14 @@ export const ThemeProvider = ({ children }: ThemeProviderProps) => {
   useEffect(() => {
     setIsDark(theme === Theme.Dark);
   }, [theme]);
+
+  useEffect(() => {
+    if (isDark) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [isDark]);
 
   const value = {
     theme,

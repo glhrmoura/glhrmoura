@@ -1,24 +1,17 @@
 import { useState } from 'react';
 import { ChevronUp, ChevronDown } from 'lucide-react';
 
-import {
-  Container,
-  Header,
-  ItemContainer,
-  Item
-} from './styles';
-
 import { OutsideClickHandler } from '~/components/OutsideClickHandler';
 
 interface ItemProps {
-  value: string
+  value: string;
   label: string | React.ReactNode;
 }
 
 interface DropdownProps {
   value: string;
-  items: ItemProps[]
-  onChange: (value: string) => void
+  items: ItemProps[];
+  onChange: (value: string) => void;
 }
 
 const Dropdown = ({ items, value, onChange }: DropdownProps) => {
@@ -33,27 +26,39 @@ const Dropdown = ({ items, value, onChange }: DropdownProps) => {
     onChange(value);
   };
 
-  const currentItem = items.find((item) => item.value === value)?.label
-    || items[0]?.label
-    || null;
+  const currentItem =
+    items.find((item) => item.value === value)?.label ||
+    items[0]?.label ||
+    null;
 
   return (
     <OutsideClickHandler onClick={close}>
-      <Container data-dropdown-container="true">
-        <Header onClick={toggle}>
+      <div className="relative" data-dropdown-container="true">
+        <div
+          className="flex justify-between items-center px-[10px] py-[10px] text-[12px] w-[150px] cursor-pointer border border-[var(--color-border)]"
+          onClick={toggle}
+        >
           {currentItem}
-          {opened ? <ChevronUp size={14} strokeWidth={1.5} /> : <ChevronDown size={14} strokeWidth={1.5} />}
-        </Header>
+          {opened ? (
+            <ChevronUp size={14} strokeWidth={1.5} />
+          ) : (
+            <ChevronDown size={14} strokeWidth={1.5} />
+          )}
+        </div>
         {opened && (
-          <ItemContainer>
+          <ul className="absolute left-0 top-full w-full z-10 border border-[var(--color-border)] border-t-transparent p-0 m-0 list-none">
             {items.map((item) => (
-              <Item key={item.value} onClick={() => onItemClick(item.value)}>
+              <li
+                key={item.value}
+                className="text-[12px] px-[10px] py-[10px] cursor-pointer hover:bg-[var(--color-border)]/10"
+                onClick={() => onItemClick(item.value)}
+              >
                 {item.label}
-              </Item>
+              </li>
             ))}
-          </ItemContainer>
+          </ul>
         )}
-      </Container>
+      </div>
     </OutsideClickHandler>
   );
 };

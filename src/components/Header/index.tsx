@@ -12,22 +12,18 @@ import { BrazilFlag } from '~/icons/flag/BrazilFlag';
 import { GermanyFlag } from '~/icons/flag/GermanyFlag';
 import { UnitedStatesFlag } from '~/icons/flag/UnitedStatesFlag';
 
-import {
-  Group,
-  Content,
-  Container,
-  ItemLabel,
-  LogoWrapper,
-  Nav,
-  NavItem,
-} from './styles';
-
 import { TranslationService } from '~/services/translations';
 
 import { Theme } from '~/types/theme';
 import { Languages } from '~/types/language';
 
 import { Dropdown } from '~/components/Dropdown';
+
+const navItemClass = ({ isActive }: { isActive: boolean }) =>
+  `inline-flex items-center gap-1.5 text-[11px] uppercase tracking-[0.6px] no-underline px-[10px] py-[5px] transition-[color,opacity] duration-150 ` +
+  (isActive
+    ? 'text-[#23c063] font-semibold opacity-100 [&_svg]:stroke-[#23c063]'
+    : 'text-[var(--color-text)] opacity-40 hover:opacity-70 [&_svg]:stroke-[var(--color-text)]');
 
 const Header = () => {
   const { i18n, t } = useTranslation();
@@ -46,64 +42,67 @@ const Header = () => {
     {
       value: Languages.PT_BR,
       label: (
-        <ItemLabel>
+        <div className="flex items-center gap-2" style={{ backgroundColor: 'transparent' }}>
           <BrazilFlag /> Português
-        </ItemLabel>
-      )
+        </div>
+      ),
     },
     {
       value: Languages.EN_US,
       label: (
-        <ItemLabel>
+        <div className="flex items-center gap-2" style={{ backgroundColor: 'transparent' }}>
           <UnitedStatesFlag /> English
-        </ItemLabel>
-      )
+        </div>
+      ),
     },
     {
       value: Languages.ES_ES,
       label: (
-        <ItemLabel>
+        <div className="flex items-center gap-2" style={{ backgroundColor: 'transparent' }}>
           <SpainFlag /> Español
-        </ItemLabel>
-      )
+        </div>
+      ),
     },
     {
       value: Languages.DE_DE,
       label: (
-        <ItemLabel>
+        <div className="flex items-center gap-2" style={{ backgroundColor: 'transparent' }}>
           <GermanyFlag /> Deutsch
-        </ItemLabel>
-      )
+        </div>
+      ),
     },
     {
       value: Languages.IT_IT,
       label: (
-        <ItemLabel>
+        <div className="flex items-center gap-2" style={{ backgroundColor: 'transparent' }}>
           <ItalyFlag /> Italiano
-        </ItemLabel>
-      )
+        </div>
+      ),
     },
   ];
 
   return (
-    <Container>
-      <Content>
-        <Group>
-          <LogoWrapper to="/">
+    <header className="fixed top-0 w-full z-[100] bg-[var(--color-bg)]/80 backdrop-blur-md border-b border-[var(--color-border)]/20">
+      <div className="flex justify-between items-center px-4 py-4 w-[600px] max-w-full mx-auto">
+        <div className="flex items-center gap-5">
+          <NavLink
+            to="/"
+            className="flex items-center justify-center no-underline"
+          >
             <LogoIcon width={24} />
-          </LogoWrapper>
-          <Nav>
-            <NavItem to="/" end>
+          </NavLink>
+          <nav className="flex items-center gap-0.5 max-md:hidden">
+            <NavLink to="/" end className={navItemClass}>
               <User size={12} strokeWidth={1.8} />
               {t('nav.about')}
-            </NavItem>
-            <NavItem to="/projects">
+            </NavLink>
+            <NavLink to="/projects" className={navItemClass}>
               <Grid2X2 size={12} strokeWidth={1.8} />
               {t('nav.projects')}
-            </NavItem>
-          </Nav>
-        </Group>
-<Group>
+            </NavLink>
+          </nav>
+        </div>
+        <div className="flex items-center gap-5">
           <Dropdown
             items={items}
             onChange={changeLang}
@@ -114,9 +113,9 @@ const Header = () => {
             checked={isDark}
             onChange={toggleTheme}
           />
-        </Group>
-      </Content>
-    </Container>
+        </div>
+      </div>
+    </header>
   );
 };
 
