@@ -2,8 +2,6 @@ import { useState, createContext, useContext, useEffect } from 'react';
 
 import { Theme } from '~/types/theme';
 
-
-
 interface ThemeContextProps {
   theme: string;
   isDark: boolean;
@@ -25,7 +23,7 @@ export const ThemeProvider = ({ children }: ThemeProviderProps) => {
   const [isDark, setIsDark] = useState(theme === Theme.Dark);
 
   const setTheme = (theme: string) => {
-    defineTheme(theme)
+    defineTheme(theme);
   };
 
   useEffect(() => {
@@ -50,9 +48,9 @@ export const ThemeProvider = ({ children }: ThemeProviderProps) => {
     <ThemeContext.Provider value={value}>
       {children}
     </ThemeContext.Provider>
-  )
+  );
 };
 
 export const useTheme = () => {
   return useContext(ThemeContext);
-}
+};

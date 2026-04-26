@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 
 import { projectList } from '~/data';
 
-import { ProjectCard } from '~/components/ProjectCard';
+import { ProjectTile } from '~/components/project-tile';
 
 const Projects = () => {
   const { t } = useTranslation();
@@ -17,7 +17,7 @@ const Projects = () => {
           </p>
           <div className="grid gap-4 grid-cols-[repeat(auto-fit,minmax(170px,1fr))]">
             {projectList.map((project, index) => (
-              <ProjectCard key={index} item={project} />
+              <ProjectTile key={index} item={project} />
             ))}
           </div>
         </div>

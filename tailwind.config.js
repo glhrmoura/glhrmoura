@@ -4,6 +4,9 @@ export default {
   content: ['./index.html', './src/**/*.{ts,tsx}'],
   theme: {
     extend: {
+      fontWeight: {
+        bold: '900',
+      },
       colors: {
         theme: {
           bg: 'var(--color-bg)',

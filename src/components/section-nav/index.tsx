@@ -7,7 +7,7 @@ const navItemClass = ({ isActive }: { isActive: boolean }) =>
     ? 'opacity-100 font-semibold text-[#23c063] bg-[#23c063]/10'
     : 'opacity-45 text-[var(--color-text)] hover:opacity-100 hover:bg-[var(--color-border)]/10');
 
-const PageNav = () => {
+const SectionNav = () => {
   const { t } = useTranslation();
 
   return (
@@ -18,4 +18,4 @@ const PageNav = () => {
   );
 };
 
-export default PageNav;
+export default SectionNav;

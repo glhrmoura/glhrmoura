@@ -6,7 +6,7 @@ const navItemClass = ({ isActive }: { isActive: boolean }) =>
   'flex-1 flex flex-col items-center gap-1 no-underline transition-colors duration-200 ' +
   (isActive ? 'text-[#23c063]' : 'text-[var(--color-text)]');
 
-const BottomNav = () => {
+const MobileNav = () => {
   const { t } = useTranslation();
 
   return (
@@ -43,4 +43,4 @@ const BottomNav = () => {
   );
 };
 
-export default BottomNav;
+export default MobileNav;

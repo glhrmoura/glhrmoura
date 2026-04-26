@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 
 import { projectList, linkList } from '~/data';
 
-import { ProjectCard } from '~/components/ProjectCard';
+import { ProjectTile } from '~/components/project-tile';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -32,7 +32,7 @@ const Home = () => {
             <p className="text-[14px] leading-6 mb-6 text-[var(--color-text)]/80">{t('projectSubtitle')}</p>
             <div className="grid gap-4 grid-cols-[repeat(auto-fit,minmax(170px,1fr))]">
               {projectList.map((project, index) => (
-                <ProjectCard key={index} item={project} />
+                <ProjectTile key={index} item={project} />
               ))}
             </div>
           </div>

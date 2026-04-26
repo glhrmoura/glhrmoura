@@ -4,11 +4,11 @@ import { Globe, GitFork } from 'lucide-react';
 
 import { Project } from '~/types/project';
 
-interface ProjectCardProps {
+interface ProjectTileProps {
   item: Project;
 }
 
-export const ProjectCard = ({ item }: ProjectCardProps) => {
+export const ProjectTile = ({ item }: ProjectTileProps) => {
   const { t } = useTranslation();
 
   const navigate = () => {

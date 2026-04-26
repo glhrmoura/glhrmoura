@@ -1,20 +1,20 @@
 import { useState } from 'react';
 import { ChevronUp, ChevronDown } from 'lucide-react';
 
-import { OutsideClickHandler } from '~/components/OutsideClickHandler';
+import { ClickAway } from '~/components/click-away';
 
 interface ItemProps {
   value: string;
   label: string | React.ReactNode;
 }
 
-interface DropdownProps {
+interface LanguageDropdownProps {
   value: string;
   items: ItemProps[];
   onChange: (value: string) => void;
 }
 
-const Dropdown = ({ items, value, onChange }: DropdownProps) => {
+const LanguageDropdown = ({ items, value, onChange }: LanguageDropdownProps) => {
   const [opened, setOpened] = useState<boolean>(false);
 
   const close = () => setOpened(false);
@@ -32,7 +32,7 @@ const Dropdown = ({ items, value, onChange }: DropdownProps) => {
     null;
 
   return (
-    <OutsideClickHandler onClick={close}>
+    <ClickAway onClick={close}>
       <div className="relative" data-dropdown-container="true">
         <div
           className="flex justify-between items-center px-[10px] py-[10px] text-[12px] w-[150px] cursor-pointer border border-[var(--color-border)]"
@@ -59,8 +59,8 @@ const Dropdown = ({ items, value, onChange }: DropdownProps) => {
           </ul>
         )}
       </div>
-    </OutsideClickHandler>
+    </ClickAway>
   );
 };
 
-export { Dropdown };
+export { LanguageDropdown };

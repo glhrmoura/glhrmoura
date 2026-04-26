@@ -2,24 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'Lexend';
-  font-weight: 200;
-  src: url('./assets/fonts/Lexend-Light.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Lexend';
-  font-weight: 400;
-  src: url('./assets/fonts/Lexend-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Lexend';
-  font-weight: 700;
-  src: url('./assets/fonts/Lexend-Bold.ttf') format('truetype');
-}
-
 :root {
   --color-bg: #ffffff;
   --color-text: #000000;
@@ -37,10 +19,16 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Lexend', sans-serif;
+  font-family: 'Figtree', sans-serif;
   letter-spacing: 0.5px;
   user-select: none;
   transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+b,
+strong,
+.font-bold {
+  font-weight: 900;
 }
 
 svg,

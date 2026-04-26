@@ -1,11 +1,11 @@
 import { useEffect, useRef } from 'react';
 
-interface OutsideClickHandlerProps {
+interface ClickAwayProps {
   children: React.ReactNode;
   onClick: () => void;
 }
 
-const OutsideClickHandler = ({ children, onClick }: OutsideClickHandlerProps) => {
+const ClickAway = ({ children, onClick }: ClickAwayProps) => {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -22,4 +22,4 @@ const OutsideClickHandler = ({ children, onClick }: OutsideClickHandlerProps) =>
   return <div ref={containerRef}>{children}</div>;
 };
 
-export { OutsideClickHandler };
+export { ClickAway };
