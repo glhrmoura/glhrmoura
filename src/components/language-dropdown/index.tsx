@@ -50,7 +50,7 @@ const LanguageDropdown = ({ items, value, onChange }: LanguageDropdownProps) => 
             {items.map((item) => (
               <li
                 key={item.value}
-                className="text-[12px] px-[10px] py-[10px] cursor-pointer bg-[var(--color-bg)] hover:bg-[var(--color-border)]/10"
+                className="block w-full text-[12px] px-[10px] py-[10px] cursor-pointer bg-[var(--color-bg)] transition-colors duration-150 hover:bg-[#23c063]/10"
                 onClick={() => onItemClick(item.value)}
               >
                 {item.label}
