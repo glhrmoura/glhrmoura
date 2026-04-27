@@ -35,7 +35,7 @@ const LanguageDropdown = ({ items, value, onChange }: LanguageDropdownProps) => 
     <ClickAway onClick={close}>
       <div className="relative" data-dropdown-container="true">
         <div
-          className="flex justify-between items-center px-[10px] py-[10px] text-[12px] w-[150px] cursor-pointer border border-[var(--color-border)]"
+          className="flex justify-between items-center px-[10px] py-[10px] text-[12px] w-[150px] cursor-pointer border border-[var(--color-border)] bg-[var(--color-bg)]"
           onClick={toggle}
         >
           {currentItem}
@@ -46,11 +46,11 @@ const LanguageDropdown = ({ items, value, onChange }: LanguageDropdownProps) => 
           )}
         </div>
         {opened && (
-          <ul className="absolute left-0 top-full w-full z-10 border border-[var(--color-border)] border-t-transparent p-0 m-0 list-none">
+          <ul className="absolute left-0 top-full w-full z-10 border border-[var(--color-border)] border-t-transparent p-0 m-0 list-none bg-[var(--color-bg)]">
             {items.map((item) => (
               <li
                 key={item.value}
-                className="text-[12px] px-[10px] py-[10px] cursor-pointer hover:bg-[var(--color-border)]/10"
+                className="text-[12px] px-[10px] py-[10px] cursor-pointer bg-[var(--color-bg)] hover:bg-[var(--color-border)]/10"
                 onClick={() => onItemClick(item.value)}
               >
                 {item.label}
