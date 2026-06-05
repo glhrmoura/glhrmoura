@@ -34,15 +34,6 @@ export const linkList = [
 
 export const projectList: Project[] = [
   {
-    title: 'Capital',
-    imageUrl: 'https://i.imgur.com/lcO2xq4.png',
-    description: 'projects.capital.description',
-    link: {
-      page: 'https://glhrmoura-capital.netlify.app/',
-      github: 'https://github.com/glhrmoura/capital'
-    }
-  },
-  {
     title: 'Cash',
     imageUrl: 'https://i.imgur.com/GK9y85b.png',
     description: 'projects.cash.description',
