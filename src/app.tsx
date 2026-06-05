@@ -1,7 +1,6 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 import About from '~/pages/about';
-import Projects from '~/pages/projects';
 
 import SiteHeader from '~/components/site-header';
 import MobileNav from '~/components/mobile-nav';
@@ -12,7 +11,7 @@ const App = () => {
       <SiteHeader />
       <Routes>
         <Route path="/" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects" element={<Navigate to="/#projects" replace />} />
       </Routes>
       <MobileNav />
     </BrowserRouter>
