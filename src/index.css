@@ -48,6 +48,7 @@ h1, h2, h3, h4, h5, h6, p {
 html {
   background-color: var(--color-bg);
   color: var(--color-text);
+  scroll-behavior: smooth;
 }
 
 body {
