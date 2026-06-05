@@ -19,11 +19,7 @@ All projects were created and are maintained by me. Each one represents a unique
 - **[React Conditional](https://www.npmjs.com/package/@glhrmoura/react-conditional) · [Github](https://github.com/glhrmoura/react-conditional)**
 - **[Environment](https://www.npmjs.com/package/@glhrmoura/environment) · [Github](https://github.com/glhrmoura/environment)**
 
-##### Mobile
-- **[Blan](https://play.google.com/store/apps/details?id=com.blan)**
-
 ##### Web
-- **[Capital](https://glhrmoura-capital.netlify.app/) · [Github](https://github.com/glhrmoura/capital)**
 - **[Cash](https://glhrmoura-cash.netlify.app/) · [Github](https://github.com/glhrmoura/cash)**
 - **[NoBeer](https://glhrmoura-no-beer.netlify.app)**
 - **[Nubank - Web](https://nubank-web-glhrmoura.netlify.app/) · [Github](https://github.com/glhrmoura/nubank-web)**
