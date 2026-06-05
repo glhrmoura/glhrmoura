@@ -48,9 +48,6 @@ export default {
     piano: {
       description: 'Fully functional piano application made with HTML, CSS and JavaScript, offering all the key options that are found in a real instrument. With interactive keys and authentic piano sounds, the application allows users to experience the feeling of playing a real piano.'
     },
-    capital: {
-      description: 'Application to manage your investments simply and efficiently. Track your daily investment records, view charts and analysis of your returns, and calculate monthly yields automatically. All data is synchronized in the cloud with Firebase.'
-    },
     cash: {
       description: 'Application to manage your expenses simply and efficiently. Track your monthly expenses, organize by categories with custom colors and icons, and mark expenses as paid. All data is synchronized in the cloud with Firebase.'
     },
