@@ -48,9 +48,6 @@ export default {
         page: 'https://glhrmoura-no-beer.netlify.app',
       }
     },
-    capital: {
-      description: 'Aplicación para gestionar tus inversiones de forma simple y eficiente. Rastrea tus registros de inversión diarios, visualiza gráficos y análisis de tus retornos y calcula rendimientos mensuales automáticamente. Todos los datos se sincronizan en la nube con Firebase.'
-    },
     cash: {
       description: 'Aplicación para gestionar tus gastos de forma simple y eficiente. Rastrea tus gastos mensuales, organiza por categorías con colores e iconos personalizados y marca gastos como pagados. Todos los datos se sincronizan en la nube con Firebase.'
     },
