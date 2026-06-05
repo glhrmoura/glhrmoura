@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { DarkModeSwitch } from 'react-toggle-dark-mode';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 import { useTheme } from '~/contexts/theme';
 
@@ -18,7 +18,7 @@ import { Languages } from '~/types/language';
 
 import { LanguageDropdown } from '~/components/language-dropdown';
 
-const navItemClass = ({ isActive }: { isActive: boolean }) =>
+const navItemClass = (isActive: boolean) =>
   'relative inline-flex items-center text-[11px] uppercase tracking-[0.6px] no-underline px-[10px] py-[5px] transition-[color,opacity] duration-150 after:content-[""] after:absolute after:left-[10px] after:right-[10px] after:bottom-[2px] after:h-px after:bg-current after:origin-left after:scale-x-0 after:transition-transform after:duration-200 hover:after:scale-x-100 ' +
   (isActive
     ? 'text-[#23c063] font-semibold'
@@ -27,6 +27,7 @@ const navItemClass = ({ isActive }: { isActive: boolean }) =>
 const SiteHeader = () => {
   const { i18n, t } = useTranslation();
   const { isDark, setTheme } = useTheme();
+  const { hash } = useLocation();
 
   const toggleTheme = () => {
     setTheme(isDark ? Theme.Light : Theme.Dark);
@@ -91,12 +92,12 @@ const SiteHeader = () => {
             <LogoIcon width={24} />
           </NavLink>
           <nav className="flex items-center gap-0.5 max-md:hidden">
-            <NavLink to="/" end className={navItemClass}>
+            <a href="#about" className={navItemClass(!hash || hash === '#about')}>
               {t('nav.about')}
-            </NavLink>
-            <NavLink to="/projects" className={navItemClass}>
+            </a>
+            <a href="#projects" className={navItemClass(hash === '#projects')}>
               {t('nav.projects')}
-            </NavLink>
+            </a>
           </nav>
         </div>
         <div className="flex items-center gap-5">
