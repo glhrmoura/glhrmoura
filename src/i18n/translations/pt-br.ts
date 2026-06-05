@@ -48,9 +48,6 @@ export default {
     piano: {
       description: 'Aplicativo de piano totalmente funcional feito com HTML, CSS e JavaScript, oferecendo todas as opções de teclas encontradas em um instrumento real. Com teclas interativas e sons de piano autênticos, o aplicativo permite aos usuários experimentar a sensação de tocar um piano real.'
     },
-    capital: {
-      description: 'Aplicativo para gerenciar seus investimentos de forma simples e eficiente. Acompanhe seus registros de investimento diários, visualize gráficos e análises dos seus retornos e calcule rendimentos mensais automaticamente. Todos os dados são sincronizados na nuvem com Firebase.'
-    },
     cash: {
       description: 'Aplicativo para gerenciar suas despesas de forma simples e eficiente. Acompanhe suas despesas mensais, organize por categorias com cores e ícones personalizados e marque despesas como pagas. Todos os dados são sincronizados na nuvem com Firebase.'
     },
