@@ -84,6 +84,7 @@ export const projectList: Project[] = [
     description: 'projects.noBeer.description',
     link: {
       page: 'https://glhrmoura-no-beer.netlify.app',
+      github: 'https://github.com/glhrmoura/no-beer'
     }
   },
   {
@@ -101,6 +102,7 @@ export const projectList: Project[] = [
     description: 'projects.pace.description',
     link: {
       page: 'https://chromewebstore.google.com/detail/pace-take-control-of-your/mnccaclnbfbldadhkfcemlmkceimlhge',
+      github: 'https://github.com/glhrmoura/pace'
     }
   },
   {
@@ -118,6 +120,7 @@ export const projectList: Project[] = [
     description: 'projects.podpocket.description',
     link: {
       page: 'https://podpocket.vercel.app',
+      github: 'https://github.com/glhrmoura/podpocket'
     }
   },
   {
@@ -152,7 +155,8 @@ export const projectList: Project[] = [
     imageUrl: 'https://i.imgur.com/62A8yG3.png',
     description: 'projects.techBlog.description',
     link: {
-      page: 'https://tech-blog-nine-opal.vercel.app/'
+      page: 'https://tech-blog-nine-opal.vercel.app/',
+      github: 'https://github.com/glhrmoura/tech-blog'
     }
   },
   {
