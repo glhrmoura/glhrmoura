@@ -10,7 +10,7 @@ All projects were created and are maintained by me. Each one represents a unique
 
 ##### Extension
 - **[Coin](https://chromewebstore.google.com/detail/coins/meebfpmdedodccopjbkcihiecpmiljml?authuser=0&hl=pt-BR) · [Github](https://github.com/glhrmoura/coins)**
-- **[Pace](https://chromewebstore.google.com/detail/pace-take-control-of-your/mnccaclnbfbldadhkfcemlmkceimlhge)**
+- **[Pace](https://chromewebstore.google.com/detail/pace-take-control-of-your/mnccaclnbfbldadhkfcemlmkceimlhge) · [Github](https://github.com/glhrmoura/pace)**
 - **[Imports Sorter](https://marketplace.visualstudio.com/items?itemName=glhrmoura.imports-sorter) · [Github](https://github.com/glhrmoura/imports-sorter)**
 - **[Len](https://chromewebstore.google.com/detail/len-measure-textual-conte/ojodnhhmfnjddbeipjcjhjbdbkkedcgf) · [Github](https://github.com/glhrmoura/len)**
 
@@ -21,13 +21,13 @@ All projects were created and are maintained by me. Each one represents a unique
 
 ##### Web
 - **[Cash](https://glhrmoura-cash.netlify.app/) · [Github](https://github.com/glhrmoura/cash)**
-- **[NoBeer](https://glhrmoura-no-beer.netlify.app)**
+- **[NoBeer](https://glhrmoura-no-beer.netlify.app) · [Github](https://github.com/glhrmoura/no-beer)**
 - **[Nubank - Web](https://nubank-web-glhrmoura.netlify.app/) · [Github](https://github.com/glhrmoura/nubank-web)**
 - **[Piano](https://glhrmoura-piano.netlify.app/) · [Github](https://github.com/glhrmoura/piano)**
-- **[PodPocket](https://podpocket.vercel.app)**
+- **[PodPocket](https://podpocket.vercel.app) · [Github](https://github.com/glhrmoura/podpocket)**
 - **[Search Hub](https://glhrmoura-search-hub.netlify.app/) · [Github](https://github.com/glhrmoura/search-hub)**
 - **[TabTok](https://glhrmoura-tabtok.netlify.app) · [Github](https://github.com/glhrmoura/tabtok)**
-- **[Tech Blog](https://tech-blog-nine-opal.vercel.app/)**
+- **[Tech Blog](https://tech-blog-nine-opal.vercel.app/) · [Github](https://github.com/glhrmoura/tech-blog)**
 - **[WhatsApp Direct Message](https://glhrmoura-wpp-dm.netlify.app/) · [Github](https://github.com/glhrmoura/wpp-dm)**
 
 #### Tools
