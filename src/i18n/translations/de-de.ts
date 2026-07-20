@@ -32,16 +32,6 @@ export default {
     nubankWeb: {
       description: 'Visuelle Nachbildung der Nubank-Website, erstellt mit React. Sie bietet den Benutzern eine Darstellung der Benutzeroberfläche der offiziellen Nubank-Website und ermöglicht es ihnen, einige visuelle Oberflächendetails zu erleben.'
     },
-    techBlog: {
-      description: 'Eine moderne Blog-Plattform, entwickelt mit React und TypeScript, um Wissen und Einblicke über Technologie zu teilen.'
-    },
-    noBeer: {
-      imageUrl: 'https://i.imgur.com/MjpHQbu.png',
-      description: 'Eine minimalistische und motivierende App, die Ihnen hilft, Ihre alkoholfreie Reise zu verfolgen. NoBeer zählt die Tage seit Ihrem letzten Drink und hält Sie fokussiert darauf, gesündere Gewohnheiten aufzubauen — einen Tag nach dem anderen.',
-      link: {
-        page: 'https://glhrmoura-no-beer.netlify.app',
-      }
-    },
     environment: {
       description: 'Effiziente Node-Bibliothek zur Verwaltung und Festlegung von Umgebungsvariablen.'
     },

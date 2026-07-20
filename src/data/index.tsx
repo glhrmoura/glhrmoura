@@ -79,15 +79,6 @@ export const projectList: Project[] = [
     }
   },
   {
-    title: 'NoBeer',
-    imageUrl: 'https://i.imgur.com/MjpHQbu.png',
-    description: 'projects.noBeer.description',
-    link: {
-      page: 'https://glhrmoura-no-beer.netlify.app',
-      github: 'https://github.com/glhrmoura/no-beer'
-    }
-  },
-  {
     title: 'Nubank - Web',
     imageUrl: 'https://i.imgur.com/Xf6OrL2.png',
     description: 'projects.nubankWeb.description',
@@ -148,15 +139,6 @@ export const projectList: Project[] = [
     link: {
       page: 'https://glhrmoura-tabtok.netlify.app',
       github: 'https://github.com/glhrmoura/tabtok'
-    }
-  },
-  {
-    title: 'Tech Blog',
-    imageUrl: 'https://i.imgur.com/62A8yG3.png',
-    description: 'projects.techBlog.description',
-    link: {
-      page: 'https://tech-blog-nine-opal.vercel.app/',
-      github: 'https://github.com/glhrmoura/tech-blog'
     }
   },
   {

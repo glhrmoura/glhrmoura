@@ -32,21 +32,11 @@ export default {
     nubankWeb: {
       description: 'Recreación visual del sitio web de Nubank, construido utilizando React. Ofrece a los usuarios una representación de la interfaz del sitio web oficial de Nubank, permitiéndoles experimentar algunos detalles visuales de la interfaz.'
     },
-    techBlog: {
-      description: 'Una plataforma de blog moderna construida con React y TypeScript para compartir conocimientos y perspectivas sobre tecnología.'
-    },
     environment: {
       description: 'Una eficiente biblioteca Node para gestionar y definir variables de entorno.'
     },
     piano: {
       description: 'Aplicación de piano totalmente funcional hecha con HTML, CSS y JavaScript, que ofrece todas las opciones de teclas encontradas en un instrumento real. Con teclas interactivas y sonidos de piano auténticos, la aplicación permite a los usuarios experimentar la sensación de tocar un piano real.'
-    },
-    noBeer: {
-      imageUrl: 'https://i.imgur.com/MjpHQbu.png',
-      description: 'Una aplicación minimalista y motivadora para ayudarte a seguir tu viaje sin alcohol. NoBeer cuenta los días desde tu última bebida y te mantiene enfocado en construir hábitos más saludables — un día a la vez.',
-      link: {
-        page: 'https://glhrmoura-no-beer.netlify.app',
-      }
     },
     cash: {
       description: 'Aplicación para gestionar tus gastos de forma simple y eficiente. Rastrea tus gastos mensuales, organiza por categorías con colores e iconos personalizados y marca gastos como pagados. Todos los datos se sincronizan en la nube con Firebase.'
