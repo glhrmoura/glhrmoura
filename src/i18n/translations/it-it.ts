@@ -32,8 +32,8 @@ export default {
     cash: {
       description: 'Applicazione per gestire le tue spese in modo semplice ed efficiente. Traccia le tue spese mensili, organizza per categorie con colori e icone personalizzate e segna le spese come pagate. Tutti i dati sono sincronizzati nel cloud con Firebase.'
     },
-    wppDm: {
-      description: 'Uno strumento semplice e conveniente che ti consente di avviare conversazioni WhatsApp senza salvare numeri di telefono. Basta inserire il numero e iniziare a chattare istantaneamente - perfetto per comunicazioni commerciali rapide o contatti una tantum.'
+    linqo: {
+      description: 'Uno strumento semplice e conveniente che ti consente di avviare conversazioni senza salvare numeri di telefono. Basta inserire il numero e iniziare a chattare istantaneamente - perfetto per comunicazioni commerciali rapide o contatti una tantum.'
     },
     len: {
       description: 'Un\'estensione del browser che rileva automaticamente quando un utente seleziona testo su una pagina web e visualizza il conteggio dei caratteri in tempo reale. Strumento progettato per scrittori, editori e chiunque abbia bisogno di monitorare rapidamente la lunghezza del testo.'

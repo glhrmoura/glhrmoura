@@ -124,11 +124,11 @@ export const projectList: Project[] = [
     }
   },
   {
-    title: 'WhatsApp Direct Message',
+    title: 'Linqo',
     imageUrl: 'https://i.imgur.com/BvfDXeK.png',
-    description: 'projects.wppDm.description',
+    description: 'projects.linqo.description',
     link: {
-      page: 'https://glhrmoura-wpp-dm.netlify.app/',
+      page: 'https://glhrmoura-linqo.netlify.app/',
       github: 'https://github.com/glhrmoura/wpp-dm'
     }
   },

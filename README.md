@@ -23,7 +23,7 @@ All projects were created and are maintained by me. Each one represents a unique
 - **[Piano](https://glhrmoura-piano.netlify.app/) · [Github](https://github.com/glhrmoura/piano)**
 - **[PodPocket](https://podpocket.vercel.app) · [Github](https://github.com/glhrmoura/podpocket)**
 - **[TabTok](https://glhrmoura-tabtok.netlify.app) · [Github](https://github.com/glhrmoura/tabtok)**
-- **[WhatsApp Direct Message](https://glhrmoura-wpp-dm.netlify.app/) · [Github](https://github.com/glhrmoura/wpp-dm)**
+- **[Linqo](https://glhrmoura-linqo.netlify.app/) · [Github](https://github.com/glhrmoura/wpp-dm)**
 
 #### Tools
 

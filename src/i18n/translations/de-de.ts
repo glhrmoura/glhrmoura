@@ -32,8 +32,8 @@ export default {
     cash: {
       description: 'Anwendung zur einfachen und effizienten Verwaltung Ihrer Ausgaben. Verfolgen Sie Ihre monatlichen Ausgaben, organisieren Sie nach Kategorien mit benutzerdefinierten Farben und Symbolen und markieren Sie Ausgaben als bezahlt. Alle Daten werden in der Cloud mit Firebase synchronisiert.'
     },
-    wppDm: {
-      description: 'Ein einfaches und praktisches Tool, mit dem Sie WhatsApp-Unterhaltungen starten können, ohne Telefonnummern zu speichern. Geben Sie einfach die Nummer ein und beginnen Sie sofort zu chatten - perfekt für schnelle Geschäftskommunikation oder einmalige Kontakte.'
+    linqo: {
+      description: 'Ein einfaches und praktisches Tool, mit dem Sie Unterhaltungen starten können, ohne Telefonnummern zu speichern. Geben Sie einfach die Nummer ein und beginnen Sie sofort zu chatten - perfekt für schnelle Geschäftskommunikation oder einmalige Kontakte.'
     },
     len: {
       description: 'Eine Browser-Erweiterung, die automatisch erkennt, wenn ein Benutzer Text auf einer Webseite auswählt und die Zeichenanzahl in Echtzeit anzeigt. Dieses Tool ist für Schriftsteller, Redakteure und alle gedacht, die die Textlänge schnell überwachen müssen.'

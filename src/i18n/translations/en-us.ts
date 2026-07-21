@@ -32,8 +32,8 @@ export default {
     cash: {
       description: 'Application to manage your expenses simply and efficiently. Track your monthly expenses, organize by categories with custom colors and icons, and mark expenses as paid. All data is synchronized in the cloud with Firebase.'
     },
-    wppDm: {
-      description: 'A simple and convenient tool that allows you to start WhatsApp conversations without saving phone numbers. Just enter the number and start chatting instantly - perfect for quick business communications or one-time contacts.'
+    linqo: {
+      description: 'A simple and convenient tool that allows you to start conversations without saving phone numbers. Just enter the number and start chatting instantly - perfect for quick business communications or one-time contacts.'
     },
     len: {
       description: 'A browser extension that automatically detects when a user selects text on a webpage and displays the character count in real time. This tool is designed for writers, editors, and anyone who needs to monitor text length quickly.'
