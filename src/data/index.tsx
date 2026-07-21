@@ -125,7 +125,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Linqo',
-    imageUrl: 'https://i.imgur.com/BvfDXeK.png',
+    imageUrl: 'https://raw.githubusercontent.com/glhrmoura/linqo/main/public/assets/logo.png',
     description: 'projects.linqo.description',
     link: {
       page: 'https://glhrmoura-linqo.netlify.app/',
