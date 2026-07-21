@@ -79,15 +79,6 @@ export const projectList: Project[] = [
     }
   },
   {
-    title: 'Nubank - Web',
-    imageUrl: 'https://i.imgur.com/Xf6OrL2.png',
-    description: 'projects.nubankWeb.description',
-    link: {
-      page: 'https://nubank-web-glhrmoura.netlify.app/',
-      github: 'https://github.com/glhrmoura/nubank-web'
-    }
-  },
-  {
     title: 'Pace',
     imageUrl: 'https://i.imgur.com/GRHVFPD.png',
     description: 'projects.pace.description',
@@ -124,30 +115,12 @@ export const projectList: Project[] = [
     }
   },
   {
-    title: 'Search Hub',
-    imageUrl: 'https://i.imgur.com/3JlRk4o.png',
-    description: 'projects.searchHub.description',
-    link: {
-      page: 'https://glhrmoura-search-hub.netlify.app/',
-      github: 'https://github.com/glhrmoura/search-hub'
-    }
-  },
-  {
     title: 'TabTok',
     imageUrl: 'https://i.imgur.com/SXOzS1d.png',
     description: 'projects.tabtok.description',
     link: {
       page: 'https://glhrmoura-tabtok.netlify.app',
       github: 'https://github.com/glhrmoura/tabtok'
-    }
-  },
-  {
-    title: 'Vue Calendar',
-    imageUrl: 'https://i.imgur.com/IG8rws1.png',
-    description: 'projects.vueCalendar.description',
-    link: {
-      page: 'https://www.npmjs.com/package/@glhrmoura/vue-calendar',
-      github: 'https://github.com/glhrmoura/vue-calendar'
     }
   },
   {
