@@ -14,9 +14,6 @@ export default {
     pace: {
       description: 'Una extensión de navegador elegante e intuitiva te ayuda a gestionar tu tiempo de manera eficiente. Con un temporizador de cuenta regresiva y un cronómetro, ofrece una interfaz simple y libre de distracciones, adaptada a tus necesidades de gestión del tiempo.'
     },
-    vueCalendar: {
-      description: 'Biblioteca diseñada para facilitar la creación de calendarios interactivos en aplicaciones utilizando Vue >= 3.'
-    },
     importsSorter: {
       description: 'Extensión para Visual Studio Code que ayuda a organizar las importaciones, clasificándolas según la carpeta de origen.'
     },
@@ -25,12 +22,6 @@ export default {
     },
     reactConditional: {
       description: 'La biblioteca React Conditional es una herramienta poderosa que ayuda en la renderización condicional de componentes en aplicaciones React. Con esta biblioteca, los desarrolladores pueden definir fácilmente condiciones para la visualización de determinados componentes en sus aplicaciones.'
-    },
-    searchHub: {
-      description: 'Descubre usuarios, explora perfiles y proyectos en esta intuitiva aplicación de búsqueda.'
-    },
-    nubankWeb: {
-      description: 'Recreación visual del sitio web de Nubank, construido utilizando React. Ofrece a los usuarios una representación de la interfaz del sitio web oficial de Nubank, permitiéndoles experimentar algunos detalles visuales de la interfaz.'
     },
     environment: {
       description: 'Una eficiente biblioteca Node para gestionar y definir variables de entorno.'
