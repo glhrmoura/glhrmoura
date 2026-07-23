@@ -14,9 +14,6 @@ export default {
     pace: {
       description: 'A sleek and intuitive browser extension helps you manage your time efficiently. Featuring a countdown timer and stopwatch, it offers a simple, distraction-free interface tailored to your time management needs.'
     },
-    importsSorter: {
-      description: 'Extension for Visual Studio Code that helps organize imports by sorting them based on their source folder.'
-    },
     coins: {
       description: 'Chrome Extension for monitoring the quotes of the main currencies in the world.'
     },

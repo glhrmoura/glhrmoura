@@ -61,15 +61,6 @@ export const projectList: Project[] = [
     }
   },
   {
-    title: 'Imports Sorter',
-    imageUrl: 'https://i.imgur.com/R2l3UNC.png',
-    description: 'projects.importsSorter.description',
-    link: {
-      page: 'https://marketplace.visualstudio.com/items?itemName=glhrmoura.imports-sorter',
-      github: 'https://github.com/glhrmoura/imports-sorter'
-    }
-  },
-  {
     title: 'Len',
     imageUrl: 'https://i.imgur.com/cfg4sZA.png',
     description: 'projects.len.description',

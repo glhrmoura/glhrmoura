@@ -14,9 +14,6 @@ export default {
     pace: {
       description: 'Eine elegante und intuitive Browser-Erweiterung hilft Ihnen, Ihre Zeit effizient zu verwalten. Mit einem Countdown-Timer und einer Stoppuhr bietet sie eine einfache, ablenkungsfreie Benutzeroberfläche, die auf Ihre Zeitmanagement-Bedürfnisse zugeschnitten ist.'
     },
-    importsSorter: {
-      description: 'Erweiterung für Visual Studio Code, die beim Organisieren von Imports hilft, indem sie sie basierend auf ihrem Quellordner sortiert.'
-    },
     coins: {
       description: 'Chrome-Erweiterung zur Überwachung der Kurse der wichtigsten Währungen der Welt.'
     },

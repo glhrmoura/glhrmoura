@@ -14,9 +14,6 @@ export default {
     pace: {
       description: 'Un\'estensione del browser elegante e intuitiva ti aiuta a gestire il tuo tempo in modo efficiente. Caratterizzata da un timer di countdown e un cronometro, offre un\'interfaccia semplice e priva di distrazioni, adattata alle tue esigenze di gestione del tempo.'
     },
-    importsSorter: {
-      description: 'Estensione per Visual Studio Code che aiuta ad organizzare gli import, classificandoli in base alla cartella di origine.'
-    },
     coins: {
       description: 'Estensione Chrome per monitorare i tassi di cambio delle principali valute del mondo.'
     },

@@ -14,9 +14,6 @@ export default {
     pace: {
       description: 'Uma extensão de navegador elegante e intuitiva que auxilia você a gerenciar seu tempo de maneira eficaz. Com um cronômetro de contagem regressiva e uma função de cronômetro, oferece uma interface simples e livre de distrações, adaptada para atender às suas necessidades de gestão do tempo.'
     },
-    importsSorter: {
-      description: 'Extensão para Visual Studio Code que ajuda a organizar as importações, classificando-as com base na pasta de origem.'
-    },
     coins: {
       description: 'Extensão do Chrome para monitoramento das cotações das principais moedas do mundo.'
     },
