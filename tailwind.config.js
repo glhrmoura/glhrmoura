@@ -10,10 +10,12 @@ export default {
       colors: {
         theme: {
           bg: 'var(--color-bg)',
+          surface: 'var(--color-surface)',
           text: 'var(--color-text)',
+          muted: 'var(--color-muted)',
           border: 'var(--color-border)',
           fg: 'var(--color-fg)',
-          primary: '#23c063',
+          primary: 'var(--color-primary)',
         },
       },
     },
