@@ -21,7 +21,7 @@ const Home = () => {
                 href={contact.link}
                 target="_blank"
                 rel="noreferrer"
-                className="[&_svg]:transition-[stroke] [&_svg]:duration-150 hover:[&_svg]:stroke-[#23c063]"
+                className="[&_svg]:transition-[stroke] [&_svg]:duration-150 hover:[&_svg]:stroke-[var(--color-primary)]"
               >
                 {contact.icon}
               </a>
