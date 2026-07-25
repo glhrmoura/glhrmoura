@@ -29,6 +29,9 @@ export default {
     cash: {
       description: 'Aplicativo para gerenciar suas despesas de forma simples e eficiente. Acompanhe suas despesas mensais, organize por categorias com cores e ícones personalizados e marque despesas como pagas. Todos os dados são sincronizados na nuvem com Firebase.'
     },
+    daily: {
+      description: 'Checklist diário para tarefas recorrentes. As tarefas permanecem para os próximos dias e são desmarcadas automaticamente para você poder fazê-las de novo. Organize por manhã, tarde e noite, acompanhe itens não finalizados em um relatório e personalize a cor principal.'
+    },
     linqo: {
       description: 'Uma ferramenta simples e conveniente que permite iniciar conversas sem salvar números de telefone. Basta inserir o número e começar a conversar instantaneamente - perfeito para comunicações comerciais rápidas ou contatos únicos.'
     },

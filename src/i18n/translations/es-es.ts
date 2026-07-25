@@ -29,6 +29,9 @@ export default {
     cash: {
       description: 'Aplicación para gestionar tus gastos de forma simple y eficiente. Rastrea tus gastos mensuales, organiza por categorías con colores e iconos personalizados y marca gastos como pagados. Todos los datos se sincronizan en la nube con Firebase.'
     },
+    daily: {
+      description: 'Checklist diario para tareas recurrentes. Las tareas se mantienen para los siguientes días y se desmarcan automáticamente para que puedas hacerlas de nuevo. Organiza por mañana, tarde y noche, rastrea elementos sin terminar en un informe y personaliza el color principal.'
+    },
     linqo: {
       description: 'Una herramienta simple y conveniente que te permite iniciar conversaciones sin guardar números de teléfono. Solo ingresa el número y comienza a chatear instantáneamente - perfecto para comunicaciones comerciales rápidas o contactos únicos.'
     },

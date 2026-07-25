@@ -29,6 +29,9 @@ export default {
     cash: {
       description: 'Anwendung zur einfachen und effizienten Verwaltung Ihrer Ausgaben. Verfolgen Sie Ihre monatlichen Ausgaben, organisieren Sie nach Kategorien mit benutzerdefinierten Farben und Symbolen und markieren Sie Ausgaben als bezahlt. Alle Daten werden in der Cloud mit Firebase synchronisiert.'
     },
+    daily: {
+      description: 'Tägliche Checkliste für wiederkehrende Aufgaben. Aufgaben bleiben für die nächsten Tage bestehen und werden automatisch abgewählt, damit Sie sie erneut erledigen können. Organisieren Sie nach Morgen, Nachmittag und Abend, verfolgen Sie unerledigte Einträge in einem Bericht und passen Sie die Primärfarbe an.'
+    },
     linqo: {
       description: 'Ein einfaches und praktisches Tool, mit dem Sie Unterhaltungen starten können, ohne Telefonnummern zu speichern. Geben Sie einfach die Nummer ein und beginnen Sie sofort zu chatten - perfekt für schnelle Geschäftskommunikation oder einmalige Kontakte.'
     },

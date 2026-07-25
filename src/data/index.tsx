@@ -52,6 +52,15 @@ export const projectList: Project[] = [
     }
   },
   {
+    title: 'Daily',
+    imageUrl: 'https://raw.githubusercontent.com/glhrmoura/daily/main/public/logo.png',
+    description: 'projects.daily.description',
+    link: {
+      page: 'https://glhrmoura-daily.netlify.app/home',
+      github: 'https://github.com/glhrmoura/daily'
+    }
+  },
+  {
     title: 'Environment',
     imageUrl: 'https://i.imgur.com/WgLrcLy.png',
     description: 'projects.environment.description',

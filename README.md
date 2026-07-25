@@ -19,6 +19,7 @@ All projects were created and are maintained by me. Each one represents a unique
 
 ##### Web
 - **[Cash](https://glhrmoura-cash.netlify.app/) · [Github](https://github.com/glhrmoura/cash)**
+- **[Daily](https://glhrmoura-daily.netlify.app/home) · [Github](https://github.com/glhrmoura/daily)**
 - **[Piano](https://glhrmoura-piano.netlify.app/) · [Github](https://github.com/glhrmoura/piano)**
 - **[PodPocket](https://podpocket.vercel.app) · [Github](https://github.com/glhrmoura/podpocket)**
 - **[Linqo](https://glhrmoura-linqo.netlify.app/) · [Github](https://github.com/glhrmoura/wpp-dm)**

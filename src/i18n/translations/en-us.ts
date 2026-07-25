@@ -29,6 +29,9 @@ export default {
     cash: {
       description: 'Application to manage your expenses simply and efficiently. Track your monthly expenses, organize by categories with custom colors and icons, and mark expenses as paid. All data is synchronized in the cloud with Firebase.'
     },
+    daily: {
+      description: 'Daily checklist for recurring tasks. Tasks stay for the next days and are unchecked automatically so you can do them again. Organize by morning, afternoon and night, track unfinished items in a report, and customize the primary color.'
+    },
     linqo: {
       description: 'A simple and convenient tool that allows you to start conversations without saving phone numbers. Just enter the number and start chatting instantly - perfect for quick business communications or one-time contacts.'
     },

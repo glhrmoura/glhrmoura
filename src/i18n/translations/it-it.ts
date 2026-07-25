@@ -29,6 +29,9 @@ export default {
     cash: {
       description: 'Applicazione per gestire le tue spese in modo semplice ed efficiente. Traccia le tue spese mensili, organizza per categorie con colori e icone personalizzate e segna le spese come pagate. Tutti i dati sono sincronizzati nel cloud con Firebase.'
     },
+    daily: {
+      description: 'Checklist giornaliera per attività ricorrenti. Le attività restano per i giorni successivi e vengono deselezionate automaticamente così puoi rifarle. Organizza per mattina, pomeriggio e sera, monitora gli elementi incompleti in un report e personalizza il colore primario.'
+    },
     linqo: {
       description: 'Uno strumento semplice e conveniente che ti consente di avviare conversazioni senza salvare numeri di telefono. Basta inserire il numero e iniziare a chattare istantaneamente - perfetto per comunicazioni commerciali rapide o contatti una tantum.'
     },
