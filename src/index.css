@@ -3,26 +3,31 @@
 @tailwind utilities;
 
 :root {
-  --color-bg: #ffffff;
-  --color-text: #000000;
-  --color-border: #000000;
+  --color-bg: #f7f8f7;
+  --color-surface: #ffffff;
+  --color-text: #12181c;
+  --color-muted: #5c676e;
+  --color-border: #d6dcd8;
   --color-fg: #0b141a;
-  --color-primary: #23c063;
+  --color-primary: #2dd4bf;
+  --color-primary-soft: rgba(45, 212, 191, 0.12);
 }
 
 .dark {
-  --color-bg: #0b141a;
-  --color-text: #d0d0d1;
-  --color-border: #d0d0d1;
+  --color-bg: #071015;
+  --color-surface: #0d171c;
+  --color-text: #e6e9ea;
+  --color-muted: #9aa4aa;
+  --color-border: #243038;
   --color-fg: #ffffff;
+  --color-primary: #2dd4bf;
+  --color-primary-soft: rgba(45, 212, 191, 0.16);
 }
 
 * {
   box-sizing: border-box;
   font-family: 'Figtree', sans-serif;
-  letter-spacing: 0.5px;
-  user-select: none;
-  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+  letter-spacing: 0.2px;
 }
 
 b,
@@ -31,17 +36,18 @@ strong,
   font-weight: 900;
 }
 
-svg,
-svg * {
-  background-color: transparent;
-  transition: none;
-}
-
 svg {
   color: inherit;
+  background-color: transparent;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
@@ -61,8 +67,4 @@ body {
 a {
   text-decoration: none;
   text-underline-offset: 4px;
-}
-
-a:hover {
-  text-decoration-thickness: 1px;
 }
