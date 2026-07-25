@@ -1,8 +1,9 @@
 import { useTranslation } from 'react-i18next';
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Moon, Sun } from 'lucide-react';
 
 import { useTheme } from '~/contexts/theme';
+import { useActiveSection } from '~/hooks/use-active-section';
 
 import { LogoIcon } from '~/icons/general/Logo';
 import { SpainFlag } from '~/icons/flag/SpainFlag';
@@ -27,7 +28,7 @@ const navItemClass = (isActive: boolean) =>
 const SiteHeader = () => {
   const { i18n, t } = useTranslation();
   const { isDark, setTheme } = useTheme();
-  const { hash } = useLocation();
+  const activeSection = useActiveSection();
 
   const toggleTheme = () => {
     setTheme(isDark ? Theme.Light : Theme.Dark);
@@ -92,10 +93,10 @@ const SiteHeader = () => {
             <LogoIcon width={22} />
           </NavLink>
           <nav className="flex items-center gap-1 max-md:hidden">
-            <a href="#about" className={navItemClass(!hash || hash === '#about')}>
+            <a href="#about" className={navItemClass(activeSection === 'about')}>
               {t('nav.about')}
             </a>
-            <a href="#projects" className={navItemClass(hash === '#projects')}>
+            <a href="#projects" className={navItemClass(activeSection === 'projects')}>
               {t('nav.projects')}
             </a>
           </nav>

@@ -1,13 +1,14 @@
 import { useTranslation } from 'react-i18next';
-import { useLocation } from 'react-router-dom';
 import { User, LayoutGrid } from 'lucide-react';
+
+import { useActiveSection } from '~/hooks/use-active-section';
 
 const MobileNav = () => {
   const { t } = useTranslation();
-  const { hash } = useLocation();
+  const activeSection = useActiveSection();
 
-  const isAbout = !hash || hash === '#about';
-  const isProjects = hash === '#projects';
+  const isAbout = activeSection === 'about';
+  const isProjects = activeSection === 'projects';
 
   const navItemClass = (isActive: boolean) =>
     'flex-1 flex flex-col items-center gap-1 no-underline transition-colors duration-200 ' +
