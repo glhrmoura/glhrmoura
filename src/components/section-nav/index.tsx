@@ -6,13 +6,13 @@ const SectionNav = () => {
   const { hash } = useLocation();
 
   const navItemClass = (isActive: boolean) =>
-    'text-[11px] font-normal uppercase tracking-[0.6px] no-underline whitespace-nowrap px-[18px] py-[6px] transition-[opacity,background-color,color] duration-150 ' +
+    'text-[12px] font-medium tracking-[0.3px] no-underline whitespace-nowrap px-4 py-2 rounded-lg transition-all duration-150 ' +
     (isActive
-      ? 'opacity-100 font-semibold text-[#23c063] bg-[#23c063]/10'
-      : 'opacity-45 text-[var(--color-text)] hover:opacity-100 hover:bg-[var(--color-border)]/10');
+      ? 'text-[var(--color-primary)] bg-[var(--color-primary-soft)]'
+      : 'text-[var(--color-muted)] hover:text-[var(--color-text)] hover:bg-[var(--color-surface)]');
 
   return (
-    <nav className="fixed top-[96px] left-1/2 -translate-x-1/2 z-[90] flex items-center gap-0.5 p-1 border border-[var(--color-border)]/20 bg-[var(--color-bg)]/80 backdrop-blur-md max-md:hidden">
+    <nav className="fixed top-[96px] left-1/2 -translate-x-1/2 z-[90] flex items-center gap-1 p-1 border border-[var(--color-border)] bg-[var(--color-surface)] rounded-xl max-md:hidden">
       <a href="#about" className={navItemClass(!hash || hash === '#about')}>{t('nav.about')}</a>
       <a href="#projects" className={navItemClass(hash === '#projects')}>{t('nav.projects')}</a>
     </nav>
