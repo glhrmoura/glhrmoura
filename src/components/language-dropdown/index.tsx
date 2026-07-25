@@ -34,23 +34,24 @@ const LanguageDropdown = ({ items, value, onChange }: LanguageDropdownProps) => 
   return (
     <ClickAway onClick={close}>
       <div className="relative" data-dropdown-container="true">
-        <div
-          className="flex justify-between items-center px-[10px] py-[10px] text-[12px] w-[150px] cursor-pointer border border-[var(--color-border)] bg-[var(--color-bg)]"
+        <button
+          type="button"
+          className="flex justify-between items-center gap-2 px-3 h-10 text-[12px] min-w-[148px] cursor-pointer border border-[var(--color-border)] bg-[var(--color-surface)] rounded-xl transition-colors duration-150 hover:border-[var(--color-primary)]"
           onClick={toggle}
         >
           {currentItem}
           {opened ? (
-            <ChevronUp size={14} strokeWidth={1.5} />
+            <ChevronUp size={14} strokeWidth={1.6} />
           ) : (
-            <ChevronDown size={14} strokeWidth={1.5} />
+            <ChevronDown size={14} strokeWidth={1.6} />
           )}
-        </div>
+        </button>
         {opened && (
-          <ul className="absolute left-0 top-full w-full z-10 border border-[var(--color-border)] border-t-transparent p-0 m-0 list-none bg-[var(--color-bg)]">
+          <ul className="absolute left-0 top-[calc(100%+6px)] w-full z-10 border border-[var(--color-border)] p-1 m-0 list-none bg-[var(--color-surface)] rounded-xl overflow-hidden">
             {items.map((item) => (
               <li
                 key={item.value}
-                className="block w-full text-[12px] px-[10px] py-[10px] cursor-pointer bg-[var(--color-bg)] transition-colors duration-150 hover:bg-[#23c063]/10"
+                className="block w-full text-[12px] px-3 py-2.5 cursor-pointer rounded-lg transition-colors duration-150 hover:bg-[var(--color-primary-soft)] hover:text-[var(--color-primary)]"
                 onClick={() => onItemClick(item.value)}
               >
                 {item.label}
