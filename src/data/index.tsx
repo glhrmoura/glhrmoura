@@ -106,15 +106,6 @@ export const projectList: Project[] = [
     }
   },
   {
-    title: 'TabTok',
-    imageUrl: 'https://i.imgur.com/SXOzS1d.png',
-    description: 'projects.tabtok.description',
-    link: {
-      page: 'https://glhrmoura-tabtok.netlify.app',
-      github: 'https://github.com/glhrmoura/tabtok'
-    }
-  },
-  {
     title: 'Linqo',
     imageUrl: 'https://raw.githubusercontent.com/glhrmoura/linqo/main/public/assets/logo.png',
     description: 'projects.linqo.description',

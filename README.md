@@ -21,7 +21,6 @@ All projects were created and are maintained by me. Each one represents a unique
 - **[Cash](https://glhrmoura-cash.netlify.app/) · [Github](https://github.com/glhrmoura/cash)**
 - **[Piano](https://glhrmoura-piano.netlify.app/) · [Github](https://github.com/glhrmoura/piano)**
 - **[PodPocket](https://podpocket.vercel.app) · [Github](https://github.com/glhrmoura/podpocket)**
-- **[TabTok](https://glhrmoura-tabtok.netlify.app) · [Github](https://github.com/glhrmoura/tabtok)**
 - **[Linqo](https://glhrmoura-linqo.netlify.app/) · [Github](https://github.com/glhrmoura/wpp-dm)**
 
 #### Tools
