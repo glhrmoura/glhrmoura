@@ -1,35 +1,45 @@
 import { useTranslation } from 'react-i18next';
-import { Grid2X2, GitFork, Code2, Mail } from 'lucide-react';
+import { LayoutGrid, GitFork, Code2, Mail } from 'lucide-react';
 
 import { projectList } from '~/data';
 
 import { ProjectTile } from '~/components/project-tile';
 
 const actionButtonClass =
-  'inline-flex w-full justify-center items-center gap-2 px-6 py-2.5 text-[13px] font-medium no-underline text-[var(--color-text)] bg-transparent border border-[var(--color-border)] transition-colors duration-150 hover:border-[#23c063] hover:bg-[#23c063] hover:text-[var(--color-bg)] [&_svg]:fill-none [&_svg]:stroke-current hover:[&_svg]:stroke-[var(--color-bg)]';
+  'inline-flex w-full justify-center items-center gap-2 px-5 py-3 text-[13px] font-medium no-underline text-[var(--color-text)] bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl transition-colors duration-200 hover:border-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-white';
 
 const About = () => {
   const { t } = useTranslation();
 
   return (
-    <main className="flex flex-col min-h-screen pt-[94px] pb-[62px] max-md:pb-[90px]">
+    <main className="flex flex-col min-h-screen pt-[88px] pb-20 max-md:pb-[100px]">
       <section
         id="about"
-        className="scroll-mt-[94px] flex justify-center py-12 max-md:py-10"
+        className="scroll-mt-[88px] flex justify-center py-16 max-md:py-12"
       >
-        <div className="max-w-[600px] w-full px-4 flex flex-col items-center text-center">
-          <img
-            src="/avatar.png"
-            alt="Guilherme Moura"
-            className="w-[120px] h-[120px] rounded-full object-cover mb-6 border-[3px] border-[var(--color-border)]"
-          />
-          <h1 className="text-[28px] mb-4">Guilherme Moura</h1>
-          <p className="leading-6 text-[14px] text-[var(--color-text)]/85 max-w-[480px]">
+        <div className="max-w-[800px] w-full px-5 flex flex-col items-center text-center">
+          <div className="mb-7">
+            <img
+              src="/avatar.png"
+              alt="Guilherme Moura"
+              className="w-[128px] h-[128px] rounded-full object-cover border border-[var(--color-border)]"
+            />
+          </div>
+
+          <p className="mb-3 text-[11px] uppercase tracking-[1.8px] text-[var(--color-primary)] font-semibold">
+            Software Engineer
+          </p>
+          <h1 className="text-[40px] max-md:text-[32px] leading-tight font-bold tracking-[-0.5px] mb-4">
+            Guilherme Moura
+          </h1>
+          <p className="leading-7 text-[15px] text-[var(--color-muted)] max-w-[480px]">
             {t('content')}
           </p>
-          <div className="grid grid-cols-2 gap-3 mt-8 w-full max-w-[348px]">
+
+          <div className="grid grid-cols-2 gap-3 mt-9 w-full max-w-[360px]">
             <a href="#projects" className={actionButtonClass}>
-              <Grid2X2 size={14} strokeWidth={1.5} /> {t('nav.projects')}
+              <LayoutGrid size={15} strokeWidth={1.6} />
+              {t('nav.projects')}
             </a>
             <a
               href="https://github.com/glhrmoura"
@@ -37,7 +47,8 @@ const About = () => {
               rel="noreferrer"
               className={actionButtonClass}
             >
-              <GitFork size={14} strokeWidth={1.5} /> GitHub
+              <GitFork size={15} strokeWidth={1.6} />
+              GitHub
             </a>
             <a
               href="https://codepen.io/glhrmoura/pens/public"
@@ -45,22 +56,32 @@ const About = () => {
               rel="noreferrer"
               className={actionButtonClass}
             >
-              <Code2 size={14} strokeWidth={1.5} /> CodePen
+              <Code2 size={15} strokeWidth={1.6} />
+              CodePen
             </a>
             <a href="mailto:mouraggui@gmail.com" className={actionButtonClass}>
-              <Mail size={14} strokeWidth={1.5} /> Mail
+              <Mail size={15} strokeWidth={1.6} />
+              Mail
             </a>
           </div>
         </div>
       </section>
 
-      <section id="projects" className="scroll-mt-[94px] flex justify-center pt-4 pb-12">
-        <div className="max-w-[600px] w-full px-4">
-          <h2 className="text-[20px] mb-4">{t('projectTitle')}</h2>
-          <p className="text-[14px] leading-6 mb-6 text-[var(--color-text)]/80">
-            {t('projectSubtitle')}
-          </p>
-          <div className="grid gap-4 grid-cols-[repeat(auto-fit,minmax(170px,1fr))]">
+      <section id="projects" className="scroll-mt-[88px] flex justify-center pb-16">
+        <div className="max-w-[800px] w-full px-5">
+          <div className="mb-8 text-center">
+            <p className="mb-2 text-[11px] uppercase tracking-[1.8px] text-[var(--color-primary)] font-semibold">
+              Portfolio
+            </p>
+            <h2 className="text-[28px] max-md:text-[24px] font-bold tracking-[-0.4px] mb-3">
+              {t('projectTitle')}
+            </h2>
+            <p className="text-[14px] leading-6 text-[var(--color-muted)] max-w-[480px] mx-auto">
+              {t('projectSubtitle')}
+            </p>
+          </div>
+
+          <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
             {projectList.map((project, index) => (
               <ProjectTile key={index} item={project} />
             ))}
