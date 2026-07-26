@@ -17,7 +17,7 @@ const Home = () => {
             {linkList.map((contact, index) => (
               <a
                 key={index}
-                title={contact.title}
+                title={contact.title === 'mail' ? t('mail') : contact.title}
                 href={contact.link}
                 target="_blank"
                 rel="noreferrer"

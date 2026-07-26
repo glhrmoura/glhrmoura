@@ -5,9 +5,10 @@ export default {
     projects: 'Proyectos',
   },
   projectActions: {
-    live: 'En vivo',
+    live: 'Live',
     code: 'Código',
   },
+  mail: 'Correo',
   content: `Mi nombre es Guilherme Moura, de Brasil. Con más de ${new Date().getFullYear() - 2016} años de experiencia en desarrollo de software, siempre busco profundizar mis conocimientos y desarrollar cosas nuevas.`,
   projectTitle: 'Mis Proyectos',
   projectSubtitle: 'Todos los proyectos fueron creados y son mantenidos por mí. Cada uno representa un desafío único y una oportunidad de aprendizaje, mostrando diferentes tecnologías y soluciones.',

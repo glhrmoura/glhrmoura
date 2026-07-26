@@ -8,6 +8,7 @@ export default {
     live: 'Live',
     code: 'Code',
   },
+  mail: 'Mail',
   content: `My name is Guilherme Moura, from Brazil. With more than ${new Date().getFullYear() - 2016} years of experience in software development, I always seek to deepen my knowledge and develop new things.`,
   projectTitle: 'My Projects',
   projectSubtitle: 'All projects were created and are maintained by me. Each one represents a unique challenge and learning opportunity, showcasing different technologies and solutions.',

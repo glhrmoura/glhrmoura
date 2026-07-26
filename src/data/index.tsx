@@ -26,7 +26,7 @@ export const linkList = [
     link: 'https://codepen.io/glhrmoura/pens/public',
   },
   {
-    title: 'Mail',
+    title: 'mail',
     icon: <Mail size={24} strokeWidth={1.5} />,
     link: 'mailto:mouraggui@gmail.com',
   },

@@ -61,7 +61,7 @@ const About = () => {
             </a>
             <a href="mailto:mouraggui@gmail.com" className={actionButtonClass}>
               <Mail size={15} strokeWidth={1.6} />
-              Mail
+              {t('mail')}
             </a>
           </div>
         </div>

@@ -8,6 +8,7 @@ export default {
     live: 'Live',
     code: 'Codice',
   },
+  mail: 'Email',
   content: `Mi chiamo Guilherme Moura, dal Brasile. Con più di ${new Date().getFullYear() - 2016} anni di esperienza nello sviluppo software, cerco sempre di approfondire le mie conoscenze e sviluppare cose nuove.`,
   projectTitle: 'I Miei Progetti',
   projectSubtitle: 'Tutti i progetti sono stati creati e sono mantenuti da me. Ogni progetto rappresenta una sfida unica e un\'opportunità di apprendimento, mostrando diverse tecnologie e soluzioni.',
