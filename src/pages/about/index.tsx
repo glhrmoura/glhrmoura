@@ -70,9 +70,6 @@ const About = () => {
       <section id="projects" className="scroll-mt-[88px] flex justify-center pb-16">
         <div className="max-w-[800px] w-full px-5">
           <div className="mb-8 text-center">
-            <p className="mb-2 text-[11px] uppercase tracking-[1.8px] text-[var(--color-primary)] font-semibold">
-              Portfolio
-            </p>
             <h2 className="text-[28px] max-md:text-[24px] font-bold tracking-[-0.4px] mb-3">
               {t('projectTitle')}
             </h2>
