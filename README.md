@@ -15,7 +15,6 @@ All projects were created and are maintained by me. Each one represents a unique
 
 ##### Library
 - **[React Conditional](https://www.npmjs.com/package/@glhrmoura/react-conditional) · [Github](https://github.com/glhrmoura/react-conditional)**
-- **[Environment](https://www.npmjs.com/package/@glhrmoura/environment) · [Github](https://github.com/glhrmoura/environment)**
 
 ##### Web
 - **[Cash](https://glhrmoura-cash.netlify.app/) · [Github](https://github.com/glhrmoura/cash)**

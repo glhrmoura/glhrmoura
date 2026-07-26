@@ -25,9 +25,6 @@ export default {
     reactConditional: {
       description: 'La libreria React Conditional è uno strumento potente che aiuta nel rendering condizionale dei componenti nelle applicazioni React. Con questa libreria, gli sviluppatori possono facilmente definire condizioni per la visualizzazione di determinati componenti nelle loro applicazioni.'
     },
-    environment: {
-      description: 'Una efficiente libreria Node per gestire e definire variabili d\'ambiente.'
-    },
     piano: {
       description: 'Applicazione pianoforte completamente funzionante realizzata con HTML, CSS e JavaScript, che offre tutte le opzioni di tasti trovate in un vero strumento. Con tasti interattivi e autentici suoni di pianoforte, l\'applicazione consente agli utenti di sperimentare la sensazione di suonare un vero pianoforte.'
     },

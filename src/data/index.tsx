@@ -61,15 +61,6 @@ export const projectList: Project[] = [
     }
   },
   {
-    title: 'Environment',
-    imageUrl: 'https://i.imgur.com/WgLrcLy.png',
-    description: 'projects.environment.description',
-    link: {
-      page: 'https://www.npmjs.com/package/@glhrmoura/environment',
-      github: 'https://github.com/glhrmoura/environment'
-    }
-  },
-  {
     title: 'Len',
     imageUrl: 'https://i.imgur.com/cfg4sZA.png',
     description: 'projects.len.description',

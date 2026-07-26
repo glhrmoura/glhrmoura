@@ -25,9 +25,6 @@ export default {
     reactConditional: {
       description: 'La biblioteca React Conditional es una herramienta poderosa que ayuda en la renderización condicional de componentes en aplicaciones React. Con esta biblioteca, los desarrolladores pueden definir fácilmente condiciones para la visualización de determinados componentes en sus aplicaciones.'
     },
-    environment: {
-      description: 'Una eficiente biblioteca Node para gestionar y definir variables de entorno.'
-    },
     piano: {
       description: 'Aplicación de piano totalmente funcional hecha con HTML, CSS y JavaScript, que ofrece todas las opciones de teclas encontradas en un instrumento real. Con teclas interactivas y sonidos de piano auténticos, la aplicación permite a los usuarios experimentar la sensación de tocar un piano real.'
     },
