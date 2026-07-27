@@ -70,6 +70,15 @@ export const projectList: Project[] = [
     }
   },
   {
+    title: 'Linqo',
+    imageUrl: 'https://raw.githubusercontent.com/glhrmoura/linqo/main/public/assets/logo.png',
+    description: 'projects.linqo.description',
+    link: {
+      page: 'https://glhrmoura-linqo.netlify.app/',
+      github: 'https://github.com/glhrmoura/wpp-dm'
+    }
+  },
+  {
     title: 'Pace',
     imageUrl: 'https://i.imgur.com/GRHVFPD.png',
     description: 'projects.pace.description',
@@ -103,15 +112,6 @@ export const projectList: Project[] = [
     link: {
       page: 'https://www.npmjs.com/package/@glhrmoura/react-conditional',
       github: 'https://github.com/glhrmoura/react-conditional'
-    }
-  },
-  {
-    title: 'Linqo',
-    imageUrl: 'https://raw.githubusercontent.com/glhrmoura/linqo/main/public/assets/logo.png',
-    description: 'projects.linqo.description',
-    link: {
-      page: 'https://glhrmoura-linqo.netlify.app/',
-      github: 'https://github.com/glhrmoura/wpp-dm'
     }
   },
 ];

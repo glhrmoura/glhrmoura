@@ -10,8 +10,8 @@ All projects were created and are maintained by me. Each one represents a unique
 
 ##### Extension
 - **[Coin](https://chromewebstore.google.com/detail/coins/meebfpmdedodccopjbkcihiecpmiljml?authuser=0&hl=pt-BR) · [Github](https://github.com/glhrmoura/coins)**
-- **[Pace](https://chromewebstore.google.com/detail/pace-take-control-of-your/mnccaclnbfbldadhkfcemlmkceimlhge) · [Github](https://github.com/glhrmoura/pace)**
 - **[Len](https://chromewebstore.google.com/detail/len-measure-textual-conte/ojodnhhmfnjddbeipjcjhjbdbkkedcgf) · [Github](https://github.com/glhrmoura/len)**
+- **[Pace](https://chromewebstore.google.com/detail/pace-take-control-of-your/mnccaclnbfbldadhkfcemlmkceimlhge) · [Github](https://github.com/glhrmoura/pace)**
 
 ##### Library
 - **[React Conditional](https://www.npmjs.com/package/@glhrmoura/react-conditional) · [Github](https://github.com/glhrmoura/react-conditional)**
@@ -19,9 +19,9 @@ All projects were created and are maintained by me. Each one represents a unique
 ##### Web
 - **[Cash](https://glhrmoura-cash.netlify.app/) · [Github](https://github.com/glhrmoura/cash)**
 - **[Daily](https://glhrmoura-daily.netlify.app/home) · [Github](https://github.com/glhrmoura/daily)**
+- **[Linqo](https://glhrmoura-linqo.netlify.app/) · [Github](https://github.com/glhrmoura/wpp-dm)**
 - **[Piano](https://glhrmoura-piano.netlify.app/) · [Github](https://github.com/glhrmoura/piano)**
 - **[PodPocket](https://podpocket.vercel.app) · [Github](https://github.com/glhrmoura/podpocket)**
-- **[Linqo](https://glhrmoura-linqo.netlify.app/) · [Github](https://github.com/glhrmoura/wpp-dm)**
 
 #### Tools
 
