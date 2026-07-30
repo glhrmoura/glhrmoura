@@ -84,7 +84,6 @@ export const projectList: Project[] = [
     description: 'projects.pace.description',
     link: {
       page: 'https://chromewebstore.google.com/detail/pace-take-control-of-your/mnccaclnbfbldadhkfcemlmkceimlhge',
-      github: 'https://github.com/glhrmoura/pace'
     }
   },
   {
