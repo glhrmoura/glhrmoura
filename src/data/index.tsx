@@ -101,7 +101,6 @@ export const projectList: Project[] = [
     description: 'projects.podpocket.description',
     link: {
       page: 'https://podpocket.vercel.app',
-      github: 'https://github.com/glhrmoura/podpocket'
     }
   },
   {
