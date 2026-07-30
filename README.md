@@ -9,14 +9,17 @@ My name is Guilherme Moura, from Brazil. Always driven by the passion to expand 
 All projects were created and are maintained by me. Each one represents a unique challenge and learning opportunity, showcasing different technologies and solutions.
 
 ##### Extension
+
 - **[Coin](https://chromewebstore.google.com/detail/coins/meebfpmdedodccopjbkcihiecpmiljml?authuser=0&hl=pt-BR) · [Github](https://github.com/glhrmoura/coins)**
 - **[Len](https://chromewebstore.google.com/detail/len-measure-textual-conte/ojodnhhmfnjddbeipjcjhjbdbkkedcgf) · [Github](https://github.com/glhrmoura/len)**
 - **[Pace](https://chromewebstore.google.com/detail/pace-take-control-of-your/mnccaclnbfbldadhkfcemlmkceimlhge)**
 
 ##### Library
+
 - **[React Conditional](https://www.npmjs.com/package/@glhrmoura/react-conditional) · [Github](https://github.com/glhrmoura/react-conditional)**
 
 ##### Web
+
 - **[Cash](https://glhrmoura-cash.netlify.app/) · [Github](https://github.com/glhrmoura/cash)**
 - **[Daily](https://glhrmoura-daily.netlify.app/home) · [Github](https://github.com/glhrmoura/daily)**
 - **[Linqo](https://glhrmoura-linqo.netlify.app/) · [Github](https://github.com/glhrmoura/wpp-dm)**
@@ -25,6 +28,7 @@ All projects were created and are maintained by me. Each one represents a unique
 
 #### Tools
 
+<div style="display: flex; flex-wrap: wrap;">
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -52,3 +56,4 @@ All projects were created and are maintained by me. Each one represents a unique
 ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
 ![RollupJS](https://img.shields.io/badge/RollupJS-ef3335?style=for-the-badge&logo=rollup.js&logoColor=white)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+</div>
