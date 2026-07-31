@@ -80,7 +80,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Pace',
-    imageUrl: 'https://i.imgur.com/GRHVFPD.png',
+    imageUrl: 'https://raw.githubusercontent.com/glhrmoura/pace/main/public/icons/icon-128.png',
     description: 'projects.pace.description',
     link: {
       page: 'https://chromewebstore.google.com/detail/pace-take-control-of-your/mnccaclnbfbldadhkfcemlmkceimlhge',
