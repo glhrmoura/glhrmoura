@@ -35,7 +35,7 @@ export const linkList = [
 export const projectList: Project[] = [
   {
     title: 'Cash',
-    imageUrl: 'https://i.imgur.com/GK9y85b.png',
+    imageUrl: '/assets/projects/cash.png',
     description: 'projects.cash.description',
     link: {
       page: 'https://glhrmoura-cash.netlify.app/',
@@ -44,7 +44,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Coin',
-    imageUrl: 'https://i.imgur.com/GJB4zvu.png',
+    imageUrl: '/assets/projects/coin.png',
     description: 'projects.coins.description',
     link: {
       page: 'https://chromewebstore.google.com/detail/coins/meebfpmdedodccopjbkcihiecpmiljml?authuser=0&hl=pt-BR',
@@ -53,7 +53,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Daily',
-    imageUrl: 'https://raw.githubusercontent.com/glhrmoura/daily/main/public/logo.png',
+    imageUrl: '/assets/projects/daily.png',
     description: 'projects.daily.description',
     link: {
       page: 'https://glhrmoura-daily.netlify.app/home',
@@ -62,7 +62,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Len',
-    imageUrl: 'https://i.imgur.com/cfg4sZA.png',
+    imageUrl: '/assets/projects/len.png',
     description: 'projects.len.description',
     link: {
       page: 'https://chromewebstore.google.com/detail/len-measure-textual-conte/ojodnhhmfnjddbeipjcjhjbdbkkedcgf',
@@ -71,7 +71,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Linqo',
-    imageUrl: 'https://raw.githubusercontent.com/glhrmoura/linqo/main/public/assets/logo.png',
+    imageUrl: '/assets/projects/linqo.png',
     description: 'projects.linqo.description',
     link: {
       page: 'https://glhrmoura-linqo.netlify.app/',
@@ -88,7 +88,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'Piano',
-    imageUrl: 'https://i.imgur.com/5KCCFYe.png',
+    imageUrl: '/assets/projects/piano.png',
     description: 'projects.piano.description',
     link: {
       page: 'https://glhrmoura-piano.netlify.app/',
@@ -97,7 +97,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'PodPocket',
-    imageUrl: 'https://i.imgur.com/EObn6VG.png',
+    imageUrl: '/assets/projects/podpocket.png',
     description: 'projects.podpocket.description',
     link: {
       page: 'https://podpocket.vercel.app',
@@ -105,7 +105,7 @@ export const projectList: Project[] = [
   },
   {
     title: 'React Conditional',
-    imageUrl: 'https://i.imgur.com/t2AeIFw.png',
+    imageUrl: '/assets/projects/react-conditional.png',
     description: 'projects.reactConditional.description',
     link: {
       page: 'https://www.npmjs.com/package/@glhrmoura/react-conditional',
