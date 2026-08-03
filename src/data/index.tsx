@@ -108,7 +108,7 @@ export const projectList: Project[] = [
     imageUrl: '/assets/projects/react-conditional.png',
     description: 'projects.reactConditional.description',
     link: {
-      page: 'https://www.npmjs.com/package/@glhrmoura/react-conditional',
+      page: 'https://glhrmoura-react-conditional.netlify.app/',
       github: 'https://github.com/glhrmoura/react-conditional'
     }
   },
