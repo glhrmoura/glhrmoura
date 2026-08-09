@@ -40,5 +40,8 @@ export default {
     len: {
       description: 'Eine Browser-Erweiterung, die automatisch erkennt, wenn ein Benutzer Text auf einer Webseite auswählt und die Zeichenanzahl in Echtzeit anzeigt. Dieses Tool ist für Schriftsteller, Redakteure und alle gedacht, die die Textlänge schnell überwachen müssen.'
     },
+    genpass: {
+      description: 'Eine sichere, schnelle und minimalistische Chrome-Erweiterung zur Passwortgenerierung. Erstellen Sie starke Passwörter lokal mit kryptografisch sicherer Zufälligkeit, wählen Sie Länge und Zeichentypen, schließen Sie ähnliche Zeichen aus und kopieren Sie mit einem Klick.'
+    },
   },
 };

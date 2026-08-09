@@ -40,5 +40,8 @@ export default {
     len: {
       description: 'Un\'estensione del browser che rileva automaticamente quando un utente seleziona testo su una pagina web e visualizza il conteggio dei caratteri in tempo reale. Strumento progettato per scrittori, editori e chiunque abbia bisogno di monitorare rapidamente la lunghezza del testo.'
     },
+    genpass: {
+      description: 'Un\'estensione Chrome sicura, veloce e minimalista per generare password. Crea password forti localmente con casualità crittograficamente sicura, scegli lunghezza e tipi di caratteri, escludi caratteri simili e copia con un clic.'
+    },
   },
 };

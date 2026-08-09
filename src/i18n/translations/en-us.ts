@@ -40,5 +40,8 @@ export default {
     len: {
       description: 'A browser extension that automatically detects when a user selects text on a webpage and displays the character count in real time. This tool is designed for writers, editors, and anyone who needs to monitor text length quickly.'
     },
+    genpass: {
+      description: 'A secure, fast, and minimalist Chrome extension for password generation. Create strong passwords locally with crypto-secure randomness, choose length and character types, exclude similar characters, and copy with one click.'
+    },
   },
 };
