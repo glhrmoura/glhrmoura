@@ -65,7 +65,8 @@ export const projectList: Project[] = [
     imageUrl: '/assets/projects/genpass.png',
     description: 'projects.genpass.description',
     link: {
-      page: 'https://github.com/glhrmoura/genpass',
+      page: 'https://chromewebstore.google.com/detail/genpass/bgcgbkfhbeonljijghcmhlhfkhachmmi',
+      github: 'https://github.com/glhrmoura/genpass',
     }
   },
   {

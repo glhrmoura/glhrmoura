@@ -11,7 +11,7 @@ All projects were created and are maintained by me. Each one represents a unique
 ##### Extension
 
 - **[Coin](https://chromewebstore.google.com/detail/coins/meebfpmdedodccopjbkcihiecpmiljml?authuser=0&hl=pt-BR) · [Github](https://github.com/glhrmoura/coins)**
-- **[GenPass](https://github.com/glhrmoura/genpass)**
+- **[GenPass](https://chromewebstore.google.com/detail/genpass/bgcgbkfhbeonljijghcmhlhfkhachmmi) · [Github](https://github.com/glhrmoura/genpass)**
 - **[Len](https://chromewebstore.google.com/detail/len-measure-textual-conte/ojodnhhmfnjddbeipjcjhjbdbkkedcgf) · [Github](https://github.com/glhrmoura/len)**
 - **[Pace](https://chromewebstore.google.com/detail/pace-take-control-of-your/mnccaclnbfbldadhkfcemlmkceimlhge)**
 
