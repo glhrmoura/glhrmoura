@@ -108,7 +108,7 @@ export const projectList: Project[] = [
     imageUrl: '/assets/projects/podpocket.png',
     description: 'projects.podpocket.description',
     link: {
-      page: 'https://podpocket.vercel.app',
+      page: 'https://podpocket.com.br/',
     }
   },
   {

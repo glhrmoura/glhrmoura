@@ -26,7 +26,7 @@ All projects were created and are maintained by me. Each one represents a unique
 - **[Daily](https://glhrmoura-daily.netlify.app/home) · [Github](https://github.com/glhrmoura/daily)**
 - **[Linqo](https://glhrmoura-linqo.netlify.app/) · [Github](https://github.com/glhrmoura/wpp-dm)**
 - **[Piano](https://glhrmoura-piano.netlify.app/) · [Github](https://github.com/glhrmoura/piano)**
-- **[PodPocket](https://podpocket.vercel.app)**
+- **[PodPocket](https://podpocket.com.br/)**
 
 #### Tools
 
