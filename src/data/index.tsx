@@ -117,7 +117,8 @@ export const projectList: Project[] = [
     imageUrl: '/assets/projects/purgo.png',
     description: 'projects.purgo.description',
     link: {
-      page: 'https://github.com/glhrmoura/purgo',
+      page: 'https://chromewebstore.google.com/detail/purgo-browser-cleaner/lfmbocjabiaeejaopmaanpjamenfefhl',
+      github: 'https://github.com/glhrmoura/purgo',
     }
   },
   {

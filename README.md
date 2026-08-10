@@ -14,7 +14,7 @@ All projects were created and are maintained by me. Each one represents a unique
 - **[GenPass](https://chromewebstore.google.com/detail/genpass/bgcgbkfhbeonljijghcmhlhfkhachmmi) · [Github](https://github.com/glhrmoura/genpass)**
 - **[Len](https://chromewebstore.google.com/detail/len-know-your-length/ojodnhhmfnjddbeipjcjhjbdbkkedcgf) · [Github](https://github.com/glhrmoura/len)**
 - **[Pace](https://chromewebstore.google.com/detail/pace-take-control-of-your/mnccaclnbfbldadhkfcemlmkceimlhge)**
-- **[Purgo](https://github.com/glhrmoura/purgo)**
+- **[Purgo](https://chromewebstore.google.com/detail/purgo-browser-cleaner/lfmbocjabiaeejaopmaanpjamenfefhl) · [Github](https://github.com/glhrmoura/purgo)**
 
 ##### Library
 
