@@ -66,7 +66,6 @@ export const projectList: Project[] = [
     description: 'projects.genpass.description',
     link: {
       page: 'https://chromewebstore.google.com/detail/genpass/bgcgbkfhbeonljijghcmhlhfkhachmmi',
-      github: 'https://github.com/glhrmoura/genpass',
     }
   },
   {
@@ -118,7 +117,6 @@ export const projectList: Project[] = [
     description: 'projects.purgo.description',
     link: {
       page: 'https://chromewebstore.google.com/detail/purgo-browser-cleaner/lfmbocjabiaeejaopmaanpjamenfefhl',
-      github: 'https://github.com/glhrmoura/purgo',
     }
   },
   {
