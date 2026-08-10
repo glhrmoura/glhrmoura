@@ -2,7 +2,7 @@ export default {
   title: 'Hi there',
   nav: {
     about: 'About',
-    projects: 'Projects',
+    projects: 'My Projects',
   },
   projectActions: {
     live: 'Live',
