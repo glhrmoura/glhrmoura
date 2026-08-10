@@ -74,7 +74,7 @@ export const projectList: Project[] = [
     imageUrl: '/assets/projects/len.png',
     description: 'projects.len.description',
     link: {
-      page: 'https://chromewebstore.google.com/detail/len-measure-textual-conte/ojodnhhmfnjddbeipjcjhjbdbkkedcgf',
+      page: 'https://chromewebstore.google.com/detail/len-know-your-length/ojodnhhmfnjddbeipjcjhjbdbkkedcgf',
       github: 'https://github.com/glhrmoura/len'
     }
   },
@@ -110,6 +110,14 @@ export const projectList: Project[] = [
     description: 'projects.podpocket.description',
     link: {
       page: 'https://podpocket.vercel.app',
+    }
+  },
+  {
+    title: 'Purgo',
+    imageUrl: '/assets/projects/purgo.png',
+    description: 'projects.purgo.description',
+    link: {
+      page: 'https://github.com/glhrmoura/purgo',
     }
   },
   {

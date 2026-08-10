@@ -43,5 +43,8 @@ export default {
     genpass: {
       description: 'Eine sichere, schnelle und minimalistische Chrome-Erweiterung zur Passwortgenerierung. Erstellen Sie starke Passwörter lokal mit kryptografisch sicherer Zufälligkeit, wählen Sie Länge und Zeichentypen, schließen Sie ähnliche Zeichen aus und kopieren Sie mit einem Klick.'
     },
+    purgo: {
+      description: 'Eine Chrome-Erweiterung zum schnellen Löschen von Browserdaten. Wählen Sie Cache, Cookies, Verlauf, Downloads, Formulardaten, Passwörter und Website-Speicher. Legen Sie einen Zeitraum fest, planen Sie automatische Reinigung oder löschen Sie beim Start von Chrome.'
+    },
   },
 };

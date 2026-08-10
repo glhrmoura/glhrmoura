@@ -43,5 +43,8 @@ export default {
     genpass: {
       description: 'A secure, fast, and minimalist Chrome extension for password generation. Create strong passwords locally with crypto-secure randomness, choose length and character types, exclude similar characters, and copy with one click.'
     },
+    purgo: {
+      description: 'A Chrome extension to clear browsing data quickly. Choose cache, cookies, history, downloads, form data, passwords, and site storage. Set a time range, schedule automatic cleaning, or clear when Chrome starts.'
+    },
   },
 };

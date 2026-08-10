@@ -43,5 +43,8 @@ export default {
     genpass: {
       description: 'Un\'estensione Chrome sicura, veloce e minimalista per generare password. Crea password forti localmente con casualità crittograficamente sicura, scegli lunghezza e tipi di caratteri, escludi caratteri simili e copia con un clic.'
     },
+    purgo: {
+      description: 'Un\'estensione Chrome per cancellare rapidamente i dati di navigazione. Scegli cache, cookie, cronologia, download, dati dei moduli, password e archiviazione del sito. Imposta un intervallo di tempo, programma la pulizia automatica o cancella all\'avvio di Chrome.'
+    },
   },
 };
