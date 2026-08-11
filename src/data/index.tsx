@@ -61,6 +61,14 @@ export const projectList: Project[] = [
     }
   },
   {
+    title: 'Fresh',
+    imageUrl: '/assets/projects/fresh.png',
+    description: 'projects.fresh.description',
+    link: {
+      page: 'https://chromewebstore.google.com/detail/purgo-browser-cleaner/lfmbocjabiaeejaopmaanpjamenfefhl',
+    }
+  },
+  {
     title: 'GenPass',
     imageUrl: '/assets/projects/genpass.png',
     description: 'projects.genpass.description',
@@ -109,14 +117,6 @@ export const projectList: Project[] = [
     description: 'projects.podpocket.description',
     link: {
       page: 'https://podpocket.com.br/',
-    }
-  },
-  {
-    title: 'Purgo',
-    imageUrl: '/assets/projects/purgo.png',
-    description: 'projects.purgo.description',
-    link: {
-      page: 'https://chromewebstore.google.com/detail/purgo-browser-cleaner/lfmbocjabiaeejaopmaanpjamenfefhl',
     }
   },
   {

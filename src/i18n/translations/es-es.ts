@@ -43,7 +43,7 @@ export default {
     genpass: {
       description: 'Una extensión de Chrome segura, rápida y minimalista para generar contraseñas. Crea contraseñas fuertes localmente con aleatoriedad criptográficamente segura, elige longitud y tipos de caracteres, excluye caracteres similares y copia con un clic.'
     },
-    purgo: {
+    fresh: {
       description: 'Una extensión de Chrome para borrar datos de navegación rápidamente. Elige caché, cookies, historial, descargas, datos de formularios, contraseñas y almacenamiento del sitio. Define un rango de tiempo, programa limpieza automática o limpia al iniciar Chrome.'
     },
   },
