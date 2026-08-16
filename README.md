@@ -2,7 +2,8 @@
 
 My name is Guilherme Moura, from Brazil. Always driven by the passion to expand my knowledge and build innovative solutions.
 
-**[glhrmoura.com](https://glhrmoura.com/)**
+🌐 **[glhrmoura.com](https://glhrmoura.com/)**  
+✉️ **[mouraggui@gmail.com](mailto:mouraggui@gmail.com)**
 
 #### My Projects
 
