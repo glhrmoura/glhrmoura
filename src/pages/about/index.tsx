@@ -67,7 +67,10 @@ const About = () => {
         </div>
       </section>
 
-      <section id="projects" className="scroll-mt-[88px] flex justify-center pb-16">
+      <section
+        id="projects"
+        className="scroll-mt-[88px] flex justify-center pb-16"
+      >
         <div className="max-w-[800px] w-full px-5">
           <div className="mb-8 text-center">
             <h2 className="text-[28px] max-md:text-[24px] font-bold tracking-[-0.4px] mb-3">
