@@ -13,6 +13,9 @@ export default {
   projectTitle: 'Meine Projekte',
   projectSubtitle: 'Alle Projekte wurden von mir erstellt und werden von mir gepflegt. Jedes Projekt stellt eine einzigartige Herausforderung und Lernmöglichkeit dar und zeigt verschiedene Technologien und Lösungen.',
   projects: {
+    arcade: {
+      description: 'Ein Retro-CRT-Arcade-Hub mit klassischen Spielen an einem Ort. Spiele Snake, Breakout, Pong, Tetris, Flappy, Space Invaders, Asteroids, Pac-Man, Frogger und Tron mit Schwierigkeitsstufen, Leben und Touch-Steuerung.'
+    },
     podpocket: {
       description: 'Eine moderne Webanwendung für Podcast-Enthusiasten. Entdecken, hören und verwalten Sie Ihre Lieblings-Podcasts an einem Ort. Mit einer übersichtlichen Benutzeroberfläche und leistungsstarken Funktionen macht PodPocket das Podcast-Hören angenehmer und organisierter.'
     },
