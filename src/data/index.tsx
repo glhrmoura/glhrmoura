@@ -34,6 +34,15 @@ export const linkList = [
 
 export const projectList: Project[] = [
   {
+    title: 'Arcade',
+    imageUrl: '/assets/projects/arcade.png',
+    description: 'projects.arcade.description',
+    link: {
+      page: 'https://glhrmoura-arcade.netlify.app/',
+      github: 'https://github.com/glhrmoura/arcade'
+    }
+  },
+  {
     title: 'Cash',
     imageUrl: '/assets/projects/cash.png',
     description: 'projects.cash.description',
