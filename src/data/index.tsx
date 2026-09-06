@@ -39,7 +39,6 @@ export const projectList: Project[] = [
     description: 'projects.arcade.description',
     link: {
       page: 'https://glhrmoura-arcade.netlify.app/',
-      github: 'https://github.com/glhrmoura/arcade'
     }
   },
   {
