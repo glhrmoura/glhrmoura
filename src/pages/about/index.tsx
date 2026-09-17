@@ -18,20 +18,20 @@ const About = () => {
         className="scroll-mt-[88px] flex justify-center py-16 max-md:py-12"
       >
         <div className="max-w-[800px] w-full px-5 flex flex-col items-center text-center">
-          <div className="mb-7">
+          <div className="mb-7 h-[168px] w-[168px] overflow-hidden rounded-full border border-[var(--color-border)]">
             <img
               src="/avatar.png"
               alt="Guilherme Moura"
-              className="w-[128px] h-[128px] rounded-full object-cover border border-[var(--color-border)]"
+              className="h-full w-full scale-[1.22] object-cover translate-y-[9%]"
             />
           </div>
 
-          <p className="mb-3 text-[11px] uppercase tracking-[1.8px] text-[var(--color-primary)] font-semibold">
-            Software Engineer
-          </p>
-          <h1 className="text-[40px] max-md:text-[32px] leading-tight font-bold tracking-[-0.5px] mb-4">
+          <h1 className="text-[40px] max-md:text-[32px] leading-tight font-bold tracking-[-0.5px] mb-1">
             Guilherme Moura
           </h1>
+          <p className="mb-4 text-[11px] uppercase tracking-[1.8px] text-[var(--color-primary)] font-semibold">
+            Software Engineer
+          </p>
           <p className="leading-7 text-[15px] text-[var(--color-muted)] max-w-[480px]">
             {t('content')}
           </p>
