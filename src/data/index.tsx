@@ -142,7 +142,6 @@ export const projectList: Project[] = [
     description: 'projects.vueVirtualize.description',
     link: {
       page: 'https://glhrmoura-vue-virtualize.netlify.app/',
-      github: 'https://github.com/glhrmoura/vue-virtualize'
     }
   },
 ];
