@@ -136,4 +136,13 @@ export const projectList: Project[] = [
       github: 'https://github.com/glhrmoura/react-conditional'
     }
   },
+  {
+    title: 'Vue Virtualize',
+    imageUrl: '/assets/projects/vue-virtualize.png',
+    description: 'projects.vueVirtualize.description',
+    link: {
+      page: 'https://glhrmoura-vue-virtualize.netlify.app/',
+      github: 'https://github.com/glhrmoura/vue-virtualize'
+    }
+  },
 ];
