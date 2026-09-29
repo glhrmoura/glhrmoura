@@ -20,6 +20,7 @@ All projects were created and are maintained by me. Each one represents a unique
 ##### Library
 
 - **[React Conditional](https://www.npmjs.com/package/@glhrmoura/react-conditional) · [Github](https://github.com/glhrmoura/react-conditional)**
+- **[Vue Virtualize](https://www.npmjs.com/package/@glhrmoura/vue-virtualize) · [Github](https://github.com/glhrmoura/vue-virtualize)**
 
 ##### Web
 
